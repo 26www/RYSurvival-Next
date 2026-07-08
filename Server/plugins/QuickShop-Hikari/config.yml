@@ -316,7 +316,7 @@ shop:
   
   #Should there be a fee for changing shop prices?
   #This can help with endless price undercutting.
-  price-change-requires-fee: true
+  price-change-requires-fee: false
   #The amount of this fee.
   fee-for-price-change: 50
   
@@ -615,9 +615,9 @@ effect:
   #Sound related
   sound:
     #Should we play sound while player trying tab completing?
-    ontabcomplete: true
+    ontabcomplete: false
     #Should we play sound while player executing commands?
-    oncommand: true
+    oncommand: false
     #Should we play sound while player clicking shop container/sign?
     onclick: true
 #Item matcher.
