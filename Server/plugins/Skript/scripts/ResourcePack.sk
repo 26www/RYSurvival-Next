@@ -1,0 +1,23 @@
+options:
+    url: "https://rymc.ltd/survival/pack/1.1"
+    hash: "2fa9b5326e064b24499edcf9569a3c466bd739ae"
+    version: 498
+
+on join:
+    protocol version of player >= {@version}
+    send the resource pack from {@url} with hash {@hash} to the player
+
+command /loadpack:
+    trigger:
+        if protocol version of player < {@version}:
+            send "§f[§6服务器§f] 你的游戏版本过低,不支持此功能" to player
+        else:
+            send the resource pack from {@url} with hash {@hash} to the player
+            send "§f[§6服务器§f] 已发送资源包加载请求" to player
+
+on resource pack request response:
+    if the resource pack was declined:
+        send "§f[§6服务器§f] 服务器资源包加载被禁用" to player
+        send "§f[§6服务器§f] 请将服务器列表中§c编辑§f页面的§c服务器资源包§f选项设置为启用" to player
+    else if the resource pack was failed to download:
+        send "§f[§6服务器§f] 服务器资源包下载失败,使用指令§e/loadpack§f再次加载资源包" to player

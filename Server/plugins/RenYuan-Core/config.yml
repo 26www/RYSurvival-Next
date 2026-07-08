@@ -1,0 +1,38 @@
+#任渊生存服务端功能核心插件
+#此插件集成了一些我自己写的功能和服务端数据统计
+#你可以在 https://github.com/lRENyaaa/RenYuan-Core 查看本插件源代码
+
+#本服务端使用CStats来获取服务端使用统计
+#数据统计可以前往 http://cstats.iroselle.com/plugin/bukkit/RenYuan-Core 查看
+Metrics:
+  #是否启用
+  Enable: true
+
+#基岩版玩家死亡重生时的菜单
+BedrockRespawnMenu:
+  Enable: true
+
+#自定义插件所发送的信息
+Message:
+  #发送信息时的前缀
+  Prefix: "§f[§6服务器§f] "
+  #没有权限
+  NoPerMission: "你没有权限"
+  #需要玩家执行的指令提示
+  PlayerCommand: "仅玩家可执行该命令"
+  #回到主城的提示
+  PlayerSpawn: "已将你传送到主城"
+  #设置主城的提示
+  SetSpawn: "已设置主城位置"
+
+
+#禁止在某个世界圈地
+#此功能不会使/res tp此类命令在这个世界失效
+ResCreateLimit:
+  - otd_dungeon
+  - spawn
+
+#主城扩展,主城无伤害,虚空返回主城
+SpawnExtension:
+  #是否启用
+  Enable: true

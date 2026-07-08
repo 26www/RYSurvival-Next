@@ -1,0 +1,11 @@
+command /tpend:
+    trigger:
+        teleport the player to location(0.5, 63.0, 0.5, world "world_the_end")
+
+command /cd:
+    trigger:
+        make player execute command "dm open menu" 
+
+command /signincheck:
+    trigger:
+        make player execute command "signin gui"

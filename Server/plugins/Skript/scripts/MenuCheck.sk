@@ -1,0 +1,17 @@
+options:
+    item: clock named "§b§l主菜单" with lore "§e主菜单"
+    command: "cd"
+
+on swap hand items:
+    player is sneaking
+    make player execute command {@command}
+    cancel event
+
+on join:
+    player doesn't have a {@item}
+    give a {@item} to the player
+
+on click:
+    player's tool is {@item}
+    make player execute command {@command}
+    cancel event
