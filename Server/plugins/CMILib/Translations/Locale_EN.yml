@@ -109,127 +109,125 @@
 
 info:
   # Use !prefix! in any locale line to automatically include this prefix
-  prefix: '{gcp}[{gcn}CMI{gcp}] '
-  NoPermission: '{gcw}You don''t have permission!'
-  CantHavePermission: '{gcw}You can''t have this permission!'
-  WrongGroup: '{gcw}You are in wrong group for this!'
-  NoPlayerPermission: '{gcw}[playerName] doesn''t have permission for: [permission]'
-  Ingame: '{gcw}You can only use this in game!'
-  NoInformation: '{gcw}No information found!'
-  Console: '{gcp}Server'
-  FromConsole: '{gcw}You can only use this in the console!'
-  NotOnline: '{gcw}The player is not online!'
-  NobodyOnline: '{gcw}There is no one online!'
-  NoPlayer: '{gcw}Can''t find player with this name! ({gcs}[name]{gcw})'
-  NoCommand: '{gcw}There is no command by this name!'
-  cantFindCommand: '{gcn}Couldn''t find {gcs}[%1] {gcn}command, did you mean {gcs}[%2]{gcn}?'
-  nolocation: '{gcp}Can''t find suitable location'
-  FeatureNotEnabled: '{gcw}This feature is not enabled!'
-  ModuleNotEnabled: '{gcw}This module is not enabled!'
-  versionNotSupported: '{gcw}Server version is not supported for this feature'
-  spigotNotSupported: '{gcw}You need PaperSpigot branch type server for this to work'
-  bungeeNoGo: '{gcw}This feature will not work on bungee network based servers'
-  clickToTeleport: '{gcp}Click to teleport'
-  UseMaterial: '{gcd}Please use material names!'
-  IncorrectMaterial: '{gcd}Incorrect material name!'
-  UseInteger: '{gcd}Please use numbers!'
-  UseBoolean: '{gcd}Please use True or False!'
-  NoLessThan: '{gcd}Number can''t be less than {gcs}[amount]{gcd}!'
-  NoMoreThan: '{gcd}Value can''t be more than {gcs}[amount]'
-  NoWorld: '{gcd}Can''t find world with this name!'
-  IncorrectLocation: '{gcd}Location defined incorrectly!'
-  Show: '{gcp}Show'
-  Remove: '{gcd}Remove'
-  Back: '{gcp}Back'
-  Forward: '{gcp}Forward'
-  Update: '{gcp}Update'
-  Save: '{gcp}Save'
-  Delete: '{gcd}Delete'
-  Click: '{gcp}Click'
-  Preview: '{gcp}Preview'
-  PasteOld: '{gcp}Paste old'
-  ClickToPaste: '{gcp}Click to paste into chat'
-  CantTeleportWorld: '{gcp}You can''t teleport to this world'
-  CantTeleportNoWorld: '{gcw}Target world doesn''t exist. Teleportation canceled'
-  ClickToConfirmDelete: '{gcp}Click to confirm removal of {gcs}[name]'
-  ClickToConfirm: '{gcp}Click to confirm'
-  teleported: '{gcp}You have been teleported.'
-  PlayerSpliter: '{gcp}----- {gcs}[playerDisplayName] {gcp}-----'
-  Spliter: '{gcp}--------------------------------------------------'
-  SpliterValue: '{gcp}------------------ {gcs}[value] {gcp}------------------'
-  singleSpliter: '{gcp}-'
-  SpliterMiddle: ' {gcs}[value] '
+  prefix: '&f[&6服务器&f] '
+  NoPermission: '!prefix!&c你没有权限'
+  CantHavePermission: '!prefix!&c您没有权限！'
+  WrongGroup: '!prefix!&c您已经处于被删除的组里！'
+  NoPlayerPermission: '!prefix!&c[playerName] 没有权限: [permission]'
+  Ingame: '!prefix!&c你只能在游戏里这么做'
+  NoInformation: '!prefix!&c找不到信息'
+  Console: '&6服务器'
+  FromConsole: '!prefix!&c只能在控制台这么做!'
+  NotOnline: '!prefix!&c玩家不在线!'
+  NobodyOnline: '!prefix!&c服务器里没有玩家'
+  NoPlayer: '!prefix!&c找不到这个玩家'
+  NoCommand: '!prefix!&c未知指令'
+  cantFindCommand: '!prefix!&5找不到 &7[%1]&5 命令, 您的意思是 &7[%2]&5?'
+  nolocation: '!prefix!&4找不到合适的位置'
+  FeatureNotEnabled: '!prefix!&c该机制未启用'
+  ModuleNotEnabled: '!prefix!&c此模块没有启用!'
+  versionNotSupported: '!prefix!&c服务器版本不支持此特性'
+  spigotNotSupported: '!prefix!&c你需要使用 PaperSpigot 服务端才能使用这一特性'
+  bungeeNoGo: '!prefix!&c此功能在基于bungee网络的服务器上不起作用'
+  clickToTeleport: '&f点击传送'
+  UseMaterial: '!prefix!&4请使用物品名字!'
+  IncorrectMaterial: '!prefix!&4错误的物品名!'
+  UseInteger: '!prefix!&4请使用数字'
+  UseBoolean: '!prefix!&4请使用布尔值 True 或者 False!'
+  NoLessThan: '!prefix!&4数值不能小于 [amount]!'
+  NoMoreThan: '!prefix!&4数值不能大于 [amount]'
+  NoWorld: '!prefix!&4找不到该世界'
+  IncorrectLocation: '!prefix!&4位置指定错误'
+  Show: '&f展示'
+  Remove: '&c移除'
+  Back: '&f返回'
+  Forward: '&f向前'
+  Update: '&f更新'
+  Save: '&f保存'
+  Delete: '&c删除'
+  Click: '&f点击'
+  Preview: '&f上一页'
+  PasteOld: '&f粘贴旧内容'
+  ClickToPaste: '&f点击粘贴进聊天'
+  CantTeleportWorld: '!prefix!您不能传送到这个世界!'
+  CantTeleportNoWorld: '!prefix!&c目标世界不存在. 该传送取消！'
+  ClickToConfirmDelete: '&f点击确认以移除 &6[name]'
+  ClickToConfirm: '{gcp}点击确认'
+  teleported: '&f您被传送了.'
+  PlayerSpliter: '&f----- &6[playerDisplayName] &f-----'
+  Spliter: '&f--------------------------------------------------'
+  SpliterValue: '&f------------------ &6[value] &f------------------'
+  singleSpliter: '&f-'
+  SpliterMiddle: ' &6[value] '
   ListSpliter: ', '
-  ProgressBarFill: '{gcu}▏'
-  ProgressBarEmpty: '{gcn}▏'
-  nothingInHand: '!actionbar!{gcp}You need to hold item in hand'
-  nothingInHandLeather: '{gcp}You need to hold leather item in hand'
-  nothingToShow: '{gcp}Nothing to show'
-  noItem: '{gcw}Can''t find item'
-  dontHaveItem: '{gcw}You don''t have {gcs}[amount]x [itemName] {gcw}in your inventory'
-  wrongWorld: '{gcw}Can''t do this in this world'
-  differentWorld: '{gcw}Different worlds'
-  HaveItem: '{gcw}You have {gcs}[amount]x [itemName] {gcw}in your inventory'
-  cantDoInGamemode: '{gcp}You can''t do this in this game mode'
-  cantDoForPlayer: '{gcp}You can''t do this to {gcs}[playerDisplayName]'
-  cantDoForYourSelf: '{gcp}You can''t do this to yourself'
-  cantDetermineMobType: '{gcw}Can''t determine mob type from {gcs}[type] {gcw}variable'
-  cantRename: '!actionbar!{gcp}You can''t use this name'
-  confirmRedefine: '{gcp}Click to confirm redefining'
-  cantEdit: '{gcp}You can''t edit this'
-  wrongName: '{gcw}Wrong name'
+  ProgressBarFill: '&2▏'
+  ProgressBarEmpty: '&f▏'
+  nothingInHand: '!actionbar!&f你需要把这个拿在手上'
+  nothingInHandLeather: '&f你需要把皮革物品拿在手上'
+  nothingToShow: '&f没有东西可以展示'
+  noItem: '&c找不到物品'
+  dontHaveItem: '&c你的背包中没有 &6[itemName] x[amount] &c'
+  wrongWorld: '&c不可在此世界这样做'
+  differentWorld: '&c世界难度'
+  HaveItem: '&c在背包里有&6[amount]x [itemName]'
+  cantDoInGamemode: '&f在此游戏模式下不能这么做'
+  cantDoForPlayer: '&f你不能对 &6[playerDisplayName] &f这么做'
+  cantDoForYourSelf: '&f您不能这样做'
+  cantDetermineMobType: '&c无法指定怪物种类 &f[type] &c'
+  cantRename: '!actionbar!&f你不能更改为这个名字'
+  confirmRedefine: '&f点击确认更改'
+  cantEdit: '&f你无法编辑'
+  wrongName: '&c错误的名字'
   unknown: unknown
-  invalidName: '{gcw}Invalid name'
-  alreadyexist: '{gcd}This name is taken'
-  dontexist: '{gcd}Nothing found by this name'
-  worldDontExist: '{gcw}Target world can''t be accessed anymore. Can''t teleport you
-    there!'
-  notSet: not set
-  lookAtSign: '{gcp}Look at sign'
-  lookAtBlock: '{gcp}Look at block'
-  lookAtEntity: '{gcp}Look at entity'
-  noSpace: '{gcp}Not enough free space'
-  notOnGround: '{gcp}You can''t perform this while flying'
+  invalidName: '&c无效的名字'
+  alreadyexist: '&4该名称已被占用'
+  dontexist: '&4未找到'
+  worldDontExist: '&c目标世界不存在'
+  notSet: 未设置
+  lookAtSign: '&f请指向一个木牌'
+  lookAtBlock: '&f请指向一个方块'
+  lookAtEntity: '&f请指向一个实体'
+  noSpace: '&f空间不够'
+  notOnGround: '&f飞行期间不能这么做'
   bungee:
-    Online: '{gcu}Online'
-    Offline: '{gcn}Offline'
-    not: '{gcw}Server doesn''t belong to bungee network'
-    noserver: '{gcw}Can''t find server by this name!'
-    server: '{gcp}Server: {gcs}[name]'
+    Online: '&6在线'
+    Offline: '&c离线'
+    not: '&c这个服务器不在群组下'
+    noserver: '&c找不到这个服务器'
+    server: '&f服务器: &7[name]'
   variables:
-    am: AM
-    pm: PM
-    Online: '{gcu}Online'
-    Offline: '{gcd}Offline'
-    TrueColor: '{gcu}'
-    FalseColor: '{gcd}'
-    'True': '{gcu}True'
-    'False': '{gcd}False'
-    Enabled: '{gcu}Enabled'
-    Disabled: '{gcd}Disabled'
-    survival: Survival
-    creative: Creative
-    adventure: Adventure
-    spectator: Spectator
-    flying: Flying
-    notflying: Not flying
+    am: '&f上午'
+    pm: '&f下午'
+    Online: '&6在线'
+    Offline: '&c离线'
+    TrueColor: '&2'
+    FalseColor: '&4'
+    'True': '&6确认'
+    'False': '&c取消'
+    Enabled: '&6启用'
+    Disabled: '&c禁用'
+    survival: '&6生存'
+    creative: '&6创造'
+    adventure: '&6冒险'
+    spectator: '&6旁观'
+    flying: '&6飞行'
+    notflying: '&6未飞行'
   Inventory:
-    Full: '{gcd}Your inventory is full. Can''t add item'
-    FullDrop: '{gcd}Not all items fit in your inventory. They have been dropped on
-      ground'
-  TimeNotRecorded: '{gcp}-No record-'
-  months: '{gcs}[months] {gcp}months '
-  oneMonth: '{gcs}[months] {gcp}month '
-  weeks: '{gcs}[weeks] {gcp}weeks '
-  oneWeek: '{gcs}[weeks] {gcp}week '
-  years: '{gcs}[years] {gcp}years '
-  oneYear: '{gcs}[years] {gcp}year '
-  day: '{gcs}[days] {gcp}days '
-  oneDay: '{gcs}[days] {gcp}day '
-  hour: '{gcs}[hours] {gcp}hours '
-  oneHour: '{gcs}[hours] {gcp}hour '
-  min: '{gcs}[mins] {gcp}min '
-  sec: '{gcs}[secs] {gcp}sec '
+    Full: '&5你的背包满了，无法添加新物品了'
+    FullDrop: '&5你的背包满了！该物品已经丢在地上了！'
+  TimeNotRecorded: '&f-我不记得了-'
+  months: '&f[months] &6月 '
+  oneMonth: '&f[months] &6月 '
+  weeks: '&f[weeks] &6周 '
+  oneWeek: '&f[weeks] &6周 '
+  years: '&f[years] &6年 '
+  oneYear: '&f[years] &6年 '
+  day: '&f[days] &6天 '
+  oneDay: '&f[days] &6天 '
+  hour: '&f[hours] &6小时 '
+  oneHour: '&f[hours] &6小时 '
+  min: '&f[mins] &6分钟 '
+  sec: '&f[secs] &6秒 '
   time:
     separator: '{gcn}:'
     short:
@@ -239,483 +237,479 @@ info:
       hour: '{gcs}[hours]{gcp}h'
       min: '{gcs}[mins]{gcp}m'
       sec: '{gcs}[secs]{gcp}s'
-  nextPageConsole: '{gcn}For next page perform {gcs}[command]'
-  prevPage: '{gcn}----<< {gcp}Prev '
-  prevCustomPage: '{gcn}----<< {gcp}[value] '
-  prevPageGui: '{gcp}Previous page '
-  prevPageClean: '{gcp}Prev '
-  prevPageOff: '{gcn}----<< {gcp}Prev '
-  prevCustomPageOff: '{gcn}----<< {gcp}[value] '
-  prevPageHover: '{gcp}<<<'
-  firstPageHover: '{gcp}|<'
-  nextPage: '{gcp} Next {gcn}>>----'
-  nextCustomPage: '{gcp} [value] {gcn}>>----'
-  nextPageGui: '{gcp}Next Page'
-  nextPageClean: '{gcp} Next'
-  nextPageOff: '{gcp} Next {gcn}>>----'
-  nextCustomPageOff: '{gcs} [value] {gcn}>>----'
-  nextPageHover: '{gcp}>>>'
-  lastPageHover: '{gcp}>|'
-  pageCount: '{gcn}[current]{gcp}/{gcn}[total]'
-  pageCountHover: '{gcs}[totalEntries] entries'
-  skullOwner: '!actionbar!{gcp}Owner:&r [playerName]'
-  mobHeadName: '{gcp}Head of {gcs}[mobName]'
-  circle: '{gcp}Circle'
-  square: '{gcp}Square'
-  clear: '{gcp}Clear'
-  protectedArea: '{gcw}Protected area. Can''t do this here.'
-  valueToLong: '{gcp}Value is too high. Max: [max]'
-  valueToShort: '{gcp}Value is too low. Min: [min]'
-  pickIcon: '{gcp}Pick icon'
-  reset: '{gcp}Press {gcs}Q {gcp}to reset'
-  basicDirection: '{gcp}Pitch:{gcs}[x] {gcp}Yaw:{gcs}[y]'
-  fullDirection: '{gcp}Pitch:{gcs}[x] {gcp}Yaw:{gcs}[y] {gcp}Roll:{gcs}[z]'
-  basicScale: '{gcp}Width:{gcs}[x] {gcp}Height:{gcs}[y]'
-  fullScale: '{gcp}Width:{gcs}[x] {gcp}Height:{gcs}[y] {gcp}Depth:{gcs}[z]'
-  basicVector: '{gcp}X:{gcs}[x] {gcp}Y:{gcs}[y]'
-  fullVector: '{gcp}X:{gcs}[x] {gcp}Y:{gcs}[y] {gcp}Z:{gcs}[z]'
-  incorrectColor: '{gcw}Color defined incorrectly!'
-  updateSpeed: '{gcp}Update speed: {gcs}[value]'
-  serializeAndShow: '{gcp}Serialize and show'
-  amount: '{gcp}Amount: {gcs}[value]'
-  speed: '{gcp}Speed: {gcs}[value]'
-  color: '{gcp}Color: [color]Example'
-  duration: '{gcp}Duration: [value]'
-  size: '{gcp}Size: [value]'
-  value: '{gcp}Value: [value]'
-  Spawner: '&r[type] Spawner'
+  nextPageConsole: '&f下一页执行&6[command]'
+  prevPage: '!prefix!&f----<< &6上一页 '
+  prevCustomPage: '!prefix!&f----<< &6[value] '
+  prevPageGui: '&6上一页 '
+  prevPageClean: '&6上 '
+  prevPageOff: '!prefix!&f----<< &7上一页 '
+  prevCustomPageOff: '!prefix!&f----<< &7[value] '
+  prevPageHover: '&7<<<'
+  firstPageHover: '&7|<'
+  nextPage: '&6 下一页 &f>>----'
+  nextCustomPage: '&6 [value] &f>>----'
+  nextPageGui: '&6下一页'
+  nextPageClean: '&6 下'
+  nextPageOff: '&7 下一页 &f>>----'
+  nextCustomPageOff: '&7 [value] &f>>----'
+  nextPageHover: '&7>>>'
+  lastPageHover: '&7>|'
+  pageCount: '&f[current]&7/&f[total]'
+  pageCountHover: '&f[totalEntries] 条目'
+  skullOwner: '!actionbar!&7所有者:&r [playerName]'
+  mobHeadName: '&f[mobName]&f的头'
+  circle: '&3圆形'
+  square: '&5正方形'
+  clear: '&7清除'
+  protectedArea: '&c保护区域. 不可以这样做.'
+  valueToLong: '&f数值过长，最长: [max]'
+  valueToShort: '&f数值过短，最短: [min]'
+  pickIcon: '&8选择图标'
+  reset: '{gcp}按下 {gcs}Q {gcp}重置'
+  basicDirection: '{gcp}俯仰角：{gcs}[x] {gcp}偏航角：{gcs}[y]'
+  fullDirection: '{gcp}俯仰角：{gcs}[x] {gcp}偏航角：{gcs}[y] {gcp}翻滚角：{gcs}[z]'
+  basicScale: '{gcp}宽度：{gcs}[x] {gcp}高度：{gcs}[y]'
+  fullScale: '{gcp}宽度：{gcs}[x] {gcp}高度：{gcs}[y] {gcp}深度：{gcs}[z]'
+  basicVector: '{gcp}X：{gcs}[x] {gcp}Y：{gcs}[y]'
+  fullVector: '{gcp}X：{gcs}[x] {gcp}Y：{gcs}[y] {gcp}Z：{gcs}[z]'
+  incorrectColor: '{gcw}颜色参数设置错误！'
+  updateSpeed: '{gcp}刷新速度：{gcs}[value]'
+  serializeAndShow: '{gcp}生成并展示'
+  amount: '{gcp}数量：{gcs}[value]'
+  speed: '{gcp}速率：{gcs}[value]'
+  color: '{gcp}颜色：[color]示例'
+  duration: '{gcp}持续时长：[value]'
+  size: '{gcp}尺寸：[value]'
+  value: '{gcp}数值：[value]'
+  Spawner: '&r[type] 刷怪笼'
   DamageCause:
-    block_explosion: Explosion
+    block_explosion: 爆炸
     campfire: campfire
-    contact: Block Damage
-    cramming: cramming
-    custom: Unknown
-    dragon_breath: Dragon breath
-    drowning: Drowning
-    dryout: dryout
-    entity_attack: Entity attack
-    entity_explosion: Explosion
-    entity_sweep_attack: entity sweep attack
-    fall: Fall
-    falling_block: Falling block
-    fire: Fire
-    fire_tick: Fire
-    fly_into_wall: Fly into wall
-    freeze: freeze
-    hot_floor: Magma block
-    kill: kill
-    lava: Lava
-    lightning: Lightning
-    magic: Magic
-    melting: Melting
-    poison: Poison
-    projectile: Projectile
-    sonic_boom: sonic boom
-    starvation: Starvation
-    suffocation: Suffocation
-    suicide: Suicide
-    thorns: Thorns
-    void: Void
-    wither: Wither
-    world_border: world border
+    contact: 方块伤害
+    cramming: 拥挤
+    custom: 未知原因
+    dragon_breath: 龙息
+    drowning: 淹死
+    dryout: 口渴
+    entity_attack: 实体伤害
+    entity_explosion: 爆炸
+    entity_sweep_attack: 实体横扫伤害
+    fall: 摔落
+    falling_block: 掉落的方块
+    fire: 火
+    fire_tick: 火
+    fly_into_wall: 飞行卡进墙里
+    freeze: 冻死
+    hot_floor: 岩浆块
+    kill: 击杀
+    lava: 岩浆
+    lightning: 闪电
+    magic: 魔法
+    melting: 融化
+    poison: 药水
+    projectile: 弹射物
+    sonic_boom: 声爆
+    starvation: 饥饿
+    suffocation: 窒息
+    suicide: 自杀
+    thorns: 荆棘
+    void: 虚空
+    wither: 凋零
+    world_border: 世界边界
   EntityType:
-    acacia_boat: Acacia boat
-    acacia_chest_boat: Acacia chest boat
-    allay: Allay
-    area_effect_cloud: Area effect cloud
-    armadillo: Armadillo
-    armor_stand: Armor stand
-    arrow: Arrow
-    axolotl: Axolotl
-    bamboo_chest_raft: Bamboo chest raft
-    bamboo_raft: Bamboo raft
-    bat: Bat
-    bee: Bee
-    birch_boat: Birch boat
-    birch_chest_boat: Birch chest boat
-    blaze: Blaze
-    block_display: Block display
-    bogged: Bogged
-    breeze: Breeze
-    breeze_wind_charge: Breeze wind charge
-    camel: Camel
-    cat: Cat
-    cave_spider: Cave spider
-    cherry_boat: Cherry boat
-    cherry_chest_boat: Cherry chest boat
-    chest_minecart: Chest minecart
-    chicken: Chicken
-    cod: Cod
-    command_block_minecart: Command block minecart
-    cow: Cow
-    creaking: Creaking
-    creeper: Creeper
-    dark_oak_boat: Dark oak boat
-    dark_oak_chest_boat: Dark oak chest boat
-    dolphin: Dolphin
-    donkey: Donkey
-    dragon_fireball: Dragon fireball
-    drowned: Drowned
-    egg: Egg
-    elder_guardian: Elder guardian
-    enderman: Enderman
-    endermite: Endermite
-    ender_dragon: Ender dragon
-    ender_pearl: Ender pearl
-    end_crystal: End crystal
-    evoker: Evoker
-    evoker_fangs: Evoker fangs
-    experience_bottle: Experience bottle
-    experience_orb: Experience orb
-    eye_of_ender: Eye of ender
-    falling_block: Falling block
-    fireball: Fireball
-    firework_rocket: Firework rocket
-    fishing_bobber: Fishing bobber
-    fox: Fox
-    frog: Frog
-    furnace_minecart: Furnace minecart
-    ghast: Ghast
-    giant: Giant
-    glow_item_frame: Glow item frame
-    glow_squid: Glow squid
-    goat: Goat
-    guardian: Guardian
-    hoglin: Hoglin
-    hopper_minecart: Hopper minecart
-    horse: Horse
-    husk: Husk
-    illusioner: Illusioner
-    interaction: Interaction
-    iron_golem: Iron golem
-    item: Item
-    item_display: Item display
-    item_frame: Item frame
-    jungle_boat: Jungle boat
-    jungle_chest_boat: Jungle chest boat
-    leash_knot: Leash knot
-    lightning_bolt: Lightning bolt
-    llama: Llama
-    llama_spit: Llama spit
-    magma_cube: Magma cube
-    mangrove_boat: Mangrove boat
-    mangrove_chest_boat: Mangrove chest boat
-    marker: Marker
-    minecart: Minecart
-    mooshroom: Mooshroom
-    mule: Mule
-    oak_boat: Oak boat
-    oak_chest_boat: Oak chest boat
-    ocelot: Ocelot
-    ominous_item_spawner: Ominous item spawner
-    painting: Painting
-    pale_oak_boat: Pale oak boat
-    pale_oak_chest_boat: Pale oak chest boat
-    panda: Panda
-    parrot: Parrot
-    phantom: Phantom
-    pig: Pig
-    piglin: Piglin
-    piglin_brute: Piglin brute
-    pillager: Pillager
-    player: Player
-    polar_bear: Polar bear
+    acacia_boat: 金合欢木船
+    acacia_chest_boat: 金合欢运输船
+    allay: 悦灵
+    area_effect_cloud: 药水云
+    armadillo: 犰狳
+    armor_stand: 盔甲架
+    arrow: 箭
+    axolotl: 美西螈
+    bamboo_chest_raft: 竹制运输筏
+    bamboo_raft: 竹筏
+    bat: 蝙蝠
+    bee: 蜜蜂
+    birch_boat: 白桦木船
+    birch_chest_boat: 白桦运输船
+    blaze: 烈焰人
+    block_display: 方块展示实体
+    bogged: 沼泽尸
+    breeze: 轻风
+    breeze_wind_charge: 风弹（轻风）
+    camel: 骆驼
+    cat: 猫
+    cave_spider: 洞穴蜘蛛
+    cherry_boat: 樱花木船
+    cherry_chest_boat: 樱花运输船
+    chest_minecart: 储物矿车
+    chicken: 鸡
+    cod: 鳕鱼
+    command_block_minecart: 命令方块矿车
+    cow: 牛
+    creaking: 吱灵
+    creeper: 爬行者
+    dark_oak_boat: 深色橡木船
+    dark_oak_chest_boat: 深色橡木运输船
+    dolphin: 海豚
+    donkey: 驴
+    dragon_fireball: 龙之火球
+    drowned: 溺尸
+    egg: 蛋
+    elder_guardian: 远古守卫者
+    enderman: 末影人
+    endermite: 末影螨
+    ender_dragon: 末影龙
+    ender_pearl: 末影珍珠
+    end_crystal: 末影水晶
+    evoker: 唤魔者
+    evoker_fangs: 地刺
+    experience_bottle: 附魔之瓶
+    experience_orb: 经验球
+    eye_of_ender: 末影之眼
+    falling_block: 下落方块
+    fireball: 火球
+    firework_rocket: 烟花火箭
+    fishing_bobber: 浮漂
+    fox: 狐狸
+    frog: 青蛙
+    furnace_minecart: 动力矿车
+    ghast: 恶魂
+    giant: 巨人
+    glow_item_frame: 发光物品展示框
+    glow_squid: 发光鱿鱼
+    goat: 山羊
+    guardian: 守卫者
+    hoglin: 疣猪兽
+    hopper_minecart: 漏斗矿车
+    horse: 马
+    husk: 尸壳
+    illusioner: 幻术师
+    interaction: 交互实体
+    iron_golem: 铁傀儡
+    item: 物品
+    item_display: 物品展示实体
+    item_frame: 物品展示框
+    jungle_boat: 丛林木船
+    jungle_chest_boat: 丛林运输船
+    leash_knot: 拴绳结
+    lightning_bolt: 闪电
+    llama: 羊驼
+    llama_spit: 羊驼唾沫
+    magma_cube: 岩浆怪
+    mangrove_boat: 红树木船
+    mangrove_chest_boat: 红树运输船
+    marker: 标记实体
+    minecart: 矿车
+    mooshroom: 哞菇
+    mule: 骡
+    oak_boat: 橡木船
+    oak_chest_boat: 橡木运输船
+    ocelot: 豹猫
+    ominous_item_spawner: 不祥之物生成器
+    painting: 画
+    pale_oak_boat: 苍白橡木船
+    pale_oak_chest_boat: 苍白橡木运输船
+    panda: 熊猫
+    parrot: 鹦鹉
+    phantom: 幻翼
+    pig: 猪
+    piglin: 猪灵
+    piglin_brute: 猪灵蛮兵
+    pillager: 掠夺者
+    player: 玩家
+    polar_bear: 北极熊
     potion: Potion
-    pufferfish: Pufferfish
-    rabbit: Rabbit
-    ravager: Ravager
-    salmon: Salmon
-    sheep: Sheep
-    shulker: Shulker
-    shulker_bullet: Shulker bullet
-    silverfish: Silverfish
-    skeleton: Skeleton
-    skeleton_horse: Skeleton horse
-    slime: Slime
-    small_fireball: Small fireball
-    sniffer: Sniffer
-    snowball: Snowball
-    snow_golem: Snow golem
-    spawner_minecart: Spawner minecart
-    spectral_arrow: Spectral arrow
-    spider: Spider
-    spruce_boat: Spruce boat
-    spruce_chest_boat: Spruce chest boat
-    squid: Squid
-    stray: Stray
-    strider: Strider
-    tadpole: Tadpole
-    text_display: Text display
-    tnt: Tnt
-    tnt_minecart: Tnt minecart
-    trader_llama: Trader llama
-    trident: Trident
-    tropical_fish: Tropical fish
-    turtle: Turtle
-    unknown: Unknown
-    vex: Vex
-    villager: Villager
-    vindicator: Vindicator
-    wandering_trader: Wandering trader
-    warden: Warden
-    wind_charge: Wind charge
-    witch: Witch
-    wither: Wither
-    wither_skeleton: Wither skeleton
-    wither_skull: Wither skull
-    wolf: Wolf
-    zoglin: Zoglin
-    zombie: Zombie
-    zombie_horse: Zombie horse
-    zombie_villager: Zombie villager
-    zombified_piglin: Zombified piglin
+    pufferfish: 河豚
+    rabbit: 兔子
+    ravager: 劫掠兽
+    salmon: 鲑鱼
+    sheep: 羊
+    shulker: 潜影贝
+    shulker_bullet: 潜影贝子弹
+    silverfish: 蠹虫
+    skeleton: 骷髅
+    skeleton_horse: 骷髅马
+    slime: 史莱姆
+    small_fireball: 小火球
+    sniffer: 嗅探兽
+    snowball: 雪球
+    snow_golem: 雪傀儡
+    spawner_minecart: 刷怪笼矿车
+    spectral_arrow: 光灵箭
+    spider: 蜘蛛
+    spruce_boat: 云杉木船
+    spruce_chest_boat: 云杉运输船
+    squid: 鱿鱼
+    stray: 流浪者
+    strider: 炽足兽
+    tadpole: 蝌蚪
+    text_display: 文字展示实体
+    tnt: 炸药
+    tnt_minecart: TNT矿车
+    trader_llama: 行商羊驼
+    trident: 三叉戟
+    tropical_fish: 热带鱼
+    turtle: 海龟
+    unknown: 未知
+    vex: 恼鬼
+    villager: 村民
+    vindicator: 卫道士
+    wandering_trader: 流浪商人
+    warden: 监守者
+    wind_charge: 风弹
+    witch: 女巫
+    wither: 凋灵
+    wither_skeleton: 凋灵骷髅
+    wither_skull: 凋灵之首
+    wolf: 狼
+    zoglin: 僵尸疣猪兽
+    zombie: 僵尸
+    zombie_horse: 僵尸马
+    zombie_villager: 僵尸村民
+    zombified_piglin: 僵尸猪灵
   # Avoid adding color codes to the enchant name
   EnchantNames:
-    sharpness: Sharpness
-    punch: Punch
-    knockback: Knockback
-    aqua_affinity: Aqua_Affinity
-    fire_protection: Fire_Protection
-    flame: Flame
-    frost_walker: Frost_Walker
-    sweeping_edge: Sweeping_Edge
-    density: Density
-    luck_of_the_sea: Luck_Of_The_Sea
-    unbreaking: Unbreaking
-    piercing: Piercing
-    fortune: Fortune
-    riptide: Riptide
-    power: Power
-    multishot: Multishot
-    breach: Breach
-    respiration: Respiration
-    projectile_protection: Projectile_Protection
-    fire_aspect: Fire_Aspect
-    feather_falling: Feather_Falling
-    smite: Smite
-    impaling: Impaling
-    soul_speed: Soul_Speed
-    loyalty: Loyalty
-    vanishing_curse: Vanishing_Curse
-    protection: Protection
-    silk_touch: Silk_Touch
-    blast_protection: Blast_Protection
-    lure: Lure
-    channeling: Channeling
-    mending: Mending
-    bane_of_arthropods: Bane_Of_Arthropods
-    infinity: Infinity
-    looting: Looting
-    quick_charge: Quick_Charge
-    wind_burst: Wind_Burst
-    swift_sneak: Swift_Sneak
-    efficiency: Efficiency
-    thorns: Thorns
-    depth_strider: Depth_Strider
-    binding_curse: Binding_Curse
+    fire_aspect: 火焰附加
+    vanishing_curse: 消失诅咒
+    frost_walker: 冰霜行者
+    looting: 掠夺
+    binding_curse: 绑定诅咒
+    depth_strider: 深海探索者
+    density: 致密
+    channeling: 引雷
+    blast_protection: 爆炸保护
+    sharpness: 锋利
+    swift_sneak: 迅捷潜行
+    breach: 破甲
+    bane_of_arthropods: 节肢杀手
+    multishot: 多重射击
+    aqua_affinity: 水下速掘
+    sweeping_edge: 横扫之刃
+    infinity: 无限
+    piercing: 穿透
+    feather_falling: 羽毛坠落
+    riptide: 激流
+    knockback: 击退
+    mending: 经验修补
+    luck_of_the_sea: 海之眷顾
+    power: 力量
+    impaling: 穿刺
+    silk_touch: 精准采集
+    soul_speed: 灵魂疾行
+    projectile_protection: 弹射物保护
+    lure: 饵钓
+    quick_charge: 快速装填
+    unbreaking: 耐久
+    smite: 亡灵杀手
+    thorns: 荆棘
+    efficiency: 效率
+    wind_burst: 风爆
+    flame: 火矢
+    respiration: 水下呼吸
+    loyalty: 忠诚
+    punch: 冲击
+    fire_protection: 火焰保护
+    fortune: 时运
+    protection: 保护
   PotionEffectAliases:
     instanthealth:
-    - Instant health
+    - 瞬间治疗
     invisibility:
-    - Invisibility
+    - 隐身
     waterbreathing:
-    - Water breathing
+    - 水下呼吸
     resistance:
-    - Resistance
+    - 抗性提升
     unluck:
-    - Unluck
+    - 霉运
     blindness:
-    - Blindness
+    - 失明
     haste:
-    - Haste
+    - 急迫
     poison:
-    - Poison
+    - 中毒
     slowness:
-    - Slowness
+    - 缓慢
     hunger:
-    - Hunger
+    - 饥饿
     slowfalling:
-    - Slow falling
+    - 缓降
     weaving:
-    - Weaving
+    - 缠绕
     fireresistance:
-    - Fire resistance
+    - 防火
     saturation:
-    - Saturation
+    - 饱和
     raidomen:
-    - Raid omen
+    - 袭击预兆
     jumpboost:
-    - Jump boost
+    - 跳跃提升
     dolphinsgrace:
-    - Dolphins grace
+    - 海豚之息
     miningfatigue:
-    - Mining fatigue
+    - 挖掘疲劳
     healthboost:
-    - Health boost
+    - 生命增幅
     regeneration:
-    - Regeneration
+    - 生命恢复
     conduitpower:
-    - Conduit power
+    - 潮涌之力
     badomen:
-    - Bad omen
+    - 不祥之兆
     luck:
-    - Luck
+    - 幸运
     speed:
-    - Speed
+    - 迅捷
     trialomen:
-    - Trial omen
+    - 试炼预兆
     strength:
-    - Strength
+    - 力量
     darkness:
-    - Darkness
+    - 黑暗
     heroofthevillage:
-    - Hero of the village
+    - 村庄英雄
     levitation:
-    - Levitation
+    - 漂浮
     instantdamage:
-    - Instant damage
+    - 瞬间伤害
     oozing:
-    - Oozing
+    - 渗流
     weakness:
-    - Weakness
+    - 虚弱
     nausea:
-    - Nausea
+    - 反胃
     windcharged:
-    - Wind charged
+    - 蓄风
     absorption:
-    - Absorption
+    - 伤害吸收
     wither:
-    - Wither
+    - 凋零
     glowing:
-    - Glowing
+    - 发光
     infested:
-    - Infested
+    - 虫蚀
     nightvision:
-    - Night vision
+    - 夜视
 dialog:
-  signEditor: Sign Editor
-  update: Update
-  save: Save
-  close: Close
-  line: Line [line]
+  signEditor: 告示牌编辑
+  update: 更新
+  save: 保存
+  close: 关闭
+  line: 第 [line] 行
 direction:
-  n: North
-  ne: North East
-  e: East
-  se: South East
-  s: South
-  sw: South West
-  w: West
-  nw: North West
+  n: 北
+  ne: 东北
+  e: 东
+  se: 东南
+  s: 南
+  sw: 西南
+  w: 西
+  nw: 西北
 modify:
-  middlemouse: '{gcn}Middle mouse click to edit'
-  qButtonEdit: '{gcn}Click Q to edit'
-  newItem: '{gcp}Place new item here'
-  newLine: '{gcn}<NewLine>'
-  newLineHover: '{gcp}Add new line'
-  newPage: '{gcn}<NewPage>'
-  newPageHover: '{gcp}Create new page'
-  removePage: '{gcw}<RemovePage>'
-  removePageHover: '{gcw}Remove page'
-  deleteSymbol: ' {gcw}[X]'
-  deleteSymbolHover: '{gcw}Delete {gcs}[text]'
-  extraEditSymbol: ' {gcp}!'
-  addSymbol: '{gcu}[+]'
-  addSymbolHover: '{gcu}Add new'
-  cancelSymbol: ' {gcn}&l[X]'
-  cancelSymbolHover: '{gcn}Cancel'
-  acceptSymbol: ' {gcu}&l[✔]'
-  acceptSymbolHover: '{gcu}Accept'
-  denySymbol: ' {gcd}&l[X]'
-  denySymbolHover: '{gcw}Deny'
-  enabledSymbol: '{gcu}[+]'
-  disabledSymbol: '{gcw}[-]'
-  enabled: '{gcu}Enabled'
-  disabled: '{gcw}Disabled'
-  running: '{gcp}Running'
-  paused: '{gcw}Paused'
-  editSymbol: '{gcs}✎'
-  editSymbolHover: '{gcp}Edit {gcs}[text]'
+  middlemouse: '&2鼠标中键单击进行编辑'
+  qButtonEdit: '&2点击 Q 编辑'
+  newItem: '&7放置新物品'
+  newLine: '&2<新的一行>'
+  newLineHover: '&2添加新的一行'
+  newPage: '&2<新的一页>'
+  newPageHover: '&2创建新的一页'
+  removePage: '&c<移除一页>'
+  removePageHover: '&c移除一页'
+  deleteSymbol: '&cX'
+  deleteSymbolHover: '&c删除 &f[text]'
+  extraEditSymbol: ' &6!'
+  addSymbol: ' &2+'
+  addSymbolHover: '&2新建'
+  cancelSymbol: ' &7&l[X]'
+  cancelSymbolHover: '&a取消'
+  acceptSymbol: ' &2&l[✔]'
+  acceptSymbolHover: '&2接受'
+  denySymbol: ' &4[X] '
+  denySymbolHover: '&2取消'
+  enabledSymbol: '&2[+]'
+  disabledSymbol: '&c[-]'
+  enabled: '&2启用'
+  disabled: '&c禁用'
+  running: '&2运行中'
+  paused: '&c已暂停'
+  editSymbol: '&f✎'
+  editSymbolHover: '&f编辑 &6[text]'
   editLineColor: '&f'
-  listUpSymbol: '{gcp}⇑'
-  listUpSymbolHover: '{gcp}Up'
-  listDownSymbol: '{gcp}⇓'
-  listDownSymbolHover: '{gcp}Down'
-  listNumbering: '{gcs}[number]. '
+  listUpSymbol: '&6⇑'
+  listUpSymbolHover: '&f上'
+  listDownSymbol: '&6⇓'
+  listDownSymbolHover: '&f下'
+  listNumbering: '&f[number]. '
   listAlign: '&80'
-  ChangeHover: '{gcp}Click to change'
-  ChangeCommands: '{gcp}Commands'
-  enabledColor: '{gcu}'
-  disabledColor: '{gcd}'
-  commandTitle: ' {gcp}--- {gcs}[name] {gcp}---'
-  commandList: ' {gcs}[command]  '
-  emptyLine: '{gcn}[Empty line]'
-  commandEdit: '{gcp}Edit list'
-  nameAddInfo: '{gcp}Enter new name. Type {gcs}cancel {gcp}to cancel'
-  lineAddInfo: '{gcp}Enter new line. Type {gcs}cancel {gcp}to cancel'
-  commandAddInfo: '{gcp}Enter new command. Type {gcs}cancel {gcp}to cancel'
-  commandAddInformationHover: "{gcp}[playerName] can be used to get player name \n\
-    {gcp}To include delay in commands: \n{gcp}delay! 5 \n{gcp}Specialized commands\
-    \ are supported. More info at \n{gcp}https://www.zrips.net/cmi/commands/specialized/"
-  commandEditInfo: '{gcp}Click to paste old text. Type {gcs}cancel {gcp}to cancel
-    action'
-  listLimit: '{gcp}List can''t be bigger than {gcs}[amount] {gcp}entries'
-  commandEditInfoHover: '{gcp}Click to paste old text'
+  ChangeHover: '&f点击更改'
+  ChangeCommands: '&f指令'
+  enabledColor: '&6'
+  disabledColor: '&7'
+  commandTitle: ' &f--- &6[name] &f---'
+  commandList: ' &f[command]  '
+  emptyLine: '&7[Empty line]'
+  commandEdit: '&f编辑列表'
+  nameAddInfo: '&f输入新名字，或输入 &6cancel &f来取消操作'
+  lineAddInfo: '&f在聊天框中输入cancel来取消操作'
+  commandAddInfo: '&f输入一个新指令，或使用 &6cancel &f取消'
+  commandAddInformationHover: "&f[playerName] 代表玩家变量 \n&f 想给指令加延迟请使用: \n&fdelay! 5\
+    \ \n&f支持特殊指令 获得更多信息 \n&fhttps://www.zrips.net/cmi/commands/specialized/"
+  commandEditInfo: '&f点击粘贴旧内容，使用 &6cancel &f取消，或使用 &6remove &f移除一行'
+  listLimit: '&f列表中内容不能多于 &6[amount] &f项'
+  commandEditInfoHover: '&f点击粘贴旧内容'
 teleportation:
-  relocation: '!actionbar!{gcd}Your teleport location was obstructed. You have been
-    teleported to a safe location.'
+  relocation: '!actionbar!&4你将要传送到的地方不安全，已将你传送至 安全的地方'
 econ:
-  noMoney: '{gcw}You have no money'
-  charged: '!actionbar!{gcp}Charged: {gcs}[amount]'
-  notEnoughMoney: '{gcw}You don''t have enough money. Required ({gcs}[amount]{gcw})'
-  tooMuchMoney: '{gcw}You have too much money'
+  noMoney: '&c你的钱不够'
+  charged: '!actionbar!&f收费: &6[amount]'
+  notEnoughMoney: '&c你没有足够的钱！要求:(&6[amount]&c)'
+  tooMuchMoney: '&c你的钱太多了'
 Selection:
-  SelectPoints: '{gcw}Select 2 points with selection tool! AKA: {gcs}[tool]'
-  PrimaryPoint: '{gcp}Placed {gcs}Primary {gcp}Selection Point [point]'
-  SecondaryPoint: '{gcp}Placed {gcs}Secondary {gcp}Selection Point [point]'
-  CoordsTop: '{gcp}X:{gcs}[x] {gcp}Y:{gcs}[y] {gcp}Z:{gcs}[z]'
-  CoordsBottom: '{gcp}X:{gcs}[x] {gcp}Y:{gcs}[y] {gcp}Z:{gcs}[z]'
-  Area: '{gcn}[world] {gcp}({gcs}[x1]:[y1]:[z1] {gcp}[x2]:[y2]:[z2]{gcp})'
+  SelectPoints: '&c用选择工具选择 2 个点 AKA: &6[tool]'
+  PrimaryPoint: '&f选择 &6第一个 &f选择点 [point]'
+  SecondaryPoint: '&f选择了 &6第二个 &f选择点 [point]'
+  CoordsTop: '&fX:&6[x] &fY:&6[y] &fZ:&6[z]'
+  CoordsBottom: '&fX:&6[x] &fY:&6[y] &fZ:&6[z]'
+  Area: '&7[world] &f(&6[x1]:[y1]:[z1] &f[x2]:[y2]:[z2]&f)'
 Location:
-  Title: '{gcp}Players location'
-  Killer: '{gcp}Killer: {gcs}[killer]'
-  OneLiner: '{gcp}Location: {gcs}[location]'
-  DeathReason: '{gcp}Death Reason: {gcs}[reason]'
-  Full: '{gcp}[world] {gcs}[x]{gcp}:{gcs}[y]{gcp}:{gcs}[z]'
-  World: '{gcp}World: {gcs}[world]'
-  X: '{gcp}X: {gcs}[x]'
-  Y: '{gcp}Y: {gcs}[y]'
-  Z: '{gcp}Z: {gcs}[z]'
-  Pitch: '{gcp}Pitch: {gcs}[pitch]'
-  Yaw: '{gcp}Yaw: {gcs}[yaw]'
+  Title: '&8玩家位置'
+  Killer: '&f击杀者: &6[killer]'
+  OneLiner: '&f位置: &6[location]'
+  DeathReason: '&f死亡原因: &6[reason]'
+  Full: '&7[world] &f[x]&7:&f[y]&7:&f[z]'
+  World: '&f世界: &6[world]'
+  X: '&fX: &6[x]'
+  Y: '&fY: &6[y]'
+  Z: '&fZ: &6[z]'
+  Pitch: '&fPitch: &6[pitch]'
+  Yaw: '&fYaw: &6[yaw]'
   WorldNames:
-  - world-&2World
-  - world_nether-&2World Nether
-  - world_the_end-&2World The End
-  - spawn-&2Spawn
-Locations: '{gcp}Locations: '
+  - world-&2主世界
+  - world_nether-&2地狱
+  - world_the_end-&2末地
+Locations: '&7位置: '
 command:
   help:
     output:
-      usage: '&eUsage: &7%usage%'
-      cmdInfoFormat: '[command] &f- &e[description]'
+      usage: '&f使用方法: &7%usage%'
+      cmdInfoFormat: '[command] &f- [description]'
       cmdFormat: '&6/[command]&f[arguments]'
-      helpPageDescription: '&e* [description]'
-      explanation: '&e * [explanation]'
-      title: '&e------ ======= &6Help&e &e======= ------'
+      helpPageDescription: '&f* [description]'
+      explanation: '&f * [explanation]'
+      title: '&f------ ======= &6帮助&f &f======= ------'
   nocmd:
     help:
-      info: '&eShows all available commands'
+      info: '&f显示所有可用指令'
       args: ''
   clearcache:
     help:
-      info: '&eClear cache'
+      info: '&f清理缓存'
       args: ''
   reload:
     help:
-      info: '&eReloads plugins config and locale files'
+      info: '&f重载插件'
       args: ''
     info:
-      feedback: '&6CMIL Configs and locale files reloaded! Took [ms]ms'
-      failedConfig: '&4Failed to load config file! Check spelling!'
-      failedLocale: '&4Failed to load locale file! Check spelling!'
+      feedback: '!prefix!配置已重载! 耗时 [ms]ms'
+      failedConfig: '!prefix!&4config文件重载失败! 请检查拼写错误!'
+      failedLocale: '!prefix!&4语言文件重载失败! 请检查拼写错误!'

@@ -5,168 +5,165 @@
 
 Language:
   Invalid:
-    Player: '&f[&6服务器&f] &f无效的玩家名...'
-    PlayerOffline: '&f[&6服务器&f] &f玩家不在线'
-    World: '&f[&6服务器&f] &f无效的世界...'
-    Residence: '&f[&6服务器&f] &f无效的领地...'
-    Subzone: '&f[&6服务器&f] &f无效的领地子区域...'
-    Direction: '&f[&6服务器&f] &f无效的方向...'
-    Amount: '&f[&6服务器&f] &f无效的数量...'
-    Cost: '&f[&6服务器&f] &f无效的花费...'
-    Days: '&f[&6服务器&f] &f无效的天数...'
-    Material: '&f[&6服务器&f] &f无效的材料...'
-    Boolean: '&f[&6服务器&f] &f无效值, 必须为 true(t) &f或者 false(f)'
-    Area: '&f[&6服务器&f] &f无效的区域...'
-    Group: '&f[&6服务器&f] &f无效的权限组...'
-    MessageType: '&f[&6服务器&f] &f消息类型必须为 enter(进入), leave(离开) 或 remove(移除).'
-    Flag: '&f[&6服务器&f] &f无效权限...'
+    Player: '&f[&6服务器&f] &c无效的玩家名...'
+    PlayerOffline: '&f[&6服务器&f] &c玩家不在线...'
+    World: '&f[&6服务器&f] &c无效的世界...'
+    Residence: '&f[&6服务器&f] &c无效的领地...'
+    Subzone: '&f[&6服务器&f] &c无效的子领地...'
+    Direction: '&f[&6服务器&f] &c无效的方向...'
+    Amount: '&f[&6服务器&f] &c无效的数量...'
+    Cost: '&f[&6服务器&f] &c无效的价格...'
+    Days: '&f[&6服务器&f] &c无效的天数...'
+    Material: '&f[&6服务器&f] &c无效的材料...'
+    Boolean: '&f[&6服务器&f] &c无效值, 必须为 &6true(t) &c或 &6false(f)&c。'
+    Area: '&f[&6服务器&f] &c无效的区域...'
+    Group: '&f[&6服务器&f] &c无效的权限组...'
+    Location: '&f[&6服务器&f] &c无效的位置...'
+    MessageType: '&f[&6服务器&f] &c消息类型必须为 enter(进入), leave(离开) 或 remove(清除消息)。'
+    Flag: '&f[&6服务器&f] &c无效的权限...'
     FlagType:
-      Fail: '&fInvalid Flag... This flag can only be used on %1'
-      Player: Player
-      Residence: Residence
-    FlagState: '&f[&6服务器&f] &f无效权限状态, 必须为 &6true(t)&f, &6false(f)&f, 或 &6remove(r)'
-    List: '&f[&6服务器&f] &f未知名单类型, 必须是 &6blacklist(黑名单) &f或 &6ignorelist(忽略名单).'
-    Page: '&f[&6服务器&f] 无效页面...'
-    Help: '&f[&6服务器&f] &f无效帮助页面...'
-    NameCharacters: '&f[&6服务器&f] &f名字中包含无效字符...'
-    FromConsole: '&f[&6服务器&f] &f你只能在控制台中使用这个!'
-    Ingame: '&f[&6服务器&f] &f你只能在游戏里使用这个!'
-    PortalDestination: '&cPortal destination is in restricted zone. Portal creation
-      canceled. &7Find new location'
-    Location: '&cInvalid Location...'
-    NameLegth: '&cName length too long, max %1 characters'
+      Fail: '&f[&6服务器&f] &c无效的权限。该权限只能在 %1 使用。'
+      Player: 玩家
+      Residence: 领地
+    FlagState: '&f[&6服务器&f] &c无效的权限状态, 必须为 &6true(t)&c, &6false(f)&c, 或 &6remove(r)&c。'
+    List: '&f[&6服务器&f] 未知名单类型, 必须为 &6blacklist(黑名单) &f或 &6ignorelist(忽略名单)。'
+    Page: '&f[&6服务器&f] 无效的页面...'
+    Help: '&f[&6服务器&f] &c无效的帮助页面...'
+    NameCharacters: '&f[&6服务器&f] &c名称中包含无效字符...'
+    PortalDestination: '&f[&6服务器&f] &c传送门目的地位于限制区域中。已取消传送门创建。&7请寻找新位置。'
+    FromConsole: '&f[&6服务器&f] &c只能在控制台执行此命令!'
+    Ingame: '&f[&6服务器&f] &c只能在游戏中执行此命令!'
+    NameLegth: '&f[&6服务器&f] &c名称过长，最多允许 %1 个字符'
   Area:
-    Exists: '&f[&6服务器&f] &f区域名已存在.'
-    Create: '&f[&6服务器&f] 领地区域创建成功, ID &f%1'
-    DiffWorld: '&f[&6服务器&f] 区域与领地在不同世界.'
-    Collision: '&f[&6服务器&f] 区域与领地 &f%1 &f冲突.'
-    SubzoneCollision: '&f[&6服务器&f] &f区域与领地子区域 &6%1 &f冲突.'
-    NonExist: '&f[&6服务器&f] &f区域不存在.'
-    InvalidName: '&f[&6服务器&f] &f无效区域名...'
-    ToSmallX: '&f[&6服务器&f] &f选区 &fX &f方向长度 (&f%1&f) 过小. 该值必须为 &f%2 &f或更大.'
-    ToSmallY: '&f[&6服务器&f] &f选区高度 (&f%1&f) 过小. 该值必须为 &f%2 &f或更大.'
-    ToSmallZ: '&f[&6服务器&f] &f选区 &fZ &f方向长度 (&f%1&f) 过小. 该值必须为 &f%2 &f或更大.'
-    ToBigX: '&f[&6服务器&f] &f你选择的 &fX &f坐标 (&f%1&f) 太大了. 请保证选择大小在 &f%2 &f之内'
-    ToBigY: '&f[&6服务器&f] &f你选择的 &fY &f坐标 (&f%1&f) 太大了. 请保证选择大小在 &f%2 &f之内'
-    ToBigZ: '&f[&6服务器&f] &f你选择的 &fZ &f坐标 (&f%1&f) 太大了. 请保证选择大小在 &f%2 &f之内'
-    Rename: '&f[&6服务器&f] &f区域 &f%1 &f已被重命名为 &f%2'
-    Remove: '&f[&6服务器&f] &f已删除区域 &f%1&f.'
-    Name: '&f名称: &f%1'
-    ListAll: '&a{&fID:&f%1 &fP1:&f(%2,%3,%4) &fP2:&f(%5,%6,%7) &f(Size:&f%8&f)&a}'
-    RemoveLast: '&f[&6服务器&f] 不能移除领地中的最后一个区域.'
-    NotWithinParent: '&f[&6服务器&f] 该区域不在父区域内.'
-    Update: '&f[&6服务器&f] 区域已更新...'
-    MaxPhysical: '&f[&6服务器&f] 已达到领地所允许的最大空间.'
-    SizeLimit: '&f[&6服务器&f] 区域大小超出了允许的尺寸上限.'
-    HighLimit: '&f[&6服务器&f] 你不能保护这么高的领地, 高度上限为 &6%1'
-    LowLimit: '&f[&6服务器&f] 你不能保护这么深的领地, 深度上限为 &6%1'
-    TooClose: '&cToo close to another residence. You need atleast &e%1 &cblock gap.'
-    WeirdShape: '&3Residence is out of regular shape. &6%1 &3side is &6%2 &3times
-      bigger than &6%3 &3side'
+    Exists: '&f[&6服务器&f] &c此区域名已存在。'
+    Create: '&f[&6服务器&f] 你创建了领地区域, ID为 &6%1&f。'
+    DiffWorld: '&f[&6服务器&f] &c区域与领地在不同的世界。'
+    Collision: '&f[&6服务器&f] &c区域与领地 &6%1 &c冲突。'
+    TooClose: '&f[&6服务器&f] &c与另一个领地距离太靠近。需要至少 &f%1 &c格间距。'
+    SubzoneCollision: '&f[&6服务器&f] &c区域与子领地 &6%1 &c冲突。'
+    NonExist: '&f[&6服务器&f] &c该区域不存在。'
+    InvalidName: '&f[&6服务器&f] &c无效的区域名。'
+    ToSmallX: '&f[&6服务器&f] &c选区 &6X &c方向长度 (&6%1&c) 过小。&f该值必须为 &6%2 &f或更大。'
+    ToSmallY: '&f[&6服务器&f] &c选区高度 (&6%1&c) 过小。&f该值必须为 &6%2 &f或更大。'
+    ToSmallZ: '&f[&6服务器&f] &c选区 &6Z &c方向长度 (&6%1&c) 过小。&f该值必须为 &6%2 &f或更大。'
+    ToBigX: '&f[&6服务器&f] &c选区 &6X &c方向长度 (&6%1&c) 过大。&f该值必须为 &6%2 &f或更小。'
+    ToBigY: '&f[&6服务器&f] &c选区高度 (&6%1&c) 过大。&f该值必须为 &6%2 &f或更小。'
+    ToBigZ: '&f[&6服务器&f] &c选区 &6Z &c方向长度 (&6%1&c) 过大。&f该值必须为 &6%2 &f或更小。'
+    Rename: '&f[&6服务器&f] 已将区域 &6%1 &f重命名为 &6%2&f。'
+    Remove: '&f[&6服务器&f] 已将区域 &6%1 &f删除。'
+    Name: '&f名称: &6%1'
+    ListAll: '&a{&fID:&c%1 &f点1:&c(%2,%3,%4) &f点2:&c(%5,%6,%7) &f(大小:&c%8&f)&a}'
+    RemoveLast: '&f[&6服务器&f] &c不能删除领地的最后一个区域。'
+    NotWithinParent: '&f[&6服务器&f] &c此区域不在父区域内。'
+    Update: '&f[&6服务器&f] 已更新区域。'
+    MaxPhysical: '&f[&6服务器&f] 已达到领地所允许的最大空间。'
+    SizeLimit: '&f[&6服务器&f] 区域大小超出了允许的尺寸上限。'
+    HighLimit: '&f[&6服务器&f] &c你不能保护到这么高, 高度上限为 &6%1&c。'
+    LowLimit: '&f[&6服务器&f] &c你不能保护到这么深, 深度下限为 &6%1&c。'
+    WeirdShape: '&f[&6服务器&f] &3领地形状超出规则。&6%1 &3边比 &6%3 &3边大 &6%2 &3倍。'
   Select:
-    Points: '&f[&6服务器&f] 执行命令前需要先选中两个选取点!'
-    Overlap: '&f[&6服务器&f] 选取点与区域 &6%1 &f重叠!'
-    WorldGuardOverlap: '&f[&6服务器&f] 选取点与 WorldGuard 区域 &6%1 &f重叠!'
-    KingdomsOverlap: '&f[&6服务器&f] 你选择的坐标和 &6%1 &f王国的土地产生了冲突！'
-    Success: '&f选取点成功!'
-    Fail: '&f[&6服务器&f] 无效的选择命令...'
-    Bedrock: '&f[&6服务器&f] 将选区扩展到最大深度.'
-    Sky: '&f[&6服务器&f] 将选区扩展到最大高度.'
-    Area: '&f[&6服务器&f] 已选择 &6%2 &f领地的 &6%1 &f区域.'
+    Points: '&f[&6服务器&f] 执行此命令前需要先选中两个选取点!'
+    Overlap: '&f[&6服务器&f] &c选取点与区域 &6%1 &c重叠!'
+    WorldGuardOverlap: '&f[&6服务器&f] &c选取点与 WorldGuard 区域 &6%1 &c重叠!'
+    KingdomsOverlap: '&f[&6服务器&f] &c选取点与 &6%1 &c王国的土地重叠!'
+    Success: '&f[&6服务器&f] 选取点成功!'
+    Fail: '&f[&6服务器&f] &c无效的选择命令。'
+    Bedrock: '&f[&6服务器&f] 已将选区扩展到最大深度。'
+    Sky: '&f[&6服务器&f] 已将选区扩展到最大高度。'
+    Area: '&f[&6服务器&f] 已选择领地 &6%2 &f的 &6%1 &f区域。'
     Tool: '&f[&6服务器&f] - 选区工具: &6%1'
     PrimaryPoint: '&f[&6服务器&f] 已选择 &6第一个 &f选取点 %1'
     SecondaryPoint: '&f[&6服务器&f] 已选择 &6第二个 &f选取点 %1'
     Primary: '&f[&6服务器&f] 第一个选取点: &6%1'
     Secondary: '&f[&6服务器&f] 第二个选取点: &6%1'
-    TooHigh: '&f[&6服务器&f] 警告: 选区越过了地图顶部, 并且已被裁剪.'
-    TooLow: '&f[&6服务器&f] 警告: 选区越过了地图底部, 并且已被裁剪.'
+    TooHigh: '&f[&6服务器&f] &c警告: 选区超过了世界顶部, 超出的部分已被缩限。'
+    TooLow: '&f[&6服务器&f] &c警告: 选区超过了世界底部, 超出的部分已被缩限。'
     TotalSize: '&f[&6服务器&f] 选区总大小: &6%1'
-    AutoEnabled: '&f[&6服务器&f] 自动选择模式&6开启&f. 输入 &6/res select auto &f关闭.'
-    AutoDisabled: '&f[&6服务器&f] 自动选择模式&6关闭&f. 输入 &6/res select auto &f再次打开.'
-    Disabled: '&f[&6服务器&f] 你没有权限使用选择命令.'
+    AutoEnabled: '&f[&6服务器&f] &6已开启 &f自动选择模式。输入 &6/res select auto &f关闭。'
+    AutoDisabled: '&f[&6服务器&f] &6已关闭 &f自动选择模式。输入 &6/res select auto &f再次打开。'
+    Disabled: '&f[&6服务器&f] &c你没有权限使用选择命令。'
   Sign:
-    Updated: '&f[&6服务器&f] &6%1 &f木牌已更新!'
+    Updated: '&f[&6服务器&f] &6%1 &f已更新告示牌!'
     TopLine: '[领地市场]'
     DateFormat: YY/MM/dd HH:mm
-    ForRentTopLine: '&8出租'
-    ForRentPriceLine: '&8%1&f/&8%2&f/&8%3'
-    ForRentResName: '&8%1'
+    ForRentTopLine: '&0出租'
+    ForRentPriceLine: '&0%1&f/&0%2&f/&0%3'
+    ForRentResName: '&0%1'
     ForRentBottomLine: '&9可用'
     RentedAutorenewTrue: '&2%1'
-    RentedAutorenewFalse: '&f%1'
+    RentedAutorenewFalse: '&c%1'
     RentedTopLine: '%1'
-    RentedPriceLine: '&8%1&f/&8%2&f/&8%3'
-    RentedResName: '&8%1'
+    RentedPriceLine: '&0%1&f/&0%2&f/&0%3'
+    RentedResName: '&0%1'
     RentedBottomLine: '&1%1'
-    ForSaleTopLine: '&8出售'
-    ForSalePriceLine: '&8%1'
-    ForSaleResName: '&8%1'
-    ForSaleBottom: '&5%1m³'
-    LookAt: '&f[&6服务器&f] 请将鼠标准星对准木牌.'
-    ResName: '&8%1'
-    Owner: '&5%1'
-    TooMany: '&cToo many signs for this residence'
+    ForSaleTopLine: '&0出售'
+    ForSalePriceLine: '&0%1'
+    ForSaleResName: '&0%1'
+    ForSaleBottom: '&0%1m³'
+    LookAt: '&f[&6服务器&f] &c请面向告示牌。'
+    TooMany: '&f[&6服务器&f] &c这个领地有太多告示牌'
+    ResName: '&0%1'
+    Owner: '&0%1'
   Raid:
-    NotEnabled: '&fRaid feature is not enabled!'
-    NotIn: '&fYou are not in the raid!'
-    CantLeave: '&fYou cant leave (%1) your own residence raid!'
-    CantKick: '&fCant kick (%1) residence owner!'
-    Kicked: '&fKicked &7%1 &ffrom &7%2 &fresidence raid!'
-    StartsIn: '&7Raid starts in: [autoTimeLeft] &2%1D &4%2A'
-    EndsIn: '&fRaid ends in: [autoTimeLeft] &2%1D &4%2A'
-    Ended: '&7Raid on &4%1 &7ended!'
-    cantDo: '&fCan''t do this during raid!'
-    left: '&7You have left &4%1 &7raid'
-    noFlagChange: '&fCan''t change flags during raid'
-    noRemoval: '&fCan''t remove residence during raid'
-    immune: '&fImmune for next %1'
-    notImmune: '&fNo longer immune'
-    notInRaid: '&fPlayer isn''t in raid'
+    NotEnabled: '&f[&6服务器&f] &c袭击功能未开启!'
+    NotIn: '&f[&6服务器&f] &c你不在袭击中!'
+    CantLeave: '&f[&6服务器&f] &c你不能离开 (%1) 对你自己的领地的袭击!'
+    CantKick: '&f[&6服务器&f] &c不能踢出 (%1) 领地的所有者!'
+    Kicked: '&f[&6服务器&f] 将 &7%1 &f从对 &7%2 &f的袭击中踢出!'
+    StartsIn: '&f[&6服务器&f] &7袭击将在以下时间后开始: [autoTimeLeft] &2%1D &4%2A'
+    EndsIn: '&f[&6服务器&f] &c袭击将在以下时间后结束: [autoTimeLeft] &2%1D &4%2A'
+    Ended: '&f[&6服务器&f] &7对 &4%1 &7的袭击已结束!'
+    cantDo: '&f[&6服务器&f] &c在袭击过程中不能做这件事!'
+    left: '&f[&6服务器&f] &7你离开了对 &4%1 &7的袭击'
+    noFlagChange: '&f[&6服务器&f] &c在袭击过程中不能更改权限'
+    noRemoval: '&f[&6服务器&f] &c在袭击过程中不能删除领地'
+    immune: '&f[&6服务器&f] 免受接下来的 %1 场袭击'
+    notImmune: '&f[&6服务器&f] 不再免受袭击'
+    notInRaid: '&f[&6服务器&f] 玩家不在袭击中'
     attack:
-      Joined: '&7Joined &2%1 &7raid!'
-      Started: '&7Raid started!'
-      cooldown: '&fToo soon for another raid on this residence! Wait %1'
-      immune: '&fThis residence is immune to raids! Wait %1'
-      playerImmune: '&fResidence owner is immune to raids! Wait %1'
-      isOffline: '&fCan''t raid while owner is offline!'
-      noSubzones: '&fCan''t raid subzones!'
-      noSelf: '&fCan''t raid your own residence!'
-      alreadyInAnother: '&fCan''t join this rais, you are in another one already (%1)'
+      Joined: '&f[&6服务器&f] &7你加入了对 &2%1 &7的袭击!'
+      Started: '&f[&6服务器&f] &7袭击开始!'
+      cooldown: '&f[&6服务器&f] &c对这个领地发起下一场袭击还太早了! 请等待 %1'
+      immune: '&f[&6服务器&f] &c这个领地当前免受袭击! 请等待 %1'
+      playerImmune: '&f[&6服务器&f] &c领地的所有者当前免受袭击! 请等待 %1'
+      isOffline: '&f[&6服务器&f] &c领地的所有者不在线, 不能发动袭击!'
+      noSubzones: '&f[&6服务器&f] &c不能对子领地发动袭击!'
+      noSelf: '&f[&6服务器&f] &c不能对自己的领地发动袭击!'
+      alreadyInAnother: '&f[&6服务器&f] &c不能加入这场袭击, 你已经加入另外一场袭击了 (%1)'
     defend:
-      Joined: '&7Joined &2%1 &7defence forces!'
-      Sent: '&7Request to join raid defence is sent, wait for confirmation'
-      Join: '&7Join &6%1 &7raid defence'
-      Invitation: '&7Accept raid defend from &6%1'
-      JoinedDef: '&2%1&7 joined defence forces!'
-      IsOffline: '&fCan''t join defend team while owner is offline!'
-      noSelf: '&fYou already defending this residence'
-      notRaided: '&fResidence is not under the raid'
-      alreadyInAnother: '&fCan''t join this residence defence, you are in another
-        one already (%1)'
+      Joined: '&f[&6服务器&f] &7你加入了 &2%1 &7的防守方!'
+      Sent: '&f[&6服务器&f] &7已发送防守请求, 请等待同意'
+      Join: '&f[&6服务器&f] &7加入 &6%1 &7的防守方'
+      Invitation: '&f[&6服务器&f] &7接受 &6%1 &7的防守请求'
+      JoinedDef: '&f[&6服务器&f] &2%1&7 加入了防守方!'
+      IsOffline: '&f[&6服务器&f] &c领地的所有者不在线, 不能加入防守方!'
+      noSelf: '&f[&6服务器&f] &c你已经在防守这个领地了'
+      notRaided: '&f[&6服务器&f] &c这个领地没有被袭击'
+      alreadyInAnother: '&f[&6服务器&f] &c不能加入领地防守, 你已经加入另外一场防守了 (%1)'
     status:
       title: '&7----------- &f%1(%2) &7-----------'
-      immune: '&fImmune to raids for next: %1'
-      starts: '&7Raid starts in: %1'
-      attackers: '&7Attackers: &4%1'
-      defenders: '&7Defenders: &4%1'
-      ends: '&7Raid ends in: %1'
-      canraid: '&2Can be raided'
-      raidin: '&fPosible raid in: %1'
-    stopped: '&fRaid on &6%1 &fwas stopped'
-    cantStart: '&cCan''t start raid'
-    cantJoin: '&cCan''t join raid'
+      immune: '&f免受接下来的 %1 场袭击'
+      starts: '&7袭击将在 %1 后开始'
+      attackers: '&7袭击方: &4%1'
+      defenders: '&7防守方: &4%1'
+      ends: '&7袭击将在 %1 后结束'
+      canraid: '&2可以被袭击'
+      raidin: '&f下一场袭击可能在 %1 后开始'
+    stopped: '&f[&6服务器&f] 对 &6%1 &f的袭击已停止'
+    cantStart: '&f[&6服务器&f] &c无法开始袭击'
+    cantJoin: '&f[&6服务器&f] &c无法加入袭击'
   info:
-    years: '&f%1 &6years '
-    oneYear: '&f%1 &6year '
-    day: '&f%1 &6days '
-    oneDay: '&f%1 &6day '
-    hour: '&f%1 &6hours '
-    oneHour: '&f%1 &6hour '
-    min: '&f%1 &6min '
-    sec: '&f%1 &6sec '
-    click: '&7Click'
+    years: '&f%1 &6年 '
+    oneYear: '&f%1 &6年 '
+    day: '&f%1 &6天 '
+    oneDay: '&f%1 &6天 '
+    hour: '&f%1 &6小时 '
+    oneHour: '&f%1 &6小时 '
+    min: '&f%1 &6分钟 '
+    sec: '&f%1 &6秒 '
     listSplitter: ', '
-    clickToConfirm: '&7Click to confirm'
+    click: '&7点击'
+    clickToConfirm: '&7点击确认'
   server:
     land: Server_Land
   Flag:
@@ -175,300 +172,302 @@ Language:
     p2Color: '&a'
     haveColor: '&2'
     havePrefix: ''
-    denyColor: '&4'
-    denyPrefix: ''
-    Set: '&6%2 &f的 &6%1 &f权限已设置为 &6%3 &f状态.'
-    SetFailed: '&f[&6服务器&f] 你没有权限设置 &6%1 &f权限'
-    CheckTrue: '&f[&6服务器&f] 玩家 &6%2 &f已在领地 &6%3 &f中将 &6%1 &f权限设置为 &6%4&f.'
-    CheckFalse: '&f[&6服务器&f] 玩家 &6%2 &f没有在领地中设置 &6%1 &f权限.'
-    Cleared: '&f[&6服务器&f] 权限已清除.'
-    RemovedAll: '&f[&6服务器&f] 玩家 &6%1 &f在 &6%2 &f领地内的所有权限均已删除'
-    RemovedGroup: '&f[&6服务器&f] 用户组 &6%1 &f在 &6%2 &f领地内的所有权限均已删除'
-    Default: '&f[&6服务器&f] 权限已恢复默认值.'
-    Deny: '&f[&6服务器&f] 你没有 &6%1 &f权限.'
-    SetDeny: '&f[&6服务器&f] 所有者不能设置 &6%1 &f权限.'
-    ChangeDeny: '&f[&6服务器&f] 此时领地内有 &6%2 &f名玩家, 所以你无法更改 &6%1 &f权限.'
-    ChangedForOne: '&fChanged &6%1 &fflags for &6%2 &fresidences'
-    ChangedFor: '&fChanged &6%1 &fflags from &6%2 &fresidences checked'
-    reset: '&fReset flags for &6%1 &fresidence'
-    resetAll: '&fReset flags for &6%1 &fresidences'
     lackColor: '&7'
     lackPrefix: ''
-    others: '&eand &2%1 &eothers'
-    GSet: '&eFlags (&6%1&e) set for &6%2'
-    Removed: '&eFlag (&6%1&e) removed for &6%2'
-    PSet: '&eFlag (&6%1&e) set for &6%2 &eto &6%3 &estate for &6%4'
-    PRemoved: '&eFlag (&6%1&e) removed from &6%2 &eresidence for &6%3'
-    resetOwnerFlags: '&eReset ownerFlags for &6%1 &eresidence'
-    resetAllOwnerFlags: '&eReset ownerFlags for &6%1 &eresidences'
+    denyColor: '&4'
+    denyPrefix: ''
+    others: '&f和其他 &2%1 &f个'
+    Set: '&f[&6服务器&f] 已将领地 &6%2 &f的 &6%1 &f权限设置为 &6%3 &f。'
+    SetFailed: '&f[&6服务器&f] &c你没有权限设置 &6%1 &c权限'
+    CheckTrue: '&f[&6服务器&f] 已将玩家 &6%2 &f在领地 &6%3 &f的 &6%1 &f权限设置为 &6%4&f。'
+    CheckFalse: '&f[&6服务器&f] 玩家 &6%2 &f没有被设置 &6%1 &f权限。'
+    Cleared: '&f[&6服务器&f] 已清除权限。'
+    RemovedAll: '&f[&6服务器&f] 已清除玩家 &6%1 &f在领地 &6%2 &f的所有权限。'
+    RemovedGroup: '&f[&6服务器&f] 已清除用户组 &6%1 &f在领地 &6%2 &f的所有权限。'
+    Default: '&f[&6服务器&f] 已将权限重置为默认值。'
+    Deny: '&f[&6服务器&f] &c你没有 &6%1 &c权限。'
+    SetDeny: '&f[&6服务器&f] &c领地的所有者没有权限设置 &6%1 &c权限。'
+    ChangeDeny: '&f[&6服务器&f] &c你不能更改 &6%1 &c权限, 因为领地内有 &6%2 &c名玩家。'
+    ChangedForOne: '&f[&6服务器&f] 已为领地 &6%2 &f更改了 &6%1 &f个权限。'
+    ChangedFor: '&f[&6服务器&f] 已为选中的 &6%2 &f个领地更改了 &6%1 &f个权限。'
+    reset: '&f[&6服务器&f] 为领地 &6%1 &f重置权限'
+    resetAll: '&f[&6服务器&f] 为 &6%1 &f个领地重置权限'
+    GSet: '&f[&6服务器&f] 已为 &6%2 &f设置权限标识（&6%1&f）'
+    Removed: '&f[&6服务器&f] 已为 &6%2 &f移除权限标识（&6%1&f）'
+    PSet: '&f[&6服务器&f] 已将领地 &6%2 &f的权限标识（&6%1&f）对 &6%4 &f设置为 &6%3 &f状态'
+    PRemoved: '&f[&6服务器&f] 已从领地 &6%2 &f中移除玩家 &6%3 &f的权限标识（&6%1&f）'
+    resetOwnerFlags: '&f[&6服务器&f] 已重置领地 &6%1 &f的所有者权限'
+    resetAllOwnerFlags: '&f[&6服务器&f] 已重置所有 &6%1 &f领地的所有者权限'
   Bank:
-    NoAccess: '&f[&6服务器&f] 你没有权限使用银行.'
+    NoAccess: '&f[&6服务器&f] &c你没有权限使用银行。'
     Name: ' &f银行: &6%1'
-    NoMoney: '&f[&6服务器&f] 你的银行存款不足.'
-    Deposit: '&f[&6服务器&f] 你向领地银行存款 &6%1 &f元.'
-    Withdraw: '&f[&6服务器&f] 你从领地银行中取出 &6%1 &f元.'
-    rentedWithdraw: '&fCan''t withdraw from rented residence bank.'
-    full: '&eResidence bank is full!'
+    NoMoney: '&f[&6服务器&f] &c银行存款不足。'
+    Deposit: '&f[&6服务器&f] 你向领地银行存款 &6%1 &f。'
+    Withdraw: '&f[&6服务器&f] 你从领地银行取出 &6%1 &f。'
+    rentedWithdraw: '&f[&6服务器&f] &c不能从租用的领地取钱。'
+    full: '&f[&6服务器&f] 领地银行已满!'
   Subzone:
-    Rename: '&f[&6服务器&f] 领地子区域 &6%1 &f已被重命名为 &6%2'
-    Remove: '&f[&6服务器&f] 已删除领地子区域 &6%1&f.'
-    Create: '&f[&6服务器&f] 成功创建领地子区域 &6%1&f.'
-    CreateFail: '&f[&6服务器&f] 无法创建领地子区域 &6%1&f.'
-    Exists: '&f[&6服务器&f] 领地子区域 &6%1 &f已存在.'
-    Collide: '&f[&6服务器&f] 领地子区域与 &6%1 &f冲突.'
-    MaxAmount: '&f[&6服务器&f] 已达到该子领地的最大数量.'
-    MaxDepth: '&f[&6服务器&f] 已达到领地子区域允许的最大分区深度.'
-    SelectInside: '&f[&6服务器&f] 两个选取点必须都在同一个领地内.'
-    CantCreate: '&f[&6服务器&f] 你没有创建领地子区域的权限.'
-    CantDelete: '&f[&6服务器&f] 你没有删除领地子区域的权限.'
-    CantDeleteNotOwnerOfParent: '&f[&6服务器&f] 你不是该子区域所在领地的所有者, 无法删除子区域.'
-    CantContract: '&f[&6服务器&f] 你没有权限缩小领地子区域.'
-    CantExpand: '&f[&6服务器&f] 你没有权限扩大领地子区域.'
-    DeleteConfirm: '&f[&6服务器&f] 如果你确定要删除子区域 &6%1&f, 输入 &6/res confirm &f来确认操作.'
-    OwnerChange: '&f[&6服务器&f] 已将子区域 &6%1 &f的所有者更改为 &6%2'
+    Rename: '&f[&6服务器&f] 已将子领地 &6%1 &f重命名为 &6%2&f。'
+    Remove: '&f[&6服务器&f] 已将子领地 &6%1 &f删除。'
+    Create: '&f[&6服务器&f] 你创建了子领地 &6%1&f。'
+    CreateFail: '&f[&6服务器&f] &c无法创建子领地 &6%1。'
+    Exists: '&f[&6服务器&f] &c子领地 &6%1 &c已存在。'
+    Collide: '&f[&6服务器&f] &c该子领地与子领地 &6%1 &c冲突。'
+    MaxAmount: '&f[&6服务器&f] &c已达到此领地允许的最大子领地数量。'
+    MaxDepth: '&f[&6服务器&f] &c已达到此领地允许的最大子领地嵌套深度。'
+    SelectInside: '&f[&6服务器&f] 两个选取点都必须在此领地内。'
+    CantCreate: '&f[&6服务器&f] &c你没有权限创建子领地。'
+    CantDelete: '&f[&6服务器&f] &c你没有权限删除子领地。'
+    CantDeleteNotOwnerOfParent: '&f[&6服务器&f] &c你不是父领地的所有者, 不能删除此子领地。'
+    CantContract: '&f[&6服务器&f] &c你没有权限缩小子领地。'
+    CantExpand: '&f[&6服务器&f] &c你没有权限扩展子领地。'
+    DeleteConfirm: '&f[&6服务器&f] 输入 &6/res confirm &f来确认删除子领地 &6%1&f。'
+    OwnerChange: '&f[&6服务器&f] 已将子领地 &6%1 &f的所有者更改为 &6%2&f。'
   Residence:
-    DontOwn: '&f[&6服务器&f] 啥~也~没~有~'
-    Hidden: ' &f(&6Hidden&f)'
-    Bought: '&f[&6服务器&f] 成功购买领地 &6%1'
-    Buy: '&f[&6服务器&f] &6%1 &f购买了你的 &6%2 &f领地.'
-    BuyTooBig: '&f[&6服务器&f] 你无法购买尺寸这么大的领地.'
-    NotForSale: '&f[&6服务器&f] 该领地目前并未出售.'
-    ForSale: '&f[&6服务器&f] 领地 &6%1 &f现在正以 &6%2 &f的价格出售.'
-    StopSelling: '&f[&6服务器&f] 该领地已不再出售.'
-    TooMany: '&f[&6服务器&f] 你拥有的领地数量达到了上限.'
-    MaxRent: '&f[&6服务器&f] 你租用的领地数量达到了上限.'
-    AlreadyRent: '&f[&6服务器&f] 领地已经被租用.'
-    NotForRent: '&f[&6服务器&f] 领地没有在出租.'
-    NotForRentOrSell: '&f[&6服务器&f] 领地没有在出售或出租.'
-    NotRented: '&f[&6服务器&f] 领地尚未被租出.'
-    Unrent: '&f[&6服务器&f] 领地 &6%1 &f已取消出租.'
-    RemoveRentable: '&f[&6服务器&f] 领地 &6%1 &f不再可出租.'
-    ForRentSuccess: '&f[&6服务器&f] 领地 &6%1 &f已被设置为每 &6%3 &f天以 &6%2 &f出租.'
-    RentSuccess: '&f[&6服务器&f] 你租用了 &6%1 &f领地 &6%2 &f天.'
-    EndingRent: '&f[&6服务器&f] 租用时间已经过期 &6%1 &fon &6%2'
-    AlreadyRented: '&f[&6服务器&f] 领地 &6%1 &f已出租给 &6%2'
-    CantAutoPay: '&f[&6服务器&f] 领地不允许自动支付，已设置为 &6false'
-    AlreadyExists: '&f[&6服务器&f] 已存在名称为 &6%1 &f的领地.'
-    Create: '&f[&6服务器&f] 已创建领地 &6%1&f!'
-    Rename: '&f[&6服务器&f] 领地 &6%1 &f已被重命名为 &6%2'
-    Remove: '&f[&6服务器&f] 领地 &6%1 &f已删除.'
-    CantRemove: '&f[&6服务器&f] 领地 &6%1 &f无法被删除，因为 &6%2 &f子领地正在被出租给玩家 &6%3'
-    MoveDeny: '&f[&6服务器&f] 你没有领地 &6%1 &f的移动权限.'
-    TeleportNoFlag: '&f[&6服务器&f] 你没有该领地的传送权限.'
-    FlagDeny: '&f[&6服务器&f] 你没有领地 &6%2 &f的 &6%1 &f权限.'
-    GiveLimits: '&f[&6服务器&f] 目标玩家超出限制, 无法给予领地.'
-    GiveConfirm: '&f[&6服务器&f] 点此同意将领地 &6%1 &7residence 从 &6%2 &f送给 &6%3'
-    Give: '&f[&6服务器&f] 你将领地 &6%1 &f送给了 &6%2'
-    Recieve: '&f[&6服务器&f] 你收到了 &6%2 &f送给你的 &6%1 &f领地.'
-    ResList: '&f[&6服务器&f]  &a%1. &f%2 &f- &6%3 %4&6%5'
-    List: '&f[&6服务器&f]  &a%1%2 &f- &6世界&f: &6%3'
+    DontOwn: '&f[&6服务器&f] 这里空空如也'
+    Hidden: ' &f(&6隐藏&f)'
+    Bought: '&f[&6服务器&f] 你购买了领地 &6%1&f。'
+    Buy: '&f[&6服务器&f] &6%1 &f购买了你的领地 &6%2 &f。'
+    BuyTooBig: '&f[&6服务器&f] &c你不能购买尺寸这么大的领地。'
+    NotForSale: '&f[&6服务器&f] &c该领地当前不在出售。'
+    ForSale: '&f[&6服务器&f] 领地 &6%1 &f正在以 &6%2 &f的价格出售。'
+    StopSelling: '&f[&6服务器&f] &c该领地已不再在售。'
+    TooMany: '&f[&6服务器&f] &c你拥有的领地数量达到了上限。'
+    MaxRent: '&f[&6服务器&f] &c你租用的领地数量达到了上限。'
+    AlreadyRent: '&f[&6服务器&f] &c该领地已经被租用。'
+    NotForRent: '&f[&6服务器&f] &c该领地没有在出租。'
+    NotForRentOrSell: '&f[&6服务器&f] &c该领地当前不在出售或出租。'
+    NotRented: '&f[&6服务器&f] &c该领地尚未被租用。'
+    Unrent: '&f[&6服务器&f] 领地 &6%1 &f已取消租用。'
+    RemoveRentable: '&f[&6服务器&f] 领地 &6%1 &f不再出租。'
+    ForRentSuccess: '&f[&6服务器&f] 领地 &6%1 &f正在以每 &6%3 &f天 &6%2 &f的价格出租。'
+    RentSuccess: '&f[&6服务器&f] 你租用了 &6%1 &f领地 &6%2 &f天。'
+    EndingRent: '&f[&6服务器&f] 出租给 &6%1 &f的领地 &6%2 &f已到期。'
+    AlreadyRented: '&f[&6服务器&f] 领地 &6%1 &f已出租给 &6%2&f。'
+    CantAutoPay: '&f[&6服务器&f] 领地不能自动续租, 已设置为 &6false&f。'
+    AlreadyExists: '&f[&6服务器&f] &c已存在名称为 &6%1 &c的领地。'
+    Create: '&f[&6服务器&f] 你创建了领地 &6%1&f!'
+    Rename: '&f[&6服务器&f] 已将领地 &6%1 &f重命名为 &6%2&f。'
+    Remove: '&f[&6服务器&f] 已将领地 &6%1 &f删除。'
+    CantRemove: '&f[&6服务器&f] &c领地 &6%1 &c无法删除, 因为子领地 &6%2 &c正在出租给玩家 &6%3&c。'
+    MoveDeny: '&f[&6服务器&f] &c你没有领地 &6%1 &c的移动权限。'
+    TeleportNoFlag: '&f[&6服务器&f] &c你没有该领地的传送权限。'
+    FlagDeny: '&f[&6服务器&f] &c你没有领地 &6%2 &c的 &6%1 &c权限。'
+    GiveLimits: '&f[&6服务器&f] &c无法给予领地, 因为超出了目标玩家的限制。'
+    GiveConfirm: '&f[&6服务器&f] &7点击确认将领地 &6%1 &7从 &6%2 &7给予 &6%3&7。'
+    Give: '&f[&6服务器&f] 你将领地 &6%1 &f给予了 &6%2&f。'
+    Recieve: '&f[&6服务器&f] 你收到了 &6%2 &f给予你的领地 &6%1 &f。'
+    ResList: '&f[&6服务器&f] &a%1. &f%2 &f- &6%3 %4&6%5'
+    TrustedResList: '&f[&6服务器&f] &a%1. &f%2 &f- &6%3 %4&6%5'
+    List: '&f[&6服务器&f] &a%1%2 &f- &6世界&f: &6%3'
     Near: '&f[&6服务器&f] 附近的领地: &7%1'
-    TeleportNear: '&f[&6服务器&f] 已传送到领地附近.'
-    SetTeleportLocation: '&f[&6服务器&f] 设置传送位置.'
-    PermissionsApply: '&f[&6服务器&f] 领地权限已设置.'
-    NotOwner: '&f[&6服务器&f] 你不是该领地的所有者.'
-    RemovePlayersResidences: '&f[&6服务器&f] 移除所有属于 &6%1 &f的领地.'
-    NotIn: '&f[&6服务器&f] 你此时不在领地内.'
-    PlayerNotIn: '&f[&6服务器&f] 玩家不在领地区域内..'
-    Kicked: '&f[&6服务器&f] 你被从领地中请出.'
-    CantKick: '&f[&6服务器&f] 不能踢掉这个玩家'
-    In: '&f[&6服务器&f] 你目前站在领地 &6%1 &f中.'
-    OwnerChange: '&f[&6服务器&f] 已将领地 &6%1 &f的所有者更改为 &6%2'
-    NonAdmin: '&f[&6服务器&f] 你没有领地的管理员权限.'
+    TeleportNear: '&f[&6服务器&f] 已传送到领地附近。'
+    SetTeleportLocation: '&f[&6服务器&f] 已设置传送位置。'
+    PermissionsApply: '&f[&6服务器&f] 已设置领地权限。'
+    NotOwner: '&f[&6服务器&f] &c你不是该领地的所有者。'
+    RemovePlayersResidences: '&f[&6服务器&f] 已删除所有属于 &6%1 &f的领地。'
+    NotIn: '&f[&6服务器&f] &c你不在领地内。'
+    PlayerNotIn: '&f[&6服务器&f] &c玩家不在领地内。'
+    Kicked: '&f[&6服务器&f] 你被踢出领地。'
+    CantKick: '&f[&6服务器&f] 无法踢出这个玩家。'
+    In: '&f[&6服务器&f] 你正站在领地 &6%1 &f中。'
+    OwnerChange: '&f[&6服务器&f] 已将领地 &6%1 &f的所有者更改为 &6%2&f。'
+    NonAdmin: '&f[&6服务器&f] &c你没有领地的管理员权限。'
     Line: '&f[&6服务器&f] 领地: &6%1 '
-    RentedBy: '&f[&6服务器&f] 租用者: &6%1'
-    MessageChange: '&f[&6服务器&f] 消息文本已设置.'
-    CantDeleteResidence: '&f[&6服务器&f] 你没有删除此领地的权限.'
-    CantExpandResidence: '&f[&6服务器&f] 你没有扩大此领地的权限.'
-    CantContractResidence: '&f[&6服务器&f] 你没有缩小此领地的权限.'
-    NoResHere: '&f[&6服务器&f] 那个位置没有领地存在.'
-    OwnerNoPermission: '&f[&6服务器&f] 领地所有者没有执行这个操作的权限.'
-    ParentNoPermission: '&f[&6服务器&f] 你没有权限设置父区域.'
-    ChatDisabled: '&f[&6服务器&f] 领地内聊天已禁用.'
-    DeleteConfirm: '&f[&6服务器&f] 如果你确定要删除领地 &6%1&f, 输入 &6/res confirm &f以确认操作.'
-    ChangedMain: '&f[&6服务器&f] 已将主领地修改为 &6%1'
-    LwcRemoved: '&f[&6服务器&f] 已删除 &6%1 &f的LWC保护，耗时 &6%2ms'
-    CanBeRented: '&6%1&f 可以出租给 &6%2 &f每 &6%3 &f天. &6/res market rent'
-    CanBeBought: '&6%1&f 可以出售给 &6%2&f. &6/res market buy'
+    RentedBy: '&f租用者: &6%1'
+    MessageChange: '&f[&6服务器&f] 已设置提示消息文本。'
+    CantDeleteResidence: '&f[&6服务器&f] &c你没有权限删除该领地。'
+    CantExpandResidence: '&f[&6服务器&f] &c你没有权限扩展该领地。'
+    CantContractResidence: '&f[&6服务器&f] &c你没有权限缩小该领地。'
+    NoResHere: '&f[&6服务器&f] &c那个位置没有领地存在。'
+    OwnerNoPermission: '&f[&6服务器&f] &c领地的所有者没有权限执行这个操作。'
+    ParentNoPermission: '&f[&6服务器&f] &c你没有权限设置父区域。'
+    ChatDisabled: '&f[&6服务器&f] 领地内聊天已禁用。'
+    DeleteConfirm: '&f[&6服务器&f] 输入 &6/res confirm &f来确认删除领地 &6%1&f。'
+    ChangedMain: '&f[&6服务器&f] 已将主领地改为 &6%1&f。'
+    LwcRemoved: '&f[&6服务器&f] 已删除 &6%1 &f的LWC保护, 耗时 &6%2ms。'
+    CanBeRented: '&f[&6服务器&f] 领地 &6%1 &f正在以每 &6%3 &f天 &6%2 &f的价格出租。&6/res market rent'
+    CanBeBought: '&f[&6服务器&f] 领地 &6%1 &f正在以 &6%2 &f的价格出售。&6/res market buy'
     IsForRent: '&6(出租)'
     IsForSale: '&6(出售)'
     IsRented: '&6(已出租)'
-    TrustedResList: ' &a%1. &f%2 &f- &6%3 %4&6%5'
-    BaseFlagDeny: '&cYou don''t have &6%1 &cpermission'
-    Received: '&eYou have received residence &6%1 &efrom player &6%2'
-    TeleportBlockedWorlds: '&cCan''t teleport to residence in blocked world'
-    NotOwned: '&cPlayer &6%1 &cdoes not own any residences.'
-    OwnerChangeAll: '&eTransferred &6%1 &eresidence(s) from &6%2 &eto &6%3'
-    OwnerChangeAllSkipped: '&cSkipped &6%1 &cresidence(s) due to active raids.'
-    Balance: '&eBalance: &6%1'
+    BaseFlagDeny: '&f[&6服务器&f] &c你没有 &6%1 &c权限'
+    Received: '&f[&6服务器&f] 你从玩家 &6%2 &f处获得了领地 &6%1'
+    TeleportBlockedWorlds: '&f[&6服务器&f] &c无法传送到受限世界内的领地'
+    NotOwned: '&f[&6服务器&f] &c玩家 &6%1 &c未拥有任何领地'
+    OwnerChangeAll: '&f[&6服务器&f] 已将 &6%1 &f个领地从 &6%2 &f转让给 &6%3'
+    OwnerChangeAllSkipped: '&f[&6服务器&f] &c因存在突袭事件，跳过 &6%1 &c个领地'
+    Balance: '&f[&6服务器&f] 余额：&6%1'
   Rent:
-    Disabled: '&f[&6服务器&f] 领地出租已禁用.'
-    DisableRenew: '&f[&6服务器&f] 领地 &6%1 &f不会在租约到期时自动续期.'
-    EnableRenew: '&f[&6服务器&f] 领地 &6%1 &f将会在租约到期时自动续期.'
-    NotByYou: '&f[&6服务器&f] 领地没有出租给你.'
-    isForRent: '&f[&6服务器&f] 这个领地可以被租用'
-    MaxRentDays: '&f[&6服务器&f] 你无法一次租用超过 &6%1 &f天'
-    OneTime: '&f[&6服务器&f] 你目前无法续费租用时长'
-    Extended: '&f[&6服务器&f] 租用时长增加了 &6%1 &f天给领地 &6%2'
+    Disabled: '&f[&6服务器&f] &c领地出租已禁用。'
+    DisableRenew: '&f[&6服务器&f] 领地 &6%1 &f将不会在租约到期时自动续租。'
+    EnableRenew: '&f[&6服务器&f] 领地 &6%1 &f将会在租约到期时自动续租。'
+    NotByYou: '&f[&6服务器&f] &c领地没有出租给你。'
+    isForRent: '&f[&6服务器&f] &2这个领地可以租用。'
+    MaxRentDays: '&f[&6服务器&f] &c你不能一次租用超过 &6%1 &c天。'
+    OneTime: '&f[&6服务器&f] &c这个领地不能续租。'
+    Extended: '&f[&6服务器&f] 领地 &6%2 &f续租了 &6%1 &f天。'
     Expire: '&f[&6服务器&f] 租约到期时间: &6%1'
-    AutoPayTurnedOn: '&f[&6服务器&f] 自动支付设置为&2开启'
-    AutoPayTurnedOff: '&f[&6服务器&f] 自动支付设置为 &f关闭'
-    ModifyDeny: '&f[&6服务器&f] 无法修改租用的领地.'
-    Days: '&f[&6服务器&f] 租用天数: &6%1'
-    Rented: ' &6(已出租)'
-    RentList: ' &6%1&f. &6%2 &f(&6%3&f/&6%4&f/&6%5&f) - &6%6 &6%7'
-    EvictConfirm: '&f[&6服务器&f] 输入 &6/res market confirm &f来确认租用领地 &6%1'
-    UnrentConfirm: '&f[&6服务器&f] 输入 &6/res market confirm &f来确认取消租用领地 &6%1'
-    ReleaseConfirm: '&f[&6服务器&f] 输入 &6/res market confirm &f来确认从市场内删除领地 &6%1'
+    AutoPayTurnedOn: '&f[&6服务器&f] 自动续租已 &2开启'
+    AutoPayTurnedOff: '&f[&6服务器&f] 自动续租已 &c关闭'
+    ModifyDeny: '&f[&6服务器&f] &c不能修改租用的领地。'
+    Days: '&f租用天数: &6%1'
+    Rented: ' &6(已租用)'
+    RentList: '&f[&6服务器&f] &6%1&f. &6%2 &f(&6%3&f/&6%4&f/&6%5&f) - &6%6 &6%7'
+    EvictConfirm: '&f[&6服务器&f] 输入 &6/res market confirm &f来确认租用领地 &6%1&f。'
+    UnrentConfirm: '&f[&6服务器&f] 输入 &6/res market confirm &f来确认退租领地 &6%1&f。'
+    ReleaseConfirm: '&f[&6服务器&f] 输入 &6/res market confirm &f来确认从市场撤下领地 &6%1&f。'
   command:
-    addedAllow: '&f[&6服务器&f] 增加了一个新的允许的命令给 &6%1 &f领地'
-    removedAllow: '&f[&6服务器&f] 删除了一个允许的命令给 &6%1 &f领地'
-    addedBlock: '&f[&6服务器&f] 增加了一个新的禁用的命令给 &6%1 &f领地'
-    removedBlock: '&f[&6服务器&f] 删除了一个禁用的命令给 &6%1 &f领地'
-    Blocked: '&f[&6服务器&f] 禁用的命令: &6%1'
-    Allowed: '&f[&6服务器&f] 允许的命令: &6%1'
+    addedAllow: '&f[&6服务器&f] 已增加一个允许的命令给领地 &6%1 &f。'
+    removedAllow: '&f[&6服务器&f] 已删除一个允许的命令于领地 &6%1 &f。'
+    addedBlock: '&f[&6服务器&f] 已增加一个禁用的命令给领地 &6%1 &f。'
+    removedBlock: '&f[&6服务器&f] 已删除一个禁用的命令于领地 &6%1 &f。'
+    Blocked: '&f禁用的命令: &6%1'
+    Allowed: '&f允许的命令: &6%1'
     Parsed: '%1'
-    PlacehlderList: '&f%1. &6%2'
+    PlacehlderList: '&f[&6服务器&f] %1. &6%2'
     PlacehlderResult: ' &fresult: &6%1'
   Rentable:
-    Land: '&f[&6服务器&f] 出租领地: &6'
-    AllowRenewing: '&f[&6服务器&f] 可以续费: &6%1'
-    StayInMarket: '&f[&6服务器&f] 可以出租: &6%1'
-    AllowAutoPay: '&f[&6服务器&f] 可以自动支付: &6%1'
-    DisableRenew: '&f[&6服务器&f] &6%1 &f不会在到期时自动更新租用状态.'
-    EnableRenew: '&f[&6服务器&f] &6%1 &f将会在到期时自动更新租用状态.'
+    Land: '&f可租用领地: &6'
+    AllowRenewing: '&f可续租: &6%1'
+    StayInMarket: '&f可租用: &6%1'
+    AllowAutoPay: '&f可自动续租: &6%1'
+    DisableRenew: '&f[&6服务器&f] &6%1 &f将不会在到期时自动更新租用状态。'
+    EnableRenew: '&f[&6服务器&f] &6%1 &f将会在到期时自动更新租用状态。'
   Economy:
-    LandForSale: '&f[&6服务器&f] 出售领地:'
-    NotEnoughMoney: '&f[&6服务器&f] 你没有足够的金钱.'
-    MoneyCharged: '&f[&6服务器&f] 已从你的 &6%2 &f账户中支出 &6%1 &f元.'
-    MoneyAdded: '&f[&6服务器&f] 你的 &6%2 &f账户增加了 &6%1 &f元.'
-    MoneyCredit: '&f[&6服务器&f] 你的 &6%2 &f账户收入了 &6%1 &f元.'
-    RentReleaseInvalid: '&f[&6服务器&f] 领地 &6%1 &f没有被租用或者出租.'
-    RentSellFail: '&f[&6服务器&f] 无法出售正在出租的领地.'
-    SubzoneRentSellFail: '&f[&6服务器&f] 无法出售领地，因为其中一个子领地正在出租'
-    ParentRentSellFail: '&f[&6服务器&f] 无法出租领地，因为其中的一部分正在出售/出租'
-    SubzoneSellFail: '&f[&6服务器&f] 无法出售一个子领地'
-    SellRentFail: '&f[&6服务器&f] 无法出租正在出售的领地.'
-    ParentSellRentFail: '&f[&6服务器&f] 由于这个领地的一部分正在被出售，所以无法出租'
-    OwnerBuyFail: '&f[&6服务器&f] 不能购买自己的领地!'
-    OwnerRentFail: '&f[&6服务器&f] 不能租用自己的领地!'
+    LandForSale: '&f在出售领地:'
+    NotEnoughMoney: '&f[&6服务器&f] &c你没有足够的金钱。'
+    MoneyCharged: '&f[&6服务器&f] 已从你的 &6%2 &f账户中支出 &6%1 &f。'
+    MoneyAdded: '&f[&6服务器&f] 你的 &6%2 &f账户增加了 &6%1 &f。'
+    MoneyCredit: '&f[&6服务器&f] 你的 &6%2 &f账户收入了 &6%1 &f。'
+    RentReleaseInvalid: '&f[&6服务器&f] 领地 &6%1 &f没有被租用或在出租。'
+    RentSellFail: '&f[&6服务器&f] &c不能出售正在出租的领地。'
+    SubzoneRentSellFail: '&f[&6服务器&f] &c无法出售领地, 因为其子领地正在出租。'
+    ParentRentSellFail: '&f[&6服务器&f] &c无法出售领地, 因为其父领地正在出租。'
+    SubzoneSellFail: '&f[&6服务器&f] &c无法出售子领地。'
+    SellRentFail: '&f[&6服务器&f] &c无法出租领地, 因为该领地正在出售。'
+    ParentSellRentFail: '&f[&6服务器&f] &c无法出租领地, 因为其父领地正在出售。'
+    OwnerBuyFail: '&f[&6服务器&f] &c不能购买自己的领地!'
+    OwnerRentFail: '&f[&6服务器&f] &c不能租用自己的领地!'
     AlreadySellFail: '&f[&6服务器&f] 领地已在出售中!'
-    LeaseRenew: '&f[&6服务器&f] 租约有效期到 &6%1'
-    LeaseRenewMax: '&f[&6服务器&f] 允许的最大租约续期'
-    LeaseNotExpire: '&f[&6服务器&f] 租约不存在或者未过期.'
-    LeaseRenewalCost: '&f[&6服务器&f] 续租 &6%1 &f的花费为 &6%2'
-    LeaseInfinite: '&f[&6服务器&f] 出租时间已设置为无限.'
-    MarketDisabled: '&f[&6服务器&f] 领地经济已禁用!'
-    SellAmount: '&f[&6服务器&f] 出售数量: &2%1'
-    SellList: '&f[&6服务器&f]  &6%1&f. &6%2 &f(&6%3&f) - &6%4'
-    LeaseExpire: '&f[&6服务器&f] 租约到期时间: &2%1'
+    LeaseRenew: '&f[&6服务器&f] 租约有效期限到 &6%1&f。'
+    LeaseRenewMax: '&f允许的最大续租时长'
+    LeaseNotExpire: '&f租约不存在或未到期。'
+    LeaseRenewalCost: '&6%1 &f的续租价格为 &6%2&f。'
+    LeaseInfinite: '&f[&6服务器&f] 已将出租时长设置为无限。'
+    MarketDisabled: '&f[&6服务器&f] &c领地经济已禁用!'
+    SellAmount: '&f出售数量: &2%1'
+    SellList: '&f[&6服务器&f] &6%1&f. &6%2 &f(&6%3&f) - &6%4'
+    LeaseExpire: '&f租约到期时间: &2%1'
     LeaseList: '&f[&6服务器&f] &6%1. &f%2 &2%3 &f%4'
-    NotEnoughMoneyAmount: '&cYou don''t have enough money. (&6%1&c)'
+    NotEnoughMoneyAmount: '&f[&6服务器&f] &c你的金币不足. (&6%1&c)'
   Expanding:
-    North: '&f[&6服务器&f] 向北方扩展 &6%1 &f个方块'
-    West: '&f[&6服务器&f] 向西方扩展 &6%1 &f个方块'
-    South: '&f[&6服务器&f] 向南方扩展 &6%1 &f个方块'
-    East: '&f[&6服务器&f] 向东方扩展 &6%1 &f个方块'
-    Up: '&f[&6服务器&f] 向上方扩展 &6%1 &f个方块'
-    Down: '&f[&6服务器&f] 向下方扩展 &6%1 &f个方块'
+    North: '&f[&6服务器&f] 向北方 (-Z) 扩展 &6%1 &f格'
+    West: '&f[&6服务器&f] 向西方 (-X) 扩展 &6%1 &f格'
+    South: '&f[&6服务器&f] 向南方 (+Z) 扩展 &6%1 &f格'
+    East: '&f[&6服务器&f] 向东方 (+X) 扩展 &6%1 &f格'
+    Up: '&f[&6服务器&f] 向上方扩展 &6%1 &f格'
+    Down: '&f[&6服务器&f] 向下方扩展 &6%1 &f格'
   Contracting:
-    North: '&f[&6服务器&f] 在北方缩小 &6%1 &f个方块'
-    West: '&f[&6服务器&f] 在西方缩小 &6%1 &f个方块'
-    South: '&f[&6服务器&f] 在南方缩小 &6%1 &f个方块'
-    East: '&f[&6服务器&f] 在东方缩小 &6%1 &f个方块'
-    Up: '&f[&6服务器&f] 在上方缩小 &6%1 &f个方块'
-    Down: '&f[&6服务器&f] 在下方缩小 &6%1 &f个方块'
+    North: '&f[&6服务器&f] 从北方 (-Z) 缩小 &6%1 &f格'
+    West: '&f[&6服务器&f] 从西方 (-X) 缩小 &6%1 &f格'
+    South: '&f[&6服务器&f] 从南方 (+Z) 缩小 &6%1 &f格'
+    East: '&f[&6服务器&f] 从东方 (+X) 缩小 &6%1 &f格'
+    Up: '&f[&6服务器&f] 从上方缩小 &6%1 &f格'
+    Down: '&f[&6服务器&f] 从下方缩小 &6%1 &f格'
   Shifting:
-    North: '&f[&6服务器&f] 向北方平移 &6%1 &f个方块'
-    West: '&f[&6服务器&f] 向西方平移 &6%1 &f个方块'
-    South: '&f[&6服务器&f] 向南方平移 &6%1 &f个方块'
-    East: '&f[&6服务器&f] 向东方平移 &6%1 &f个方块'
-    Up: '&f[&6服务器&f] 向上方平移 &6%1 &f个方块'
-    Down: '&f[&6服务器&f] 向下方平移 &6%1 &f个方块'
+    North: '&f[&6服务器&f] 向北方平移 &6%1 &f格'
+    West: '&f[&6服务器&f] 向西方平移 &6%1 &f格'
+    South: '&f[&6服务器&f] 向南方平移 &6%1 &f格'
+    East: '&f[&6服务器&f] 向东方平移 &6%1 &f格'
+    Up: '&f[&6服务器&f] 向上方平移 &6%1 &f格'
+    Down: '&f[&6服务器&f] 向下方平移 &6%1 &f格'
   Limits:
     PGroup: '&f[&6服务器&f] - 权限组:&3 %1'
     RGroup: '&f[&6服务器&f] - 领地组:&3 %1'
     Admin: '&f[&6服务器&f] - 领地管理员:&3 %1'
     CanCreate: '&f[&6服务器&f] - 允许创建领地:&3 %1'
     MaxRes: '&f[&6服务器&f] - 最大领地数量:&3 %1'
-    MaxEW: '&f[&6服务器&f] - 东西方向最大:&3 %1'
-    MaxNS: '&f[&6服务器&f] - 南北方向最大:&3 %1'
+    MaxEW: '&f[&6服务器&f] - 东西 (X) 方向最大:&3 %1'
+    MaxNS: '&f[&6服务器&f] - 南北 (Z) 方向最大:&3 %1'
     MaxUD: '&f[&6服务器&f] - 上下方向最大:&3 %1'
     MinMax: '&f[&6服务器&f] - 最小/最大高度:&3 %1 到 %2'
     MaxSubzones: '&f[&6服务器&f] - 最大子领地数量:&3 %1'
     MaxSubDepth: '&f[&6服务器&f] - 最大子领地深度:&3 %1'
-    MaxRents: '&f[&6服务器&f] - 最多租用:&3 %1'
-    MaxRentDays: '&f[&6服务器&f]  最大出租天数:&3 %1'
-    EnterLeave: '&f[&6服务器&f] - 可设置加入离开信息:&3 %1'
+    MaxRents: '&f[&6服务器&f] - 最大租用数量:&3 %1'
+    MaxRentDays: '&f[&6服务器&f]  最大租用天数:&3 %1'
+    EnterLeave: '&f[&6服务器&f] - 可设置加入/离开提示消息:&3 %1'
     NumberOwn: '&f[&6服务器&f] - 拥有的领地数量:&3 %1'
-    Cost: '&f[&6服务器&f] - 领地每方块花费:&3 %1'
-    Sell: '&f[&6服务器&f] - 领地出售每方块花费:&3 %1'
+    Cost: '&f[&6服务器&f] - 领地每方块价格:&3 %1'
+    Sell: '&f[&6服务器&f] - 领地出售每方块价格:&3 %1'
     Flag: '&f[&6服务器&f] - 允许的领地权限:&3 %1'
     MaxDays: '&f[&6服务器&f] - 最大租约时间:&3 %1'
-    LeaseTime: '&f[&6服务器&f] - 租约续期时间:&3 %1'
-    RenewCost: '&f[&6服务器&f] - 续租每方块花费:&3 %1'
+    LeaseTime: '&f[&6服务器&f] - 续租时间:&3 %1'
+    RenewCost: '&f[&6服务器&f] - 领地续租每方块价格:&3 %1'
     EnterLeavePrefix: ''
   Gui:
     Set:
-      Title: '&l%1 权限'
+      Title: '&8%1 权限'
     Pset:
-      Title: '&l%1 %2 权限'
+      Title: '&8%2 在 %1 的权限'
     Actions:
     - '&2左键单击启用'
-    - '&f右键单击禁用'
-    - '&fShift+左键单击删除'
+    - '&c右键单击禁用'
+    - '&fShift+左键单击清除'
     Flag:
       NameColor: '&7'
   InformationPage:
-    Top: '&f[&6服务器&f]___/  %1 - %2  \___'
-    TopSingle: '&f[&6服务器&f]___/  %1  \___'
-    Page: '&f[&6服务器&f]-----< %1 >-----'
-    NextPage2: '&f[&6服务器&f]-----< %1 >-----'
-    NoNextPage: '&f[&6服务器&f]-----------------------'
-    GeneralList: '&f[&6服务器&f] &7%1&f - %2'
-    FlagsList: '&f[&6服务器&f] &7%1&f - %2'
-    SmallSeparator: '&f[&6服务器&f]------'
+    TopLine: '&f[&6服务器&f] ---< &a %1 &f >---'
+    Page: '&f[&6服务器&f] -----< &6%1 &f>-----'
+    NextPage: '&f[&6服务器&f] -----< &6%1 &f>-----'
+    NoNextPage: '&f[&6服务器&f] -----------------------'
+    GeneralList: '&f[&6服务器&f] &7%1 &f- %2'
+    FlagsList: '&f[&6服务器&f] &7%1 &f- %2'
+    SmallSeparator: '------'
+    Top: '&f[&6服务器&f] ___/ &a %1 - %2 &f \___'
+    TopSingle: '&f[&6服务器&f] ___/ &a %1 &f \___'
+    NextPage2: '&f[&6服务器&f] -----< &6%1 &f>-----'
   Chat:
-    ChatChannelChange: '&f[&6服务器&f] 领地聊天频道已更改为 &6%1!'
-    ChatChannelLeave: '&f[&6服务器&f] 离开领地聊天'
-    ChatMessage: '&f[&6服务器&f] %1 %2%3: %4%5'
-    ChatListeningMessage: '&f[&6服务器&f] &2[Listening %6]%1 %2%3: %4%5'
-    JoinFirst: '&f[&6服务器&f] 请先加入领地聊天频道.'
-    InvalidChannel: '&f[&6服务器&f] 无效频道.'
-    InvalidColor: '&f[&6服务器&f] 颜色代码错误'
-    NotInChannel: '&f[&6服务器&f] 玩家不在频道中'
-    Kicked: '&f[&6服务器&f] &6%1 &f被 &6%2 &f频道踢出'
-    InvalidPrefixLength: '&f[&6服务器&f] 前缀过长. 最大长度: %1'
-    ChangedColor: '&f[&6服务器&f] 领地频道颜色更改为 %1'
-    ChangedPrefix: '&f[&6服务器&f] 领地频道前缀更改为 %1'
+    ChatChannelChange: '&f[&6服务器&f] 领地聊天频道已更改为 &6%1&f!'
+    ChatChannelLeave: '&f[&6服务器&f] 离开领地聊天。'
+    ChatMessage: '%1 %2%3: %4%5'
+    ChatListeningMessage: '&2[监听 %6]%1 %2%3: %4%5'
+    JoinFirst: '&f[&6服务器&f] &4请先加入领地聊天频道。'
+    InvalidChannel: '&f[&6服务器&f] &4无效的频道。'
+    InvalidColor: '&f[&6服务器&f] &4颜色代码错误。'
+    NotInChannel: '&f[&6服务器&f] &4玩家不在频道中。'
+    Kicked: '&f[&6服务器&f] &6%1 &f被踢出 &6%2 &f频道。'
+    InvalidPrefixLength: '&f[&6服务器&f] &4前缀过长。最大长度: %1。'
+    ChangedColor: '&f[&6服务器&f] 领地聊天频道颜色已更改为 %1。'
+    ChangedPrefix: '&f[&6服务器&f] 领地聊天频道前缀已更改为 %1。'
   Shop:
-    ListTopLine: '&6%1 &f商店列表 - 第 &6%2 &f页, 共 &6%3 %4'
-    List: ' &f%1. &6%2 &f(&6%3&f) %4'
+    ListTopLine: '&6%1 &f商店列表 - 第 &6%2 &f页, 共 &6%3 &f页 &6%4'
+    List: '&f%1. &6%2 &f(&6%3&f) %4'
     ListVoted: '&f%1 (&6%2&f)'
     ListLiked: '&f赞: &0%1'
-    VotesTopLine: '&6%1 &f%2 评分列表 &6- &f第 &6%3 &f页, 共 &6%4 %5'
-    VotesList: ' &f%1. &6%2 &f%3 &7%4'
+    VotesTopLine: '&6%1 &f%2 评分列表 &6- &f第 &6%3 &f页, 共 &6%4 &f页 &6%5'
+    VotesList: '&f%1. &6%2 &f%3 &7%4'
     NoDesc: '&6没有描述'
     Desc: |-
       &6描述:
       %1
-    DescChange: '&6描述已更改为: %1'
-    ChantChange: '&4Can''t change while shop flag is set to true'
-    NewBoard: '&6成功添加商店宣传板'
-    BoardExist: '&f商店宣传板已经存在'
-    DeleteBoard: '&6右击要删除的宣传板'
-    DeletedBoard: '&6宣传板已移除'
-    IncorrectBoard: '&f宣传板不正确, 请重新点击正确的宣传板'
-    InvalidSelection: '&f[&6服务器&f] 使用选取工具, 先点击左上角的告示牌, 再点击右下角的告示牌'
-    ToBigSelection: '&f[&6服务器&f] 你选择的范围太大了,最大允许16格'
-    ToDeapSelection: '&f[&6服务器&f] 你选择的太深了,最大允许16X1X16'
-    VoteChanged: '&f[&6服务器&f] 领地 &6%3 &f的评分由 &6%1 &f更改为 &6%2&f.'
-    Voted: '&f[&6服务器&f] 你给 &6%2 &f评了 &6%1 &f分.'
-    Liked: '&f[&6服务器&f] 你赞了 &6%1 &f领地.'
-    AlreadyLiked: '&f[&6服务器&f] 你已经赞过 &f%1 &f领地了.'
-    NoVotes: '&f[&6服务器&f] 该领地还没有评分.'
-    CantVote: '&f[&6服务器&f] 该领地不是商店.'
-    VotedRange: '&f[&6服务器&f] 只能给出 &6%1 &f分到 &6%2 &f分.'
+    DescChange: '&6已更改描述为: %1。'
+    ChantChange: '&4shop 权限设置为 true 时无法更改。'
+    NewBoard: '&6已添加商店宣传板。'
+    BoardExist: '&c商店宣传板已经存在。'
+    DeleteBoard: '&6右键单击要移除的宣传板。'
+    DeletedBoard: '&6已移除商店宣传板。'
+    IncorrectBoard: '&c宣传板不正确, 请重新输入命令并点击正确的宣传板。'
+    InvalidSelection: '&f[&6服务器&f] &c使用选区工具, 先左键单击左上角的告示牌, 再右键单击右下角的告示牌。'
+    ToBigSelection: '&f[&6服务器&f] &c你选择的范围太大了, 最大允许 16 格。'
+    ToDeapSelection: '&f[&6服务器&f] &c你选择的范围太深了, 最大允许 16x1x16。'
+    VoteChanged: '&f[&6服务器&f] &6领地 &f%3 &6的评分由 &f%1 &6更改为 &f%2&6。'
+    Voted: '&f[&6服务器&f] &6你给领地 &f%2 &6评了 &f%1 &6分。'
+    Liked: '&f[&6服务器&f] &6你点赞了领地 &f%1 &6。'
+    AlreadyLiked: '&f[&6服务器&f] &6你已经点赞了领地 &f%1 &6。'
+    NoVotes: '&f[&6服务器&f] &c该领地还没有评分。'
+    CantVote: '&f[&6服务器&f] &c该领地不是商店。'
+    VotedRange: '&f[&6服务器&f] &6只能给出 &f%1 &6分到 &f%2 &6分。'
     SignLines:
       '1': '&f--== &8%1 &f==--'
       '2': '&9%1'
@@ -476,1401 +475,1401 @@ Language:
       '4': '&8%1&f (&8%2&f)'
       Likes4: '&9赞: &8%2'
   RandomTeleport:
-    TpLimit: '&f[&6服务器&f] 请等待 &6%1 &f秒后再传送'
-    TeleportSuccess: '&f[&6服务器&f] 传送到 X:&6%1&f, Y:&6%2&f, Z:&6%3 &f位置'
-    IncorrectLocation: '&f[&6服务器&f] 无法找到正确的传送位置, 请等待 &f%1 &f秒后重试.'
-    Disabled: '&f[&6服务器&f] 随机传送在这个世界已被禁用'
-    TeleportStarted: '&f[&6服务器&f] 传送即将开始, 在 &6%4 &f秒内不要移动.'
+    TpLimit: '&f[&6服务器&f] 传送太频繁, 请等待 &6%1 &f秒后重试。'
+    TeleportSuccess: '&f[&6服务器&f] 传送到 X:&6%1&f, Y:&6%2&f, Z:&6%3 &f位置。'
+    IncorrectLocation: '&f[&6服务器&f] &6无法找到正确的传送位置, 请等待 &f%1 &6秒后重试。'
+    Disabled: '&f[&6服务器&f] &c该世界的随机传送已禁用。'
+    TeleportStarted: '&f[&6服务器&f] 即将开始传送, 在 &6%4 &f秒内不要移动。'
     WorldList: '&f[&6服务器&f] 可用世界: &6%1'
   Permissions:
     variableColor: '&f'
     permissionColor: '&6'
     cmdPermissionColor: '&2'
   General:
-    DisabledWorld: '&f[&6服务器&f] 该世界已禁用领地.'
-    UseNumbers: '&f[&6服务器&f] 请输入数字.'
+    DisabledWorld: '&f[&6服务器&f] &c该世界已禁用领地。'
+    UseNumbers: '&f[&6服务器&f] &c请使用数字。'
     # Replace all text with '' to disable this message
-    CantPlaceLava: '&f[&6服务器&f] 你不能在领地外高于 &6%1 &f的地方放置岩浆.'
+    CantPlaceLava: '&f[&6服务器&f] &c你不能在领地外高于 &6%1 &c的地方放置岩浆。'
     # Replace all text with '' to disable this message
-    CantPlaceWater: '&f[&6服务器&f] 你不能在领地外高于 &6%1 &f的地方放置水.'
-    CantPlaceChest: '&f[&6服务器&f] 你不能在这放置箱子'
-    NoPermission: '&f[&6服务器&f] 你没有执行此操作的权限.'
+    CantPlaceWater: '&f[&6服务器&f] &c你不能在领地外高于 &6%1 &c的地方放置水。'
+    CantPlaceChest: '&f[&6服务器&f] &c你不能在这里放置箱子。'
+    NoPermission: '&f[&6服务器&f] &c你没有权限执行此操作。'
     info:
-      NoPlayerPermission: '&f[&6服务器&f] [playerName] 没有 [permission] 权限'
-    NoCmdPermission: '&f[&6服务器&f] 你没有权限这么做'
-    DefaultUsage: '&f[&6服务器&f] 输入 &6/%1 ? &f查看帮助信息'
-    MaterialGet: '&f[&6服务器&f] ID &6%1 &f的材料名称为 &6%2'
-    MarketList: '&f[&6服务器&f] ---- &6市场列表 &f----'
-    Separator: '&f[&6服务器&f] ------------------------------------------------'
-    AdminOnly: '&f[&6服务器&f] 只有管理员才能执行这个命令.'
+      NoPlayerPermission: '&f[&6服务器&f] &c[playerName] 没有 [permission] 权限。'
+    NoCmdPermission: '&f[&6服务器&f] &c你没有权限执行此命令。'
+    DefaultUsage: '&f[&6服务器&f] 输入 &6/%1 ? &f查看帮助信息。'
+    MaterialGet: '&f[&6服务器&f] ID &6%1 &f的材料名称为 &6%2&f。'
+    MarketList: '&f---- &6市场列表 &f----'
+    Separator: '&f[&6服务器&f] ------------------------------------------'
+    AdminOnly: '&f[&6服务器&f] &c只有管理员才能执行此命令。'
     InfoTool: '&f[&6服务器&f] - 信息工具: &6%1'
-    ListMaterialAdd: '&f[&6服务器&f] &6%1 &f已被添加到 &6%2 &f领地.'
-    ListMaterialRemove: '&f[&6服务器&f] &6%1 &f已从 &6%2 &f领地移除.'
-    ItemBlacklisted: '&f[&6服务器&f] 此处禁止使用该物品.'
-    WorldPVPDisabled: '&f[&6服务器&f] 世界 PVP 已禁用.'
-    NoPVPZone: '&f[&6服务器&f] 非 PVP 区域.'
-    NoFriendlyFire: '&f[&6服务器&f] 不友好的火'
-    InvalidHelp: '&f[&6服务器&f] 无效帮助页码.'
-    TeleportDeny: '&f[&6服务器&f] 你没有传送的权限.'
+    ListMaterialAdd: '&f[&6服务器&f] 已将 &6%1 &f添加到领地 &6%2 &f。'
+    ListMaterialRemove: '&f[&6服务器&f] 已将 &6%1 &f从领地 &6%2 &f移除。'
+    ItemBlacklisted: '&f[&6服务器&f] &c你不能在这里使用该物品。'
+    WorldPVPDisabled: '&f[&6服务器&f] &c世界 PVP 已禁用。'
+    NoPVPZone: '&f[&6服务器&f] &c非 PVP 区域。'
+    NoFriendlyFire: '&f[&6服务器&f] &c无队友伤害。'
+    InvalidHelp: '&f[&6服务器&f] &c无效的帮助页码。'
+    TeleportDeny: '&f[&6服务器&f] &c你没有权限传送。'
     TeleportSuccess: '&f[&6服务器&f] 已传送!'
-    TeleportConfirmLava: '&f[&6服务器&f] 传送不安全, 你将掉入 &6岩浆&f. 如果仍要传送, 输入 &6/res tpconfirm
-      &f确认.'
-    TeleportConfirmVoid: '&f[&6服务器&f] 传送不安全, 你将掉入 &6虚空&f. 如果仍要传送, 输入 &6/res tpconfirm
-      &f确认.'
-    TeleportConfirm: '&f[&6服务器&f] 传送不安全, 你将摔落 &6%1 &f个方块. 如果仍要传送, 输入 &6/res tpconfirm
-      &f确认.'
-    TeleportStarted: '&f[&6服务器&f] 开始向 &6%1 &f传送, 在 &6%2 &f秒内不要移动.'
-    TeleportTitle: '&f[&6服务器&f] 传送中..'
+    TeleportConfirmLava: '&f[&6服务器&f] &c传送不安全, 你将掉入&6岩浆&c。如果仍要传送, 输入&6/res tpconfirm
+      &c确认。'
+    TeleportConfirmVoid: '&f[&6服务器&f] &c传送不安全, 你将掉入&6虚空&c。如果仍要传送, 输入&6/res tpconfirm
+      &c确认。'
+    TeleportConfirm: '&f[&6服务器&f] &c传送不安全, 你将摔落 &6%1 &c格。如果仍要传送, 输入 &6/res tpconfirm
+      &c确认。'
+    TeleportStarted: '&f[&6服务器&f] 即将开始向 &6%1 &f传送, 在 &6%2 &f秒内不要移动。'
+    TeleportTitle: '&f传送中!'
     TeleportTitleTime: '&6%1'
-    TeleportCanceled: '&f[&6服务器&f] 传送被取消!'
-    NoTeleportConfirm: '&f[&6服务器&f] 没有需要确认的传送请求!'
-    HelpPageHeader2: '&f[&6服务器&f] 帮助页面 - &6%1 &f- 页 <&6%2 &fof &6%3&f>'
-    ListExists: '&f[&6服务器&f] 列表已存在.'
-    ListRemoved: '&f[&6服务器&f] 已删除列表.'
+    TeleportCanceled: '&f[&6服务器&f] 传送已取消!'
+    NoTeleportConfirm: '&f[&6服务器&f] 没有待确认的传送请求!'
+    HelpPageHeader2: '&f帮助页面 - &6%1 &f- <第 &6%2 &f页, 共 &6%3 &f页>'
+    HelpPageHeader: '&f帮助页面 - &6%1 &f- <第 &6%2 &f页, 共 &6%3 &f页>'
+    ListExists: '&f[&6服务器&f] &c列表已存在。'
+    ListRemoved: '&f[&6服务器&f] 已删除列表。'
     ListCreate: '&f[&6服务器&f] 已创建列表 &6%1'
-    PhysicalAreas: '&f[&6服务器&f] 物理区域'
+    PhysicalAreas: '&f区域'
     CurrentArea: '&f[&6服务器&f] 当前区域: &6%1'
     TotalResSize: '&f[&6服务器&f] 总大小: &6%1m³ (%2m²)'
     ResSize:
-      eastWest: '&fEast/West: &6%1'
-      northSouth: '&fNorth/South: &6%1'
-      upDown: '&fUp/Down: &6%1'
+      eastWest: '&f东西 (X) 方向: &6%1'
+      northSouth: '&f南北 (Z) 方向: &6%1'
+      upDown: '&f上下方向: &6%1'
     TotalWorth: '&f[&6服务器&f] 总价值: &6%1 &f(&6%2&f)'
     TotalSubzones: '&f[&6服务器&f] 子领地数量: &6%1 &f(&6%2&f)'
-    NotOnline: '&f[&6服务器&f] 目标玩家不在线.'
-    prevPage: '&f[&6服务器&f] ----<< Prev '
-    prevPageGui: 'Previous page '
-    prevPageClean: 'Prev '
-    prevPageOff: '&f[&6服务器&f] ----<< &7Prev&f '
-    prevPageHover: <<<
-    firstPageHover: '|<'
-    nextPage: ' Next >>----'
-    nextPageGui: Next Page
-    nextPageClean: ' Next'
-    nextPageOff: '&7 Next&f >>----'
-    nextPageHover: '>>>'
-    lastPageHover: '>|'
-    pageCount: '%1/%2'
-    pageCountHover: '&f%1 entries'
+    NotOnline: '&f[&6服务器&f] 目标玩家不在线。'
+    prevPage: '&f[&6服务器&f] ----<< &6上一页 '
+    prevPageGui: '&6上一页 '
+    prevPageClean: '&6上一页 '
+    prevPageOff: '&f[&6服务器&f] ----<< &7上一页 '
+    prevPageHover: '&7<<<'
+    firstPageHover: '&7|<'
+    nextPage: '&6 下一页 &f>>----'
+    nextPageGui: '&6下一页'
+    nextPageClean: '&6 下一页'
+    nextPageOff: '&7 下一页 &f>>----'
+    nextPageHover: '&7>>>'
+    lastPageHover: '&7>|'
+    pageCount: '&f%1&7/&f%2'
+    pageCountHover: '&f%1 条目'
     GenericPages: '&f页数 &6%1 &f/ &6%2 &f(&6%3&f)'
-    WorldEditNotFound: '&f未检测到 WorldEdit.'
+    NextInfoPage: '&2|  &f下一页  &2>>>'
+    PrevInfoPage: '&2<<<  &f上一页  &2|'
+    WorldEditNotFound: '&f[&6服务器&f] &c未检测到 WorldEdit。'
     CoordsTop: '&fX:&6%1 &fY:&6%2 &fZ:&6%3'
     CoordsBottom: '&fX:&6%1 &fY:&6%2 &fZ:&6%3'
     CoordsLiner: '&7 (&3%1&7;%2&7)'
-    AllowedTeleportIcon: '&2T'
-    BlockedTeleportIcon: '&7T'
-    AllowedMovementIcon: '&2M'
-    BlockedMovementIcon: '&7M'
-    AdminToggleTurnOn: '&f[&6服务器&f] 自动管理模式&6开启'
-    AdminToggleTurnOff: '&f[&6服务器&f] 自动管理模式&6关闭'
-    NoSpawn: '&f[&6服务器&f] 你没有在出生点的 &6移动 &f权限, 正在重新定位.'
-    CompassTargetReset: '&f[&6服务器&f] 你的指南针已被还原'
-    CompassTargetSet: '&f[&6服务器&f] 你的指南针目前指向 &6%1'
-    Ignorelist: '&2忽略名单:&6'
-    Blacklist: '&f黑名单:&6'
-    LandCost: '&f领地花费: &6%1'
+    AllowedTeleportIcon: '&2传送 '
+    BlockedTeleportIcon: '&7传送 '
+    AllowedMovementIcon: '&2移动 '
+    BlockedMovementIcon: '&7移动 '
+    AdminToggleTurnOn: '&f[&6服务器&f] &6已开启&f自动管理模式。'
+    AdminToggleTurnOff: '&f[&6服务器&f] &6已关闭&f自动管理模式。'
+    NoSpawn: '&f[&6服务器&f] 你没有重生点的 &6移动 &f权限, 正在重新定位。'
+    CompassTargetReset: '&f[&6服务器&f] 已重置你的指南针。'
+    CompassTargetSet: '&f[&6服务器&f] 已将你的指南针指向 &6%1&f。'
+    Ignorelist: '&2忽略名单: &6'
+    Blacklist: '&c黑名单: &6'
+    LandCost: '&f领地价格: &6%1'
     'True': '&2是'
-    'False': '&f否'
+    'False': '&c否'
     Removed: '&6未设置'
     FlagState: '&f权限状态: %1'
     Land: '&f领地: &6%1'
-    Cost: '&f花费: 每 &6%2 &f天 &6%1'
+    Cost: '&f价格: 每 &6%2 &f天 &6%1'
     Status: '&f状态: %1'
     Available: '&2可用'
     Size: ' &f大小: &6%1'
-    ResidenceFlags: '&f领地公共权限: &6%1'
-    PlayersFlags: '&f玩家权限: &6%1'
-    GroupFlags: '&f组权限: &6%1'
-    OthersFlags: '&f其他人权限: &6%1'
-    Moved: '&f已移动.'
+    ResidenceFlags: '&f[&6服务器&f] 领地权限: &6%1'
+    PlayersFlags: '&f[&6服务器&f] 玩家权限: &6%1'
+    GroupFlags: '&f[&6服务器&f] 组权限: &6%1'
+    OthersFlags: '&f[&6服务器&f] 其他玩家权限: &6%1'
+    Moved: '&f已移动。'
     Name: '&f名称: &6%1'
     Lists: '&f列表: &6'
     Residences: '&f领地&6'
-    CreatedOn: '&f建造于: &6%1'
+    CreatedOn: '&f创建于: &6%1'
     Owner: '&f所有者: &6%1'
     World: '&f世界: &6%1'
-    Subzones: '&f子区域'
+    Subzones: '&f子领地'
     # The below lines represent various messages residence sends to the players.
     # Note that some messages have variables such as %1 that are inserted at runtime.
-    NewPlayerInfo: '&f[&6服务器&f] 如果要创建领地以保护房屋, 请用木锄选取保护区的两个对角, 然后执行 &2/res create 领地名称
-      &f命令.'
-    CantCreate: '&cCan''t create residences in this world'
-    TeleportConfirmBlock: '&cThis teleport is not safe, you will fall into &6%1&c.
-      Use &6/res tpconfirm &cto perform teleportation anyways.'
+    NewPlayerInfo: '&f[&6服务器&f] 如果你要创建领地来保护你的建筑, 请使用选区工具 (&2/res tool &f以查看) 点选你要保护的范围的两个对角，然后执行命令:
+      &2/res create 领地名称 &f。'
+    CantCreate: '&f[&6服务器&f] &c该世界内无法创建领地'
+    TeleportConfirmBlock: '&f[&6服务器&f] &c此处传送存在危险，你将会掉入 &6%1&c。输入 &6/res tpconfirm
+      &c可强制传送。'
   Schematic:
-    NoSchematic: '&6No Residence schematic found!'
-    Saved: '&6Residence schematic saved!'
-    Restored: '&6Residence schematic restored!'
-    Failed: '&6Residence schematic failed to save or restore!'
+    NoSchematic: '&6未找到领地模板文件！'
+    Saved: '&6领地模板保存成功！'
+    Restored: '&6领地模板还原成功！'
+    Failed: '&6领地模板保存或还原失败！'
 CommandHelp:
   Description: 领地的命令帮助
   SubCommands:
     res:
       Description: 领地的主命令
       Info:
-      - '&f[&6服务器&f] 输入 /res [命令] ? <页码> 查看更多信息.'
+      - '&f[&6服务器&f] 输入 &6/res [命令] ? <页码> &f查看更多信息'
       SubCommands:
         auto:
+          Description: 以你的位置为中心, 创建你能创建最大的领地
           Info:
-          - '&f[&6服务器&f] 用法: &6/res auto (领地名字) (范围)'
-          Description: 自动在你站着的位置为中心，创建你能创建最大的领地
+          - '&f用法: &6/res auto [领地名称] [范围]'
         select:
+          Description: 选区命令
           Info:
-          - 该命令选择领地的范围
-          - /res select [x] [y] [z] - 选择以你为中心一定范围的方块.
-          Description: 选取命令
+          - '&f用法: &6/res select [x] [y] [z]'
+          - 以你的位置为中心, 创建大小为 [x] [y] [z] 的领地
           SubCommands:
             coords:
-              Description: 显示已选择区域的坐标
+              Description: 显示选区的坐标
               Info:
-              - '&f[&6服务器&f] 用法: &6/res select coords'
+              - '&f用法: &6/res select coords'
             size:
-              Description: 显示已选择区域的大小
+              Description: 显示选区的尺寸
               Info:
-              - '&f[&6服务器&f] 用法: &6/res select size'
+              - '&f用法: &6/res select size'
             auto:
-              Description: 打开自动选择工具
+              Description: 开启自动选区工具
               Info:
-              - '&f[&6服务器&f] 用法: &6/res select auto [玩家]'
+              - '&f用法: &6/res select auto [玩家名称]'
             cost:
-              Description: 显示已选择区域的价格
+              Description: 显示选区的价格
               Info:
-              - '&f[&6服务器&f] 用法: &6/res select cost'
+              - '&f用法: &6/res select cost'
             vert:
               Description: 纵向扩展选区
               Info:
-              - '&f[&6服务器&f] 用法: &6/res select vert'
-              - 将选区扩展到地图顶端和底端
+              - '&f用法: &6/res select vert'
+              - 将选区扩展到最大高度和深度
             sky:
-              Description: 扩展选区到天空
+              Description: 将选区扩展到最大高度
               Info:
-              - '&f[&6服务器&f] 用法: &6/res select sky'
-              - 将选区扩展到地图顶端
+              - '&f用法: &6/res select sky'
             bedrock:
-              Description: 扩展选区到基岩
+              Description: 将选区扩展到最大深度
               Info:
-              - '&f[&6服务器&f] 用法: &6/res select bedrock'
-              - 将选区扩展到地图底端
+              - '&f用法: &6/res select bedrock'
             expand:
               Description: 向一个方向扩展选区
               Info:
-              - '&f[&6服务器&f] 用法: &6/res select expand <扩展单位>'
-              - 向面对的方向扩展 <扩展单位> 个方块
+              - '&f用法: &6/res select expand <长度>'
+              - 将选区向你面对的方向扩展 <长度> 格
             shift:
               Description: 向一个方向平移选区
               Info:
-              - '&f[&6服务器&f] 用法: &6/res select shift <平移单位>'
-              - 将选区向面对的方向平移 <平移单位> 个方块
+              - '&f用法: &6/res select shift <距离>'
+              - 将选区向你面对的方向平移 <距离> 格
             chunk:
-              Description: 选择你目前所在的区块
+              Description: 选择你所在的区块
               Info:
-              - '&f[&6服务器&f] 用法: &6/res select chunk'
-              - 选择你目前所在的区块
+              - '&f用法: &6/res select chunk'
             residence:
               Description: 选择领地中一个存在的区域
               Info:
-              - '&f[&6服务器&f] 用法: &6/res select residence <领地>'
-              - 选择 <领地> 中一个存在的区域
+              - '&f用法: &6/res select residence <领地名称>'
+              - 选择 <领地名称> 中一个存在的区域
             worldedit:
-              Description: 采用 WorldEdit 的选区
+              Description: 以 WorldEdit 当前的选区作为领地选区
               Info:
-              - '&f[&6服务器&f] 用法: &6/res select worldedit'
-              - 将 WorldEdit 目前的选区作为领地选区
+              - '&f用法: &6/res select worldedit'
         padd:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res padd <领地名> [玩家]'
-          - 为玩家添加基本权限
           Description: 向领地添加玩家
+          Info:
+          - '&f用法: &6/res padd <领地名称> [玩家名称]'
+          - 为 [玩家名称] 添加 <领地名称> 的基本权限
         signconvert:
+          Description: 转换 ResidenceSign 的告示牌
           Info:
-          - '&f[&6服务器&f] 用法: &6/res signconvert'
-          - 尝试转换已有的 ResidenceSign 告示牌
-          Description: 将 ResidenceSign 的告示牌转换为新格式
+          - '&f用法: &6/res signconvert'
+          - 尝试转换已有的 ResidenceSign 插件的告示牌
         listallhidden:
+          Description: 列出服务器中的所有隐藏领地
           Info:
-          - '&f[&6服务器&f] 用法: &6/res listhidden <页码>'
-          - 显示所有玩家的隐藏领地
-          Description: 显示所有隐藏领地
+          - '&f用法: &6/res listhidden <页码>'
         bank:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res bank [deposit/withdraw] <领地> [数额]'
-          - 你必须站在领地中或者指定领地名字
-          - 你必须拥有 +bank 权限
           Description: 管理领地银行
+          Info:
+          - '&f用法: &6/res bank [deposit(存入)/withdraw(取出)] <领地名称> [数额]'
+          - 你必须站在领地中或者指定领地名称
+          - 你必须拥有领地 bank 权限
         create:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res create <领地名>'
           Description: 创建领地
+          Info:
+          - '&f用法: &6/res create [领地名称]'
         listall:
+          Description: 列出所有的领地
           Info:
-          - '&f[&6服务器&f] 用法: &6/res listall <页码>'
-          - 显示所有玩家的领地
-          Description: 显示所有领地
+          - '&f用法: &6/res listall <页码> <世界名称> <-a/-f>'
         info:
+          Description: 显示领地的信息
           Info:
-          - '&f[&6服务器&f] 用法: &6/res info <领地>'
-          - 留空 <领地> 表示显示你目前所在的领地信息
-          Description: 显示一个领地的信息
+          - '&f用法: &6/res info <领地名称>'
+          - 留空 <领地名称> 则显示你所在的领地的信息
         area:
-          Description: 管理领地物理区域
+          Description: 管理领地的区域
           Info:
           - ''
           SubCommands:
             list:
-              Description: 列出领地的物理区域
+              Description: 列出领地的区域
               Info:
-              - '&f[&6服务器&f] 用法: &6/res area list [领地] <页码>'
+              - '&f用法: &6/res area list [领地名称] <页码>'
             listall:
-              Description: 列出所有区域的坐标和详细信息
+              Description: 列出领地区域的坐标和详细信息
               Info:
-              - '&f[&6服务器&f] 用法: &6/res area listall [领地] <页码>'
+              - '&f用法: &6/res area listall [领地名称] <页码>'
             add:
-              Description: 为领地添加物理区域
+              Description: 为领地添加区域
               Info:
-              - '&f[&6服务器&f] 用法: &6/res area add [领地] [区域ID]'
+              - '&f用法: &6/res area add [领地名称] [区域ID]'
               - 你必须先选中两个选取点
             remove:
-              Description: 移除领地的物理区域
+              Description: 删除领地的区域
               Info:
-              - '&f[&6服务器&f] 用法: &6/res area remove [领地] [区域ID]'
+              - '&f用法: &6/res area remove [领地名称] [区域ID]'
             replace:
-              Description: 替换领地的物理区域
+              Description: 替换领地的区域
               Info:
-              - '&f[&6服务器&f] 用法: &6/res area replace [领地] [区域ID]'
+              - '&f用法: &6/res area replace [领地名称] [区域ID]'
               - 你必须先选中两个选取点
               - 如果新的区域更大, 二者之间将会被充满
         give:
+          Description: 将你拥有的指定领地给予指定玩家
           Info:
-          - '&f[&6服务器&f] 用法: &6/res give <领地名> [玩家]'
-          - 将你拥有的某个领地赠与某玩家
-          Description: 给予一名玩家领地.
+          - '&f用法: &6/res give <领地名称> [玩家名称] <-s>'
         renamearea:
+          Description: 修改领地区域名称
           Info:
-          - '&f[&6服务器&f] 用法: &6/res removeworld [领地] [旧名字] [新名字]'
-          Description: 修改领地名字
+          - '&f用法: &6/res renamearea [领地名称] [区域旧名称] [区域新名称]'
         contract:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res contract (领地) [缩小单位]'
-          - 从你面对的方向缩小领地规模
-          - 领地名字是可选的
           Description: 从你面对的方向缩小领地
+          Info:
+          - '&f用法: &6/res contract <领地名称> [长度]'
+          - 将指定或当前领地从你面对的方向缩小 [长度] 格
         check:
+          Description: 查看权限状态
           Info:
-          - '&f[&6服务器&f] 用法: &6/res check [领地] [权限] (玩家名字)'
-          Description: 检查权限状态
+          - '&f用法: &6/res check [领地名称] [权限] <玩家名称>'
         gset:
+          Description: 为权限组设置领地的特定权限
           Info:
-          - '&f[&6服务器&f] 用法: &6/res gset <领地> [组] [权限] [true/false/remove]'
-          - 输入 /res flags ? 查看权限列表
-          Description: 为某个组设置领地的特定权限
+          - '&f用法: &6/res gset <领地名称> [权限组] [权限] [true/false/remove]'
+          - '要查看权限列表, 输入: /res flags ?'
         list:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res list <玩家> <页码>'
-          - 列出指定玩家拥有的所有领地 (除了隐藏领地)
-          - 如果显示自己的领地, 隐藏领地也会被显示
-          - 要列出所有玩家的领地, 使用 /res listall 命令
           Description: 显示领地列表
+          Info:
+          - '&f用法: &6/res list <玩家名称> <页码> <世界名称>'
+          - 列出 <玩家名称> 拥有的所有领地 (除了隐藏领地)
+          - 列出自己的领地时, 会显示隐藏领地
+          - '要列出所有玩家的领地, 使用命令: /res listall'
         version:
+          Description: 显示领地插件版本
           Info:
-          - '&f[&6服务器&f] 用法: &6/res version'
-          Description: 显示 领地 的版本
+          - '&f用法: &6/res version'
         tool:
+          Description: 显示用于领地选区和查看领地信息的工具的名称
           Info:
-          - '&f[&6服务器&f] 用法: &6/res tool'
-          Description: 显示领地圈地和查看信息的工具类型
+          - '&f用法: &6/res tool'
         pdel:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res pdel <领地名> [玩家]'
-          - 删除玩家的基本权限
           Description: 从领地删除玩家
-        market:
           Info:
-          - '&f[&6服务器&f] 用法: &6/res market ? for more Info'
+          - '&f用法: &6/res pdel <领地名称> [玩家名称]'
+          - 只会删除玩家的基本权限
+        market:
           Description: 购买, 出售和出租领地
+          Info:
+          - '&f用法: &6/res market ?'
+          - 以了解更多信息
           SubCommands:
             Info:
               Description: 查看领地的经济信息
               Info:
-              - '&f[&6服务器&f] 用法: &6/res market Info [领地]'
-              - 显示领地是否正在出租或出售, 以及领地的花费
+              - '&f用法: &6/res market Info [领地名称]'
+              - 显示领地是否正在出租或出售, 及其价格
             list:
-              Description: 显示可出租与可出售的领地
+              Description: 列出正在出租与正在出售的领地
               Info:
-              - '&f[&6服务器&f] 用法: &6/res market list'
+              - '&f用法: &6/res market list [rent(出租)/sell(出售)]'
               SubCommands:
                 rent:
-                  Description: 列举可以租用的领地
+                  Description: 列出正在出租的领地
                   Info:
-                  - '&f[&6服务器&f] 用法: &6/res market list rent'
+                  - '&f用法: &6/res market list rent'
                 sell:
-                  Description: 列举可以出售的领地
+                  Description: 列出正在出售的领地
                   Info:
-                  - '&f[&6服务器&f] 用法: &6/res market list sell'
+                  - '&f用法: &6/res market list sell'
             sell:
-              Description: 出售一个领地
+              Description: 出售领地
               Info:
-              - '&f[&6服务器&f] 用法: &6/res market sell [领地] [售价]'
-              - 将领地以 [amount] 元的价格出售
+              - '&f用法: &6/res market sell [领地名称] [售价]'
+              - 将领地以 [售价] 的价格出售
               - 其他玩家可以执行 /res market buy 命令购买
             sign:
-              Description: 设置市场木牌
+              Description: 设置市场告示牌
               Info:
-              - '&f[&6服务器&f] 用法: &6/res market sign [领地]'
-              - 将看向的木牌设置为领地市场木牌
+              - '&f用法: &6/res market sign [领地名称]'
+              - 将面向的告示牌设置为领地市场告示牌
             buy:
-              Description: 购买一个领地
+              Description: 购买领地
               Info:
-              - '&f[&6服务器&f] 用法: &6/res market buy [领地]'
+              - '&f用法: &6/res market buy [领地名称]'
               - 如果该领地正在出售, 则购买这个领地
             unsell:
               Description: 取消出售领地
               Info:
-              - '&f[&6服务器&f] 用法: &6/res market unsell [领地]'
+              - '&f用法: &6/res market unsell [领地名称]'
             rent:
-              Description: 租用一个领地
+              Description: 租用领地
               Info:
-              - '&f[&6服务器&f] 用法: &6/res market rent [领地] <自动续租>'
-              - 租用一个领地. <自动续租> 可以是 true 或 false. 如果是 true, 并且领地所有者允许, 领地将会在租约到期之前自动续租
+              - '&f用法: &6/res market rent [领地名称] <自动续租>'
+              - <自动续租> 可以设置为 true 或 false。如果设置为 true, 并且领地所有者允许, 领地将会在租约到期之前自动续租
             rentable:
-              Description: 将领地设置为可出租
+              Description: 将领地设置为正在出租
               Info:
-              - '&f[&6服务器&f] 用法: &6/res market rentable [领地] [价格] [天数] <周期>'
-              - 以 [价格] 出租领地 [天数] 天. 如果 <周期> 为 true, 领地将会在租约结束后自动出租.
+              - '&f用法: &6/res market rentable [领地名称] [价格] [天数] <可续租> <留在市场> <可自动续租>'
+              - <可续租> <留在市场> <可自动续租> 可以设置为 true 或 false
+              - <可续租> 设置为 true 时, 在租约到期之前, 玩家可以续租领地
+              - <留在市场> 设置为 true 时, 在玩家退租后, 领地将继续留在市场上出租
+              - <可自动续租> 设置为 true 时, 玩家可以选择开启 自动续租, 将租金自动从玩家的余额中扣除
             autopay:
-              Description: 开关领地自动支付
+              Description: 开关领地自动续租
               Info:
-              - '&f[&6服务器&f] 用法: &6/res market autopay <领地> [true/false]'
+              - '&f用法: &6/res market autopay [领地名称] [true/false]'
             payrent:
-              Description: 支付租用的领地
+              Description: 支付租金
               Info:
-              - '&f[&6服务器&f] 用法: &6/res market payrent <领地>'
+              - '&f用法: &6/res market payrent [领地名称]'
             confirm:
-              Description: 领地市场的确认操作
+              Description: 确认退租操作
               Info:
-              - '&f[&6服务器&f] 用法: &6/res market confirm'
+              - '&f用法: &6/res market confirm'
             unrent:
-              Description: Remove a residence from rent or rentable.
+              Description: 移除领地的被租用或正在出租状态
               Info:
-              - '&fUsage: &6/res market unrent [residence]'
-              - If you are the renter, this command releases the rent on the house
-                for you.
-              - If you are the owner, this command makes the residence not for rent
-                anymore.
+              - '&f用法: &6/res market unrent [领地名称]'
+              - 如果你是领地租用者, 这个命令将使你退租该领地
+              - 如果你是领地所有者, 这个命令将使你不再出租该领地
         rc:
+          Description: 加入领地聊天频道
           Info:
-          - '&f[&6服务器&f] 用法: &6/res rc (领地)'
-          - 加入当前领地或者指定领地的聊天频道
-          Description: 加入当前或者指定的领地聊天频道
+          - '&f用法: &6/res rc [领地名称]'
+          - 加入指定或当前领地的聊天频道
           SubCommands:
             leave:
-              Description: 离开当前频道
+              Description: 离开领地聊天频道
               Info:
-              - '&f[&6服务器&f] 用法: &6/res rc leave'
-              - 如果你在一个领地频道内, 你将会离开此频道
+              - '&f用法: &6/res rc leave'
+              - 如果你在一个领地聊天频道内, 你将会离开此频道
             setcolor:
-              Description: 设置领地频道文字颜色
+              Description: 设置领地聊天频道的文字颜色
               Info:
-              - '&f[&6服务器&f] 用法: &6/res rc setcolor [颜色代码]'
-              - 设置领地频道文字颜色
+              - '&f用法: &6/res rc setcolor [颜色代码]'
             setprefix:
-              Description: 设置领地频道前缀
+              Description: 设置领地聊天频道的前缀
               Info:
-              - '&f[&6服务器&f] 用法: &6/res rc setprefix [新前缀]'
-              - 设置领地频道前缀
+              - '&f用法: &6/res rc setprefix [前缀]'
             kick:
-              Description: 从频道中踢出玩家
+              Description: 从领地聊天频道中踢出指定玩家
               Info:
-              - '&f[&6服务器&f] 用法: &6/res rc kick [玩家]'
-              - 从领地频道中踢出某玩家
+              - '&f用法: &6/res rc kick [玩家名称]'
         expand:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res expand (领地) [扩展单位]'
-          - 向你面对的方向扩展领地规模
-          - 领地名字是可选的
           Description: 向你面对的方向扩展领地
+          Info:
+          - '&f用法: &6/res expand <领地名称> [长度]'
+          - 将指定或当前领地向你面对的方向扩展 [长度] 格
         compass:
+          Description: 将指南针指向领地
           Info:
-          - '&f[&6服务器&f] 用法: &6/res compass <领地名字>'
-          Description: 设置指南者指向领地
+          - '&f用法: &6/res compass <领地名称>'
         lists:
-          Info:
-          - 预定义的权限列表可以应用到领地上
           Description: 预定义权限列表
+          Info:
+          - 可以将预定义权限列表应用于领地上
           SubCommands:
             add:
               Description: 添加一个列表
               Info:
-              - '&f[&6服务器&f] 用法: &6/res lists add <列表名>'
+              - '&f用法: &6/res lists add <列表名称>'
             remove:
               Description: 删除一个列表
               Info:
-              - '&f[&6服务器&f] 用法: &6/res lists remove <列表名>'
+              - '&f用法: &6/res lists remove <列表名称>'
             apply:
               Description: 将列表应用于领地
               Info:
-              - '&f[&6服务器&f] 用法: &6/res lists apply <列表名> <领地>'
+              - '&f用法: &6/res lists apply <列表名称> <领地名称>'
             set:
-              Description: 设置列表全局权限
+              Description: 设置列表公共权限
               Info:
-              - '&f[&6服务器&f] 用法: &6/res lists set <列表名> <权限> <值>'
+              - '&f用法: &6/res lists set <列表名称> <权限> <true/false/remove>'
             pset:
               Description: 设置列表玩家权限
               Info:
-              - '&f[&6服务器&f] 用法: &6/res lists pset <列表名> <玩家> <权限> <值>'
+              - '&f用法: &6/res lists pset <列表名称> <玩家名称> <权限> <true/false/remove>'
             gset:
-              Description: 设置列表组权限
+              Description: 设置列表权限组权限
               Info:
-              - '&f[&6服务器&f] 用法: &6/res lists view <列表名>'
+              - '&f用法: &6/res lists gset <列表名称> <权限组> <权限> <true/false/remove>'
             view:
-              Description: 查看列表
+              Description: 查看一个列表
               Info:
-              - '&fUsage: &6/res lists view <列表名>'
+              - '&f用法: &6/res lists view <列表名称>'
         reset:
+          Description: 将领地重置为默认权限
           Info:
-          - '&f[&6服务器&f] 用法: &6/res reset <领地>'
-          - 将领地的所有权限重置. 你必须是领地所有者或者管理员
-          Description: 将领地设置还原为默认值
+          - '&f用法: &6/res reset <领地名称/all(全部)>'
+          - 将领地的所有权限重置为默认。你必须是领地所有者或者管理员
         listhidden:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res listhidden <玩家> <页码>'
-          - 列出指定玩家拥有的隐藏领地
           Description: 显示隐藏领地列表
+          Info:
+          - '&f用法: &6/res listhidden <玩家名称> <页码>'
+          - 列出 <玩家名称> 拥有的隐藏领地
         raid:
+          Description: 管理领地的袭击
           Info:
-          - '&fUsage: &6/res raid start [resname] (playerName)'
-          - '&6/res raid stop [resname]'
-          - '&6/res raid kick [playerName]'
-          - '&6/res raid immunity [add/take/set/clear] [resname/currentres] [time]'
-          Description: Manage raid in residence
+          - '&f用法: &6/res raid start [领地名称] <玩家名称>'
+          - '&6/res raid stop [领地名称]'
+          - '&6/res raid kick [玩家名称]'
+          - '&6/res raid immunity [add/take/set/clear] [领地名称/当前领地] [时长]'
         setmain:
+          Description: 设置为主领地
           Info:
-          - '&f[&6服务器&f] 用法: &6/res setmain (领地名字)'
-          Description: 设置主领地
+          - '&f用法: &6/res setmain <领地名称>'
+          - 将领地设置为主领地以作为聊天前缀
         server:
+          Description: 将领地设置为服务器拥有
           Info:
-          - '&f[&6服务器&f] 用法: &6/resadmin server [领地]'
-          - 创建一个属于服务器所有的领地
-          Description: 创建服务器领地
+          - '&f用法: &6/resadmin server [领地名称]'
         rt:
+          Description: 随机传送
           Info:
-          - '&f[&6服务器&f] 用法: &6/res rt'
-          - 将你传送到世界上的随机位置
-          Description: 传送到世界上的随机位置
+          - '&f用法: &6/res rt <世界名称> <玩家名称>'
+          - 将你传送到指定世界上的随机位置
         mirror:
+          Description: 权限克隆
           Info:
-          - '&f查看 &6/res market ? 获取帮助'
-          Description: 镜像权限
+          - '&f用法: &6/res mirror [来源领地] [目标领地]'
+          - 将 [来源领地] 的权限设置克隆到到 [目标领地]。你必须是两个领地的所有者或管理员才能这样做
         shop:
-          Info:
-          - 管理领地的商店功能
           Description: 管理领地商店
+          Info:
+          - 管理领地商店的功能
           SubCommands:
             list:
               Description: 显示领地商店列表
               Info:
-              - '&f[&6服务器&f] 用法: &6/res shop list'
-              - 显示所有作为商店的领地
+              - '&f用法: &6/res shop list'
+              - 列出所有作为商店的领地
             vote:
               Description: 为领地商店评分
               Info:
-              - '&f[&6服务器&f] 用法: &6/res shop vote <领地> [分数]'
-              - 为当前或指定领地商店评分
+              - '&f用法: &6/res shop vote <领地名称> [分数]'
+              - 为指定或当前领地商店评分
             like:
               Description: 为领地商店点赞
               Info:
-              - '&f[&6服务器&f] 用法: &6/res shop like <领地>'
-              - 为领地商店点一个赞
+              - '&f用法: &6/res shop like <领地名称>'
             votes:
-              Description: 显示领地商店评分
+              Description: 列出领地商店的评分
               Info:
-              - '&f[&6服务器&f] 用法: &6/res shop votes <领地> <页码>'
-              - 显示当前或指定领地商店的评分列表
+              - '&f用法: &6/res shop votes <领地名称> <页码>'
+              - 显示指定或当前领地商店的评分列表
             likes:
-              Description: 显示领地商店的赞
+              Description: 列出领地商店的赞
               Info:
-              - '&f[&6服务器&f] 用法: &6/res shop likes <领地> <页码>'
-              - 显示当前或指定领地商店的赞列表
+              - '&f用法: &6/res shop likes <领地名称> <页码>'
+              - 显示指定或当前领地商店的赞列表
             setdesc:
-              Description: 设置领地商店描述
+              Description: 设置领地商店的描述
               Info:
-              - '&f[&6服务器&f] 用法: &6/res shop setdesc [描述文字]'
-              - 设置领地商店描述, 支持颜色代码, 用 /n 表示换行
+              - '&f用法: &6/res shop setdesc [描述文字]'
+              - 设置领地商店的描述, 支持颜色代码。使用 /n 可以换行
             createboard:
               Description: 创建商店宣传板
               Info:
-              - '&f[&6服务器&f] 用法: &6/res shop createboard [位置]'
-              - 在选区位置建立商店宣传板. [位置] 表示宣传板的起始位置
+              - '&f用法: &6/res shop createboard [位置]'
+              - 在选区位置建立商店宣传板。[位置] 表示宣传板的起始书写位置
             deleteboard:
-              Description: 删除商店宣传板
+              Description: 移除商店宣传板
               Info:
-              - '&f[&6服务器&f] 用法: &6/res shop deleteboard'
-              - 右击宣传板的告示牌以删除宣传板
+              - '&f用法: &6/res shop deleteboard'
+              - 右键单击宣传板的告示牌以移除宣传板
         lset:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res lset <领地> [blacklist/ignorelist] [材料]'
-          - '&f[&6服务器&f] 用法: &6/res lset <领地> Info'
-          - 将某物品加入黑名单以阻止这种物品被放置在领地中
-          - 忽略名单中的物品将不会被领地保护
           Description: 更改黑名单和忽略名单选项
+          Info:
+          - '&f用法: &6/res lset <领地名称> [blacklist(黑名单)/ignorelist(忽略名单)] [物品]'
+          - 将指定物品加入黑名单, 以阻止其被放置在领地中
+          - 将指定物品加入忽略名单中的物品, 以使其不会被领地保护
+          - '&f用法: &6/res lset <领地名称> info'
         raidstatus:
+          Description: 查看领地的袭击状态
           Info:
-          - '&fUsage: &6/res raidstatus (resName/playerName)'
-          Description: Check raid status for a residence
+          - '&f用法: &6/res raidstatus <领地名称/玩家名称>'
         pset:
+          Description: 为玩家设置指定领地的特定权限
           Info:
-          - '&f[&6服务器&f] 用法: &6/res pset <领地> [玩家] [权限] [true/false/remove]'
-          - '&f[&6服务器&f] 用法: &6/res pset <领地> [玩家] removeall'
+          - '&f用法: &6/res pset <领地名称> [玩家名称] [权限] [true/false/remove]'
+          - '&f用法: &6/res pset <领地名称> [玩家名称] removeall'
           - 输入 /res flags ? 查看权限列表
-          Description: 为某玩家设定该领地的特定权限
         show:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res show <领地>'
           Description: 显示领地的边界
-        flags:
           Info:
-          - 对于大部分权限来说, true 表示允许, false 表示禁止这一操作
+          - '&f用法: &6/res show <领地名称>'
+        flags:
           Description: 领地权限列表
+          Info:
+          - 大部分权限可以使用参数 true 表示允许, false 表示禁止
           SubCommands:
             anvil:
+              Translated: anvil - 使用铁砧
               Description: 允许或禁止使用铁砧
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> anvil true/false/remove'
-              Translated: anvil
+              - '&f用法: &6/res set/pset <领地名称> anvil true/false/remove'
             admin:
-              Description: 玩家可以更改领地权限
+              Translated: admin - 管理员权限
+              Description: 给予玩家设置领地的权限
               Info:
-              - '&f[&6服务器&f] 用法: &6/res pset <领地> [权限] true/false/remove'
-              Translated: admin
+              - '&f用法: &6/res pset <领地名称> admin true/false/remove'
             animalkilling:
+              Translated: animalkilling - 击杀动物
               Description: 允许或禁止击杀动物
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: animalkilling
+              - '&f用法: &6/res set/pset <领地名称> animalkilling true/false/remove'
             animals:
+              Translated: animals - 动物生成
               Description: 允许或禁止动物生成
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: animals
-            backup:
-              Description: 设置为True可以恢复到以前的备份 (需要WordEdit)
+              - '&f用法: &6/res set <领地名称> animals true/false/remove'
+            anchor:
+              Translated: anchor - 使用重生锚
+              Description: 允许或禁止使用重生锚
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> backup true/false/remove'
-              Translated: backup
+              - '&f用法: &6/res set/pset <领地名称> anchor true/false/remove'
+            anvilbreak:
+              Translated: anvilbreak - 铁砧损坏
+              Description: 开启或关闭铁砧损坏
+              Info:
+              - '&f用法: &6/res set <领地名称> anvilbreak true/false/remove'
+            backup:
+              Translated: backup - 备份
+              Description: 允许或禁止恢复到以前的备份 (需要 WorldEdit)
+              Info:
+              - '&f用法: &6/res set <领地> backup true/false/remove'
             bank:
+              Translated: bank - 使用领地银行
               Description: 允许或禁止使用领地银行
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: bank
+              - '&f用法: &6/res set/pset <领地名称> bank true/false/remove'
             bed:
-              Description: 允许或禁止玩家使用床
+              Translated: bed - 使用床
+              Description: 允许或禁止使用床睡觉
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: bed
+              - '&f用法: &6/res set/pset <领地名称> bed true/false/remove'
+            honey:
+              Translated: honey - 获得蜂蜜
+              Description: 允许或禁止获得蜂蜜
+              Info:
+              - '&f用法: &6/res set/pset <领地名称> honey true/false/remove'
+            honeycomb:
+              Translated: honeycomb - 获得蜜脾
+              Description: 允许或禁止获得蜜脾
+              Info:
+              - '&f用法: &6/res set/pset <领地名称> honeycomb true/false/remove'
             beacon:
-              Description: 允许或者禁止玩家使用信标
+              Translated: beacon - 与信标交互
+              Description: 允许或禁止与信标交互
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> beacon true/false/remove'
-              Translated: beacon
+              - '&f用法: &6/res set/pset <领地名称> beacon true/false/remove'
             brew:
-              Description: 允许或禁止玩家使用酿造台
+              Translated: brew - 使用酿造台
+              Description: 允许或禁止使用酿造台
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: brew
+              - '&f用法: &6/res set/pset <领地名称> brew true/false/remove'
             build:
-              Description: 允许或禁止建造
+              Translated: build - 建造
+              Description: 允许或禁止放置和破坏
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: build
+              - '&f用法: &6/res set/pset <领地名称> build true/false/remove'
             burn:
-              Description: 允许或禁止怪物燃烧
+              Translated: burn - 怪物燃烧
+              Description: 开启或关闭怪物燃烧
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: burn
+              - '&f用法: &6/res set <领地名称> burn true/false/remove'
             button:
-              Description: 允许或禁止玩家使用按钮
+              Translated: button - 使用按钮
+              Description: 允许或禁止使用按钮
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: button
+              - '&f用法: &6/res set/pset <领地名称> button true/false/remove'
             cake:
-              Description: 允许或禁止玩家吃蛋糕
+              Translated: cake - 食用蛋糕
+              Description: 允许或禁止食用蛋糕
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: cake
+              - '&f用法: &6/res set/pset <领地名称> cake true/false/remove'
             canimals:
+              Translated: canimals - 自定义动物生成
               Description: 允许或禁止自定义动物生成
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: canimals
+              - '&f用法: &6/res set <领地名称> canimals true/false/remove'
             chorustp:
-              Description: 允许或者禁止玩家使用紫影果
+              Translated: chorustp - 紫颂果传送
+              Description: 允许或禁止使用紫颂果传送到领地
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> chorustp true/false/remove'
-              Translated: chorustp
+              - '&f用法: &6/res set/pset <领地名称> chorustp true/false/remove'
             chat:
-              Description: 允许加入领地聊天频道
+              Translated: chat - 领地聊天
+              Description: 允许或禁止加入领地聊天频道
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: chat
+              - '&f用法: &6/res set/pset <领地名称> chat true/false/remove'
             cmonsters:
+              Translated: cmonsters - 自定义怪物生成
               Description: 允许或禁止自定义怪物生成
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: cmonsters
+              - '&f用法: &6/res set <领地名称> cmonsters true/false/remove'
             commandblock:
-              Description: 允许或禁止使用命令方块
+              Translated: commandblock - 与命令方块交互
+              Description: 允许或禁止与命令方块交互
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> commandblock true/false/remove'
-              Translated: commandblock
+              - '&f用法: &6/res set/pset <领地名称> commandblock true/false/remove'
             command:
-              Description: 允许或禁止执行命令
+              Translated: command - 执行命令
+              Description: 允许或禁止执行命令, 需要与commandblock权限一起使用
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: command
+              - '&f用法: &6/res set/pset <领地名称> command true/false/remove'
             container:
-              Description: 允许或禁止使用熔炉, 箱子, 发射器等...
+              Translated: container - 使用容器
+              Description: 允许或禁止使用箱子, 发射器, 熔炉等容器
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: container
+              - '&f用法: &6/res set/pset <领地名称> container true/false/remove'
             coords:
-              Description: 隐藏领地的坐标
+              Translated: coords - 领地坐标
+              Description: 显示或隐藏领地坐标
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> coords true/false/remove'
-              Translated: coords
+              - '&f用法: &6/res set <领地名称> coords true/false/remove'
+            copper:
+              Translated: copper - 修改铜块
+              Description: 允许或禁止改变铜块状态
+              Info:
+              - '&f用法: &6/res set/pset <领地名称> copper true/false/remove'
             craft:
-              Description: 给予 table, enchant 和 brew 权限
+              Translated: craft - 给予 table, enchant and brew 权限
+              Description: 给予 table, enchant and brew 权限
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: craft
+              - '&f用法: &6/res set <领地名称> craft true/false/remove'
             creeper:
-              Description: 允许或禁止爬行者爆炸
+              Translated: creeper - 苦力怕爆炸
+              Description: 允许或禁止苦力怕爆炸
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: creeper
+              - '&f用法: &6/res set <领地名称> creeper true/false/remove'
             dragongrief:
-              Description: 防止末影龙破坏方块
+              Translated: dragongrief - 末影龙破坏
+              Description: 允许或禁止末影龙破坏方块
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: dragongrief
+              - '&f用法: &6/res set <领地名称> dragongrief true/false/remove'
             day:
+              Translated: day - 保持白天
               Description: 领地保持白天
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: day
+              - '&f用法: &6/res set <领地名称> day true/false/remove'
             dye:
-              Description: 允许或禁止为羊毛染色
+              Translated: dye - 给羊染色
+              Description: 允许或禁止给羊染色
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: dye
+              - '&f用法: &6/res set/pset <领地名称> dye true/false/remove'
             damage:
-              Description: 允许或禁止所有实体伤害
+              Translated: damage - 实体伤害
+              Description: 开启或关闭实体伤害
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: damage
+              - '&f用法: &6/res set <领地名称> damage true/false/remove'
             decay:
-              Description: 允许或者禁止树叶凋敝
+              Translated: decay - 树叶凋落
+              Description: 开启或关闭树叶凋落
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> decay true/false/remove'
-              Translated: decay
+              - '&f用法: &6/res set <领地名称> decay true/false/remove'
             destroy:
-              Description: 只允许或禁止破坏方块, 该权限覆盖 build 权限
+              Translated: destroy - 破坏
+              Description: 允许或禁止破坏方块, 该权限覆盖 build 权限
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: destroy
+              - '&f用法: &6/res set/pset <领地名称> destroy true/false/remove'
             dryup:
-              Description: 保护耕地失去水分
+              Translated: dryup - 耕地干涸
+              Description: 开启或关闭耕地干涸
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> dryup true/false/remove'
-              Translated: dryup
+              - '&f用法: &6/res set <领地名称> dryup true/false/remove'
             diode:
-              Description: 允许或禁止玩家使用红石中继器
+              Translated: diode - 红石中继器
+              Description: 允许或禁止使用红石中继器
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: diode
+              - '&f用法: &6/res set/pset <领地名称> diode true/false/remove'
             door:
-              Description: 允许或禁止玩家开关门和活板门
+              Translated: door - 门
+              Description: 允许或禁止使用门和活板门
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: door
+              - '&f用法: &6/res set/pset <领地名称> door true/false/remove'
             egg:
-              Description: 允许或禁止点击末影龙蛋
+              Translated: egg - 与龙蛋交互
+              Description: 允许或禁止与龙蛋交互
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> egg true/false/remove'
-              Translated: egg
+              - '&f用法: &6/res set/pset <领地名称> egg true/false/remove'
             enchant:
-              Description: 允许或禁止玩家使用附魔台
+              Translated: enchant - 使用附魔台
+              Description: 允许或禁止使用附魔台
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: enchant
+              - '&f用法: &6/res set/pset <领地名称> enchant true/false/remove'
             explode:
+              Translated: explode - 爆炸
               Description: 允许或禁止爆炸
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: explode
+              - '&f用法: &6/res set <领地名称> explode true/false/remove'
+            elytra:
+              Translated: elytra - 使用鞘翅
+              Description: 允许或禁止使用鞘翅
+              Info:
+              - '&f用法: &6/res set/pset <领地名称> elytra true/false/remove'
             enderpearl:
-              Description: 允许或禁止用末影珍珠传送至此领地
+              Translated: enderpearl - 末影珍珠传送
+              Description: 允许或禁止使用末影珍珠传送到领地
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: enderpearl
+              - '&f用法: &6/res set/pset <领地名称> enderpearl true/false/remove'
             fallinprotection:
-              Description: 防止掉落的方块进入领地
+              Translated: fallinprotection - 阻止方块从领地外掉落到领地内
+              Description: 阻止或允许方块 (例如沙子和沙砾) 从领地外掉落到领地内, True表示阻止
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> fallinprotection true/false/remove'
-              Translated: fallinprotection
+              - '&f用法: &6/res set <领地名称> fallinprotection true/false/remove'
             falldamage:
-              Description: 开关玩家坠落伤害
+              Translated: falldamage - 跌落伤害
+              Description: 开启或关闭跌落伤害
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> falldamage true/false/remove'
-              Translated: falldamage
+              - '&f用法: &6/res set <领地名称> falldamage true/false/remove'
             feed:
-              Description: 为领地内的玩家恢复饱食
+              Translated: feed - 自动回复饱食度
+              Description: 开启或关闭自动为领地内玩家回复饱食度
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: feed
+              - '&f用法: &6/res set <领地名称> feed true/false/remove'
+            friendlyfire:
+              Translated: friendlyfire - 队友伤害 (待实测)
+              Description: 开启或关闭队友伤害 (待实测)
+              Info:
+              - '&f用法: &6/res pset <领地名称> friendlyfire true/false/remove'
             fireball:
-              Description: 允许或禁止火焰弹
+              Translated: fireball - 使用火焰弹
+              Description: 允许或禁止火焰弹, True或Remove表示允许
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: fireball
+              - '&f用法: &6/res set <领地名称> fireball true/false/remove'
             firespread:
-              Description: 允许或禁止火焰蔓延
+              Translated: firespread - 火焰蔓延
+              Description: 允许或禁止火焰蔓延, True或Remove表示允许
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: firespread
+              - '&f用法: &6/res set <领地名称> firespread true/false/remove'
             flowinprotection:
-              Description: 允许或禁止液体流入领地
+              Translated: flowinprotection - 阻止流体从领地外流向领地内
+              Description: 阻止或允许流体从领地外流向领地内, True表示阻止
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> flowinprotection true/false/remove'
-              Translated: flowinprotection
+              - '&f用法: &6/res set <领地名称> flowinprotection true/false/remove'
             flow:
-              Description: 允许或禁止液体流动
+              Translated: flow - 流体流动
+              Description: 允许或禁止领地内流体扩散
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: flow
+              - '&f用法: &6/res set <领地名称> flow true/false/remove'
             flowerpot:
-              Description: 允许或禁止点击花盆
+              Translated: flowerpot - 与花盆交互
+              Description: 允许或禁止与花盆交互
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> flowerpot true/false/remove'
-              Translated: flowerpot
+              - '&f用法: &6/res set/pset <领地名称> flowerpot true/false/remove'
             grow:
-              Description: 允许或禁止作物生长
+              Translated: grow - 植物生长
+              Description: 允许或禁止植物生长
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> grow true/false/remove'
-              Translated: grow
+              - '&f用法: &6/res set <领地名称> grow true/false/remove'
             glow:
-              Description: 玩家进入领地会有发光效果
+              Translated: glow - 发光
+              Description: 使玩家进入领地时有发光效果
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> glow true/false/remove'
-              Translated: glow
+              - '&f用法: &6/res set <领地名称> glow true/false/remove'
             hotfloor:
-              Description: 开关岩浆块的伤害
+              Translated: hotfloor - 岩浆块伤害
+              Description: 开启或关闭岩浆块造成的伤害
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> hotfloor true/false/remove'
-              Translated: hotfloor
+              - '&f用法: &6/res set <领地名称> hotfloor true/false/remove'
             hidden:
-              Description: 在 list 或 listall 命令中隐藏此领地
+              Translated: hidden -  隐藏领地
+              Description: 在 list 或 listall 命令中隐藏此领地, True表示隐藏
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: hidden
+              - '&f用法: &6/res set <领地名称> hidden true/false/remove'
             hook:
-              Description: 允许或禁止使用鱼竿攻击实体
+              Translated: hook - 使用鱼竿钩住实体
+              Description: 允许或禁止使用鱼竿钩住实体
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> hook true/false/remove'
-              Translated: hook
+              - '&f用法: &6/res set/pset <领地名称> hook true/false/remove'
             healing:
-              Description: 为领地内的玩家治疗
+              Translated: healing - 自动回复生命值
+              Description: 开启或关闭为领地内玩家自动回复生命值
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: healing
+              - '&f用法: &6/res set <领地名称> healing true/false/remove'
             iceform:
-              Description: 阻止冰霜行者魔咒发挥作用
+              Translated: iceform - 结冰
+              Description: 允许或禁止水结冰
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: iceform
+              - '&f用法: &6/res set <领地名称> iceform true/false/remove'
             icemelt:
-              Description: 开关冰的融化
+              Translated: icemelt - 冰融化
+              Description: 允许或禁止冰融化
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> icemelt true/false/remove'
-              Translated: icemelt
+              - '&f用法: &6/res set <领地名称> icemelt true/false/remove'
             ignite:
+              Translated: ignite - 点火
               Description: 允许或禁止点火
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: ignite
+              - '&f用法: &6/res set/pset <领地名称> ignite true/false/remove'
+            itemdrop:
+              Translated: itemdrop - 物品掉落
+              Description: 允许或禁止物品掉落
+              Info:
+              - '&f用法: &6/res set/pset <领地名称> itemdrop true/false/remove'
+            itempickup:
+              Translated: itempickup - 捡起物品
+              Description: 允许或禁止捡起物品
+              Info:
+              - '&f用法: &6/res set/pset <领地名称> itempickup true/false/remove'
             jump2:
-              Description: 允许跳2格高
+              Translated: jump2 - 跳跃两格高
+              Description: 允许或禁止玩家跳跃高度在两格以上
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <residence> jump2 true/false/remove'
-              Translated: jump2
+              - '&f用法: &6/res set <领地名称> jump2 true/false/remove'
             jump3:
-              Description: 允许跳3格高
+              Translated: jump3 - 跳跃三格高
+              Description: 允许或禁止玩家跳跃高度在三格以上
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <residence> jump3 true/false/remove'
-              Translated: jump3
+              - '&f用法: &6/res set <领地名称> jump3 true/false/remove'
             keepinv:
-              Description: 玩家死亡不会掉落物品
+              Translated: keepinv - 物品死亡不掉落
+              Description: 允许或禁止玩家在领地内死亡后保留物品栏
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: keepinv
+              - '&f用法: &6/res set <领地名称> keepinv true/false/remove'
             keepexp:
-              Description: 玩家死亡不会损失经验
+              Translated: keepexp - 经验值死亡不掉落
+              Description: 允许或禁止玩家在领地内死亡后保留经验值
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: keepexp
+              - '&f用法: &6/res set <领地名称> keepexp true/false/remove'
             lavaflow:
-              Description: 允许或禁止岩浆流动, 该权限覆盖 flow 权限
+              Translated: lavaflow - 岩浆流动
+              Description: 允许或禁止领地内岩浆扩散, 该权限覆盖 flow 权限
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: lavaflow
+              - '&f用法: &6/res set <领地名称> lavaflow true/false/remove'
             leash:
-              Description: 允许或禁止牵引动物
+              Translated: leash - 使用拴绳
+              Description: 允许或禁止使用拴绳
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: leash
+              - '&f用法: &6/res set/pset <领地名称> leash true/false/remove'
             lever:
-              Description: 允许或禁止玩家使用拉杆
+              Translated: lever - 使用拉杆
+              Description: 允许或禁止使用拉杆
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: lever
+              - '&f用法: &6/res set/pset <领地名称> lever true/false/remove'
             mobexpdrop:
-              Description: 怪物死亡不会掉落经验
+              Translated: mobexpdrop - 怪物掉落经验
+              Description: 允许或禁止怪物掉落经验, True或Remove表示允许
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: mobexpdrop
+              - '&f用法: &6/res set <领地名称> mobexpdrop true/false/remove'
             mobitemdrop:
-              Description: 怪物死亡不会掉落物品
+              Translated: mobitemdrop - 怪物掉落物品
+              Description: 允许或禁止怪物掉落物品, True或Remove表示允许
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: mobitemdrop
+              - '&f用法: &6/res set <领地名称> mobitemdrop true/false/remove'
             mobkilling:
+              Translated: mobkilling - 击杀怪物
               Description: 允许或禁止击杀怪物
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: mobkilling
+              - '&f用法: &6/res set/pset <领地名称> mobkilling true/false/remove'
             monsters:
+              Translated: monsters - 怪物生成
               Description: 允许或禁止怪物生成
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: monsters
+              - '&f用法: &6/res set <领地名称> monsters true/false/remove'
             move:
+              Translated: move - 移动
               Description: 允许或禁止移动
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: move
+              - '&f用法: &6/res set/pset <领地名称> move true/false/remove'
+            nametag:
+              Translated: nametag - 使用命名牌 (待实测)
+              Description: 允许或禁止使用命名牌 (待实测)
+              Info:
+              - '&f用法: &6/res set/pset <领地名称> nametag true/false/remove'
             nanimals:
+              Translated: nanimals - 自然生成动物
               Description: 允许或禁止自然生成动物
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: nanimals
+              - '&f用法: &6/res set <领地名称> nanimals true/false/remove'
             nmonsters:
+              Translated: nmonsters - 自然生成怪物
               Description: 允许或禁止自然生成怪物
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: nmonsters
+              - '&f用法: &6/res set <领地名称> nmonsters true/false/remove'
             night:
-              Description: 领地保持夜间
+              Translated: night - 保持夜晚
+              Description: 领地保持夜晚
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: night
+              - '&f用法: &6/res set <领地名称> night true/false/remove'
             nofly:
-              Description: 允许或禁止飞行
+              Translated: nofly - 禁止飞行
+              Description: 禁止或允许飞行, True表示禁止
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: nofly
+              - '&f用法: &6/res set/pset <领地名称> nofly true/false/remove'
             fly:
-              Description: 设置领地内的玩家飞行状态
+              Translated: fly - 进入飞行
+              Description: 开启或关闭自动进入飞行状态
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> fly true/false/remove'
-              Translated: fly
+              - '&f用法: &6/res set/pset <领地名称> fly true/false/remove'
             nomobs:
-              Description: 允许或禁止怪物进入领地
+              Translated: nomobs - 阻止怪物进入领地
+              Description: 阻止或允许怪物进入领地, True表示阻止
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: nomobs
+              - '&f用法: &6/res set <领地名称> nomobs true/false/remove'
             note:
-              Description: 允许或禁止玩家使用音符盒
+              Translated: note - 使用音符盒
+              Description: 允许或禁止使用音符盒
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: note
+              - '&f用法: &6/res set/pset <领地名称> note true/false/remove'
             nodurability:
-              Description: 物品不会损失耐久
+              Translated: nodurability - 耐久不损耗
+              Description: 保持或不保持物品耐久度
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: nodurability
+              - '&f用法: &6/res set <领地名称> nodurability true/false/remove'
             overridepvp:
-              Description: 覆盖任何插件的 PVP 保护
+              Translated: overridepvp - 覆盖其他插件PVP
+              Description: 覆盖或不覆盖其他插件的PVP保护
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: overridepvp
+              - '&f用法: &6/res set <领地名称> overridepvp true/false/remove'
             pressure:
-              Description: 允许或禁止玩家使用压力板
+              Translated: pressure - 使用压力板
+              Description: 允许或禁止使用压力板
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: pressure
+              - '&f用法: &6/res set/pset <领地名称> pressure true/false/remove'
             piston:
-              Description: 允许或禁止活塞推拉方块
+              Translated: piston - 使用活塞
+              Description: 允许或禁止活塞工作
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: piston
+              - '&f用法: &6/res set <领地名称> piston true/false/remove'
             pistonprotection:
-              Description: 允许或者禁止活塞从领地外推动领地内的方块
+              Translated: pistonprotection - 阻止领地外活塞
+              Description: 阻止或允许领地外的活塞推/拉至领地内, True表示阻止
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> pistonprotection true/false/remove'
-              Translated: pistonprotection
+              - '&f用法: &6/res set <领地名称> pistonprotection true/false/remove'
             place:
-              Description: 只允许或禁止放置方块, 该权限覆盖 build 权限
+              Translated: place - 放置
+              Description: 允许或禁止放置方块, 该权限覆盖 build 权限
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: place
+              - '&f用法: &6/res set/pset <领地名称> place true/false/remove'
             pvp:
-              Description: 允许或禁止领地内 PVP
+              Translated: pvp - PVP
+              Description: 允许或禁止PVP
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: pvp
+              - '&f用法: &6/res set <领地名称> pvp true/false/remove'
             rain:
-              Description: 设置领地天气为下雨
+              Translated: rain - 保持雨天
+              Description: 领地保持雨天
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> rain true/false/remove'
-              Translated: rain
+              - '&f用法: &6/res set <领地名称> rain true/false/remove'
             redstone:
+              Translated: redstone - 红石
               Description: 给予 lever, diode, button, pressure 和 note 权限
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
+              - '&f用法: &6/res set/pset <领地> redstone true/false/remove'
             respawn:
-              Description: 自动重生玩家
+              Translated: respawn - 自动复活
+              Description: 允许或禁止自动复活玩家
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: respawn
+              - '&f用法: &6/res set <领地名称> respawn true/false/remove'
             riding:
-              Description: 阻止骑乘马匹
+              Translated: riding - 骑马
+              Description: 允许或禁止骑马
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: riding
+              - '&f用法: &6/res set/pset <领地名称> riding true/false/remove'
             shoot:
-              Description: 允许或禁止在领地内射击
+              Translated: shoot - 射击
+              Description: 允许或禁止使用弓箭射击, 使用喷溅型药水等
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> shoot true/false/remove'
-              Translated: shoot
+              - '&f用法: &6/res set <领地名称> shoot true/false/remove'
             sun:
-              Description: 设置领地天气为晴天
+              Translated: sun - 保持晴天
+              Description: 领地保持晴天
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> sun true/false/remove'
-              Translated: sun
+              - '&f用法: &6/res set <领地名称> sun true/false/remove'
             shop:
-              Description: 将领地设置为商店
+              Translated: shop - 领地商店
+              Description: 将领地添加到领地商店列表中
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: shop
+              - '&f用法: &6/res set <领地名称> shop true/false/remove'
             snowtrail:
-              Description: 防止雪傀儡留下雪轨迹
+              Translated: snowtrail - 雪傀儡生成雪迹
+              Description: 允许或禁止雪傀儡生成雪迹
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: snowtrail
+              - '&f用法: &6/res set <领地名称> snowtrail true/false/remove'
             spread:
-              Description: 防止方块扩散
+              Translated: spread - 方块蔓延
+              Description: 允许或禁止方块蔓延
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> spread true/false/remove'
-              Translated: spread
+              - '&f用法: &6/res set <领地名称> spread true/false/remove'
             snowball:
-              Description: 防止雪球击退效果
+              Translated: snowball - 雪球击退
+              Description: 允许或禁止雪球击退
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> snowball true/false/remove'
-              Translated: snowball
+              - '&f用法: &6/res set <领地名称> snowball true/false/remove'
             sanimals:
-              Description: 允许或禁止刷怪笼和刷怪蛋生成动物
+              Translated: sanimals - 刷怪笼或刷怪蛋生成动物
+              Description: 允许或禁止刷怪笼或刷怪蛋生成动物
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: sanimals
+              - '&f用法: &6/res set <领地名称> sanimals true/false/remove'
             shear:
+              Translated: shear - 剪羊毛
               Description: 允许或禁止剪羊毛
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: shear
+              - '&f用法: &6/res set/pset <领地名称> shear true/false/remove'
             smonsters:
-              Description: 允许或禁止刷怪笼和刷怪蛋生成怪物
+              Translated: smonsters - 刷怪笼或刷怪蛋生成怪物
+              Description: 允许或禁止刷怪笼或刷怪蛋生成怪物
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: smonsters
+              - '&f用法: &6/res set <领地名称> smonsters true/false/remove'
             subzone:
-              Description: 允许玩家建立领地子区域
+              Translated: subzone - 创建子领地
+              Description: 允许或禁止创建子领地
               Info:
-              - '&f[&6服务器&f] 用法: &6/res pset <领地> [权限] true/false/remove'
-              Translated: subzone
+              - '&f用法: &6/res set/pset <领地名称> subzone true/false/remove'
+            title:
+              Translated: title - 提示消息
+              Description: 显示或隐藏领地进入/离开提示消息
+              Info:
+              - '&f用法: &6/res set <领地名称> title true/false/remove'
             table:
-              Description: 允许或禁止玩家使用工作台
+              Translated: table - 工作台
+              Description: 允许或禁止使用工作台
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: table
+              - '&f用法: &6/res set/pset <领地名称> table true/false/remove'
             tnt:
-              Description: 允许或禁止 TNT 爆炸
+              Translated: tnt - TNT爆炸
+              Description: 允许或禁止TNT爆炸
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: tnt
+              - '&f用法: &6/res set <领地名称> tnt true/false/remove'
             tp:
-              Description: 允许或禁止传送至此领地
+              Translated: tp - 传送到领地
+              Description: 允许或禁止传送到领地
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: tp
+              - '&f用法: &6/res set/pset <领地名称> tp true/false/remove'
             trade:
-              Description: 允许或禁止村民交易
+              Translated: trade - 与村民交易
+              Description: 允许或禁止与村民交易
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: trade
+              - '&f用法: &6/res set/pset <领地名称> trade true/false/remove'
             trample:
-              Description: 允许或禁止踩坏耕地
+              Translated: trample - 踩踏耕地
+              Description: 允许或禁止踩踏耕地
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: trample
+              - '&f用法: &6/res set <领地名称> trample true/false/remove'
             trusted:
+              Translated: trusted - 信任
               Description: 给予 build, use, move, container 和 tp 权限
               Info:
-              - '&f[&6服务器&f] 用法: &6/res pset <领地> [权限] true/false/remove'
+              - '&f用法: &6/res pset <领地> [权限] true/false/remove'
             use:
-              Description: 允许或禁止使用门, 拉杆, 按钮等...
+              Translated: use - 控制一些交互权限
+              Description: 允许或禁止使用门, 杠杆, 按钮等
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: use
+              - '&f用法: &6/res set/pset <领地名称> use true/false/remove'
             vehicledestroy:
+              Translated: vehicledestroy - 破坏载具
               Description: 允许或禁止破坏载具
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set/pset <领地> [权限] true/false/remove'
-              Translated: vehicledestroy
+              - '&f用法: &6/res set/pset <领地名称> vehicledestroy true/false/remove'
             witherspawn:
-              Description: 允许或禁止凋零的生成
+              Translated: witherspawn - 凋零生成
+              Description: 允许或禁止凋零生成
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> witherspawn true/false/remove'
-              Translated: witherspawn
+              - '&f用法: &6/res set <领地名称> witherspawn true/false/remove'
+            phantomspawn:
+              Translated: phantomspawn - 幻翼生成
+              Description: 允许或禁止幻翼生成
+              Info:
+              - '&f用法: &6/res set <领地名称> phantomspawn true/false/remove'
             witherdamage:
-              Description: 禁止凋灵造成伤害
+              Translated: witherdamage - 凋零伤害
+              Description: 允许或禁止凋零造成伤害
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: witherdamage
+              - '&f用法: &6/res set <领地名称> witherdamage true/false/remove'
             witherdestruction:
+              Translated: witherdestruction - 凋零破坏
               Description: 允许或禁止凋零破坏方块
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> witherdestruction true/false/remove'
-              Translated: witherdestruction
+              - '&f用法: &6/res set <领地名称> witherdestruction true/false/remove'
             waterflow:
-              Description: 允许或禁止水流动, 该权限覆盖 flow 权限
+              Translated: waterflow - 水流动
+              Description: 允许或禁止水扩散, 该权限覆盖 flow 权限
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] true/false/remove'
-              Translated: waterflow
+              - '&f用法: &6/res set <领地名称> waterflow true/false/remove'
             wspeed1:
-              Description: 设置领地内玩家的行走速度为 %1
+              Translated: wspeed1 - 移动速度
+              Description: 设置移动速度为 %1
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> wspeed1 true/false/remove'
-              Translated: wspeed1
+              - '&f用法: &6/res set <领地名称> wspeed1 true/false/remove'
             wspeed2:
-              Description: 设置领地内玩家的行走速度为 %1
+              Translated: wspeed2 - 移动速度
+              Description: 设置移动速度为 %1
               Info:
-              - '&f[&6服务器&f] 用法: &6/res set <领地> wspeed2 true/false/remove'
-              Translated: wspeed2
-            anvilbreak:
-              Description: Allows or denys anvil break in residence
+              - '&f用法: &6/res set <领地名称> wspeed2 true/false/remove'
+            safezone:
+              Translated: safezone - 安全区域
+              Description: 清除玩家的负面药水效果
               Info:
-              - '&fUsage: &6/res set <residence> anvilbreak true/false/remove'
-              Translated: anvilbreak
-            friendlyfire:
-              Description: Allow or disallow friendly fire
+              - '&f用法: &6/res set <领地> safezone true/false/remove'
+            brush:
+              Translated: brush - 方块笔刷
+              Description: 允许或禁止使用方块笔刷
               Info:
-              - '&fUsage: &6/res pset <residence> friendlyfire true/false/remove'
-              Translated: friendlyfire
-            itemdrop:
-              Description: Allows or denys item drop
-              Info:
-              - '&fUsage: &6/res set/pset <residence> itemdrop true/false/remove'
-              Translated: itemdrop
-            itempickup:
-              Description: Allows or denys item pickup
-              Info:
-              - '&fUsage: &6/res set/pset <residence> itempickup true/false/remove'
-              Translated: itempickup
-            title:
-              Description: Shows or hides enter/leave message in residence
-              Info:
-              - '&fUsage: &6/res set <residence> title true/false/remove'
-              Translated: title
-            phantomspawn:
-              Description: Allows or denys phantom spawning
-              Info:
-              - '&fUsage: &6/res set <residence> phantomspawn true/false/remove'
-              Translated: phantomspawn
-            anchor:
-              Description: Allows or denys respawn anchor usage
-              Info:
-              - '&fUsage: &6/res set/pset <residence> anchor true/false/remove'
-              Translated: anchor
-            honey:
-              Description: Allows or denys players to get honey
-              Info:
-              - '&fUsage: &6/res set/pset <residence> honey true/false/remove'
-              Translated: honey
-            honeycomb:
-              Description: Allows or denys players to get honeycomb
-              Info:
-              - '&fUsage: &6/res set/pset <residence> honeycomb true/false/remove'
-              Translated: honeycomb
-            elytra:
-              Description: Allows or denys elytra usage in residences
-              Info:
-              - '&fUsage: &6/res set/pset <residence> elytra true/false/remove'
-              Translated: elytra
-            nametag:
-              Description: Allows or denys name tag usage
-              Info:
-              - '&fUsage: &6/res set/pset <residence> nametag true/false/remove'
-              Translated: nametag
-            copper:
-              Translated: copper
-              Description: Allows to modify copper blocks
-              Info:
-              - '&fUsage: &6/res set/pset <residence> copper true/false/remove'
+              - '&f用法: &6/res set/pset <领地> brush true/false/remove'
             harvest:
-              Translated: harvest
-              Description: Allows harvesting
+              Translated: harvest - 收获作物
+              Description: 允许或禁止收获作物
               Info:
-              - '&eUsage: &6/res set/pset <residence> harvest true/false/remove'
+              - '&f用法: &6/res set/pset <领地> harvest true/false/remove'
             animalfeeding:
               Translated: animalfeeding
-              Description: Allows or denys animal feeding
+              Description: 允许/禁止喂养动物
               Info:
-              - '&eUsage: &6/res set/pset <residence> animalfeeding true/false/remove'
-            safezone:
-              Translated: safezone
-              Description: Setting to true makes the residence clean bad effects from
-                its occupants
-              Info:
-              - '&eUsage: &6/res set <residence> safezone true/false/remove'
+              - '&f用法：&6/res set/pset <领地名> animalfeeding true/false/remove'
             boarding:
               Translated: boarding
-              Description: Allows or denys animal boarding in residences
+              Description: 允许/禁止动物进入领地
               Info:
-              - '&eUsage: &6/res set <residence> boarding true/false/remove'
-            brush:
-              Translated: brush
-              Description: Allows or denys block brushing
-              Info:
-              - '&eUsage: &6/res set/pset <residence> brush true/false/remove'
+              - '&f用法：&6/res set <领地名> boarding true/false/remove'
             coraldryup:
               Translated: coraldryup
-              Description: Allow or deny all corals from drying up
+              Description: 允许/禁止珊瑚干枯
               Info:
-              - '&eUsage: &6/res set <residence> coraldryup true/false/remove'
+              - '&f用法：&6/res set <领地名> coraldryup true/false/remove'
             goathorn:
               Translated: goathorn
-              Description: Allows or denys goat horn usage
+              Description: 允许/禁止使用山羊角
               Info:
-              - '&eUsage: &6/res set/pset <residence> goathorn true/false/remove'
+              - '&f用法：&6/res set/pset <领地名> goathorn true/false/remove'
             golemopenchest:
               Translated: golemopenchest
-              Description: Allow or deny golem open chest
+              Description: 允许/禁止傀儡开启箱子
               Info:
-              - '&eUsage: &6/res set <residence> golemopenchest true/false/remove'
+              - '&f用法：&6/res set <领地名> golemopenchest true/false/remove'
             skulk:
               Translated: skulk
-              Description: Prevents skulk catalyst spreading
+              Description: 禁止幽匿催发体蔓延
               Info:
-              - '&eUsage: &6/res set <residence> skulk true/false/remove'
+              - '&f用法：&6/res set <领地名> skulk true/false/remove'
             visualizer:
               Translated: visualizer
-              Description: Shows or hides particle visualizer when entering residence
+              Description: 进入领地时显示/隐藏粒子边界
               Info:
-              - '&eUsage: &6/res set <residence> visualizer true/false/remove'
+              - '&f用法：&6/res set <领地名> visualizer true/false/remove'
             vehicleplacing:
               Translated: vehicleplacing
-              Description: Allows or denys vehicle placing
+              Description: 允许/禁止放置载具
               Info:
-              - '&eUsage: &6/res set/pset <residence> vehicleplacing true/false/remove'
+              - '&f用法：&6/res set/pset <领地名> vehicleplacing true/false/remove'
         remove:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res remove <领地名>'
           Description: 删除领地
+          Info:
+          - '&f用法: &6/res remove [领地名称]'
         signupdate:
+          Description: 更新领地告示牌
           Info:
-          - '&f[&6服务器&f] 用法: &6/res signupdate'
-          Description: 更新领地木牌
+          - '&f用法: &6/res signupdate'
         current:
+          Description: 显示你当前所在的领地
           Info:
-          - '&f[&6服务器&f] 用法: &6/res current'
-          Description: 显示你目前所在的领地
+          - '&f用法: &6/res current'
         reload:
+          Description: 重新加载配置或语言文件
           Info:
-          - '&f[&6服务器&f] 用法: &6/res reload [config/lang]'
-          Description: 重载语言或配置文件
+          - '&f用法: &6/res reload [config(配置)/lang(语言)/groups(组)/flags(权限)]'
         leaveraid:
+          Description: 离开袭击
           Info:
-          - '&fUsage: &6/res leaveraid'
-          Description: Leave raid
+          - '&f用法: &6/res leaveraid'
         setowner:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/resadmin setowner [领地] [玩家]'
           Description: 改变领地所有者
+          Info:
+          - '&f用法: &6/resadmin setowner [领地名称] [玩家名称] (-keepflags(保持权限))'
         defend:
+          Description: 加入领地袭击的防守
           Info:
-          - '&fUsage: &6/res defend [resName] (playerName)'
-          Description: Join raid defence on residence
+          - '&f用法: &6/res defend [领地名称] <玩家名称>'
         attack:
-          Description: Start raid on residence
+          Description: 开始对领地进行袭击
           Info:
-          - '&fUsage: &6/res attack [resName]'
+          - '&f用法: &6/res attack [领地名称]'
         unstuck:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res unstuck'
           Description: 传送到领地外面
+          Info:
+          - '&f用法: &6/res unstuck'
         subzone:
+          Description: 在领地中创建子领地
           Info:
-          - '&f[&6服务器&f] 用法: &6/res subzone <领地名> [子区域名]'
-          - 如果领地名留空, 将会尝试在玩家所处领地中建立子区域
-          Description: 在领地中创建子区域
+          - '&f用法: &6/res subzone <领地名称> [子领地名称]'
+          - 将在指定或当前领地中建立子领地
         removeworld:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res removeworld [世界名]'
-          - 只能在控制台执行此命令
           Description: 删除指定世界中的所有领地
+          Info:
+          - '&f用法: &6/res removeworld [世界名称] <例外玩家>'
+          - 只能在控制台执行此命令
         limits:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res limits'
-          - 显示你在创建和管理领地方面的各种限制
           Description: 显示你的领地限制
+          Info:
+          - '&f用法: &6/res limits <玩家名称>'
+          - 显示你在创建和管理领地方面的各种限制
         set:
+          Description: 为领地设置公共权限
           Info:
-          - '&f[&6服务器&f] 用法: &6/res set <领地> [权限] [true/false/remove]'
+          - '&f用法: &6/res set <领地名称> [权限] [true/false/remove]'
           - 输入 /res flags ? 查看权限列表
-          - 如果没有为某玩家指定该领地的特定权限, 那么这名玩家将会拥有这些默认权限. (参见 /res pset ?)
-          Description: 为领地设置默认权限
+          - 如果没有为玩家指定该领地的特定权限, 那么这名玩家将会拥有这些公共权限。(参见 /res pset ?)
         clearflags:
+          Description: 清除领地所有权限
           Info:
-          - '&f[&6服务器&f] 用法: &6/res clearflags <residence>'
-          Description: 删除领地所有权限
+          - '&f用法: &6/res clearflags <领地名称>'
         message:
+          Description: 管理加入/离开领地时的提示消息
           Info:
-          - '&f[&6服务器&f] 用法: &6/res message <领地> [enter/leave] [消息]'
-          - 设置领地加入和离开的消息文本
-          - '&f[&6服务器&f] 用法: &6/res message <领地> remove [enter/leave]'
-          - 移除加入或离开的消息文本
-          Description: 管理领地加入 / 离开消息
+          - '&f用法: &6/res message <领地名称> [enter(进入)/leave(离开)] [消息文本]'
+          - '&f用法: &6/res message <领地名称> remove [enter(进入)/leave(离开)]'
+          - 清除进入/离开时的提示消息
+          - '%player 表示玩家名称'
+          - '%playerDisplay 表示玩家的展示名称'
+          - '%owner 表示领地所有者名称'
+          - '%residence 表示领地名称'
+          - '%zone 表示不包含父领地名称的领地名称'
+          - 消息文本留空表示禁用提示消息
         command:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res command <领地> <allow/block/list> <command>'
-          - 使用 _ 来表示多个变量
           Description: 管理领地允许或者禁止的命令
+          Info:
+          - '&f用法: &6/res command <领地名称> <allow(允许)/block(禁用)/list(查看列表)> <命令>'
+          - 想要移除添加的命令只需要重新输入一次即可移除
+          - 使用 _ 来表示多个变量
+          - '&f用法: &6/res command <领地名称> <list(查看列表)>'
         confirm:
           Description: 确认删除领地
           Info:
-          - '&f[&6服务器&f] 用法: &6/res confirm'
-          - 确认删除一个领地
+          - '&f用法: &6/res confirm'
+          - 确认删除指定领地
         resadmin:
+          Description: 关闭或者开启领地管理员
           Info:
-          - '&f[&6服务器&f] 用法: &6/res resadmin [on/off]'
-          Description: 关闭或者开启领地管理
+          - '&f用法: &6/res resadmin [on/off]'
         tpset:
+          Description: 设置领地的传送点
           Info:
-          - '&f[&6服务器&f] 用法: &6/res tpset'
-          - 该命令将会把你站的位置设置为领地的传送点
+          - '&f用法: &6/res tpset'
+          - 该命令将会把你所在的位置设置为领地的传送点
           - 你必须站在一个领地里才能使用这个命令
-          - 你必须是领地的所有者或者拥有领地的 +admin 权限
-          Description: 设定领地的传送点
+          - 你必须是领地所有者或者管理员
         tpconfirm:
+          Description: 忽略传送警告
           Info:
-          - '&f[&6服务器&f] 用法: &6/res tpconfirm'
-          - 强制传送到领地, 忽略传送不安全的警告
-          Description: 忽略不安全传送警告
+          - '&f用法: &6/res tpconfirm'
+          - 忽略传送不安全的警告, 传送到指定领地
         removeall:
+          Description: 删除玩家的所有领地
           Info:
-          - '&f[&6服务器&f] 用法: &6/res removeall [所有者]'
-          - 移除特定玩家的所有领地
-          - 如果是移除其他玩家的领地, 你必须有 /resadmin 命令权限
-          Description: 移除某玩家的所有领地
+          - '&f用法: &6/res removeall [玩家名称]'
+          - 删除玩家拥有的所有领地
+          - 如果要删除其他玩家的领地, 你必须有 /resadmin 命令权限
         material:
+          Description: 通过ID查看是否存在对应的材料
           Info:
-          - '&f[&6服务器&f] 用法: &6/res material [material]'
-          Description: 检查材质是否存在对应的ID
+          - '&f用法: &6/res material [材料ID]'
         kick:
+          Description: 将玩家踢出领地
           Info:
-          - '&f[&6服务器&f] 用法: &6/res kick <玩家>'
+          - '&f用法: &6/res kick <玩家名称>'
           - 你必须是领地所有者或者管理员
           - 玩家必须在线
-          Description: 将玩家踢出领地
         sublist:
+          Description: 列出指定领地的所有子领地
           Info:
-          - '&f[&6服务器&f] 用法: &6/res sublist <领地> <页码>'
-          - 列出所有领地子区域
-          Description: 列出所有领地子区域
+          - '&f用法: &6/res sublist <领地名称> <页码>'
         rename:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res rename [领地名字] [新名字]'
-          - 你必须是领地所有者或者管理员
-          - 新领地名字不能与其他领地重复
           Description: 重命名领地
+          Info:
+          - '&f用法: &6/res rename [旧名称] [新名称]'
+          - 你必须是领地所有者或者管理员
+          - 新领地名称不能与其他领地重复
         setallfor:
+          Description: 设置指定玩家的所有领地的公共权限
           Info:
-          - '&fUsage: &6/res setallfor [playerName] [flag] [true/false/remove]'
-          Description: Set general flags on all residences owned by particular player
+          - '&f用法: &6/res setallfor [玩家名称] [权限] [true/false/remove]'
         lease:
-          Info:
-          - '&f[&6服务器&f] 用法: &6/res lease [renew/cost] [领地]'
-          - /res lease cost 显示续租领地的花费
-          - /res lease renew 将会续租指定的领地
           Description: 管理领地租约
+          Info:
+          - '&f用法: &6/res lease cost [领地名称]'
+          - 显示续租的价格
+          - '&f用法: &6/res lease renew [领地名称]'
+          - 续租指定的领地
           SubCommands:
             set:
-              Description: 设置租约时间
+              Description: 设置租用时间
               Info:
-              - '&f[&6服务器&f] 用法: &6/resadmin lease set [领地] [#days/infinite]'
-              - 将租约时间设置为特定天数或者无限制
+              - '&f用法: &6/resadmin lease set [领地名称] [天数/infinite(无限)]'
+              - 将租用时间设置为指定天数或者无限
             renew:
-              Description: 续期租约时间
+              Description: 续租领地
               Info:
-              - '&f[&6服务器&f] 用法: &6/resadmin lease renew <领地>'
-              - 续期当前或指定的领地租约
+              - '&f用法: &6/resadmin lease renew <领地名称>'
+              - 续租指定或当前领地
             list:
-              Description: Show lease list of current residence
+              Description: 显示领地的租用列表
               Info:
-              - '&fUsage: &6/resadmin lease list <residence> <page>'
-              - Prints out all subzones lease times
+              - '&f用法: &6/resadmin lease list <领地名称> <页码>'
+              - 列出当前领地的所有子领地的租用时间
             expires:
-              Description: 租约过期时间
+              Description: 租约到期时间
               Info:
-              - '&f[&6服务器&f] 用法: &6/resadmin lease expires <领地>'
-              - 显示领地租约过期的时间
+              - '&f用法: &6/resadmin lease expires <领地名称>'
+              - 显示领地租约到期的时间
             cost:
-              Description: 显示续租花费
+              Description: 显示续租价格
               Info:
-              - '&f[&6服务器&f] 用法: &6/resadmin lease cost <领地>'
-              - 显示续租领地所需的花费
+              - '&f用法: &6/resadmin lease cost <领地名称>'
         tp:
+          Description: 传送到领地
           Info:
-          - '&f[&6服务器&f] 用法: &6/res tp [residence]'
-          - 将你传送到一个领地, 你必须是领地所有者或者拥有领地 +tp 权限
+          - '&f用法: &6/res tp [领地名称]'
+          - 将你传送到一个领地, 你必须是领地所有者或者拥有该领地 tp 权限
           - 你的权限组也必须在服务器中有传送权限
-          Description: 传送到一个领地
         setall:
+          Description: 设置所有领地的公共权限
           Info:
-          - '&fUsage: &6/res setall [flag] [true/false/remove]'
-          Description: Set general flags on all residences
+          - '&f用法: &6/res setall [权限] [true/false/remove]'
         resreload:
-          Description: 重载 Residence.
+          Description: 重新加载领地插件
           Info:
-          - '&f[&6服务器&f] 用法: &6/resreload'
+          - '&f用法: &6/resreload'
         resload:
           Description: 加载领地存档文件
           Info:
-          - '&f[&6服务器&f] 用法: &6/resload'
-          - 该命令不安全! 它不会先保存领地状态.
-          - 对领地做出改变后重新加载存档.
+          - '&f用法: &6/resload'
+          - 在对领地做出改变后重新加载存档
+          - 该命令不安全! 它不会先保存领地状态
         placeholders:
+          Description: 列出 Placeholder 列表
           Info:
-          - '&fUsage: &6/res placeholders (parse) (placeholder) (playerName)'
-          Description: List of placeholders
+          - '&f用法：&6/res placeholders <parse> <placeholder> <玩家名称>'
           parse: '[result]'
         restore:
           Info:
-          - '&eUsage: &6/res restore [residence_name] [index]'
-          Description: Restore residence from schematics
+          - '&f用法：&6/res restore [领地名称] [序号]'
+          Description: 从模板还原领地
         save:
           Info:
-          - '&eUsage: &6/res save [residence_name]'
-          Description: Save residence into schematics
+          - '&f用法：&6/res save [领地名称]'
+          Description: 将领地保存为模板
         setallowner:
           Info:
-          - '&eUsage: &6/resadmin setallowner [oldowner] [newowner] (-keepflags)'
-          Description: Change owner of all residences from one player to another.
+          - '&f用法：&6/resadmin setallowner [原拥有者] [新拥有者] (-keepflags)'
+          Description: 将一名玩家名下所有领地转让给其他玩家
