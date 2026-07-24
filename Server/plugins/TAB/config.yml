@@ -9,6 +9,7 @@ header-footer:
         - "&6在线管理: &e%staffonline%"
         - ""
       footer:
+        - ""
         - "%animation:time%"
         - "%animation:ping-tps%"
         - " &7&l内存占用: &7%memory-used% MB / %memory-max% MB "
